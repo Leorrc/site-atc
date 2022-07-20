@@ -9,6 +9,14 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
  }
 
+ body {
+  font-family: "Heebo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--section-base);
+}
+
+
+
   html {
     @media(max-width: 1440px){
       /*font-size: 93.75%; */
@@ -21,6 +29,7 @@ export const GlobalStyles = createGlobalStyle`
   
   :root {
   /* Colors */
+  --section-base: #f3f5fa;
   --space: #0B1E8A;
   --space-ligth: #3D68B2;
   --space-dark: #040327;
