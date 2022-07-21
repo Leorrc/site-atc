@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
  body {
   font-family: "Heebo", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--section-base);
+  background-color: #37517e;
 }
 
 

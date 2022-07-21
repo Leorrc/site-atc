@@ -41,7 +41,7 @@ export const Container = styled.div<GalleryFlexContainerProps>`
 
 export const Header = styled.div`
   display: flex;
-  padding-bottom: ${pixelToRem(95)};
+  padding-bottom: ${pixelToRem(75)};
   @media ${device.mobile} {
     padding-bottom: ${pixelToRem(78)};
   }
@@ -55,7 +55,7 @@ export const Logo = styled.image<GalleryFlexContainerProps>`
     height: ${pixelToRem(30)};
   }
 `;
-export const Main = styled.div`
+export const Main = styled.div<GalleryFlexContainerProps>`
   display: flex;
   flex-direction: column;
   max-width: ${pixelToRem(815)};
@@ -89,13 +89,14 @@ export const SecondTitle = styled.p`
 `;
 
 export const StateFlag = styled.image`
-  width: ${pixelToRem(472)};
-  height: ${pixelToRem(600)};
+  width: ${pixelToRem(619)};
+  height: ${pixelToRem(420)};
   position: absolute;
   background-image: url("/images/hero-img.png");
   background-repeat: no-repeat;
-  right: 0;
-  top: ${pixelToRem(10)};
+  right: ${pixelToRem(100)};
+  top: ${pixelToRem(150)};
+  max-width: ${pixelToRem(815)};
   @media ${device.mobile} {
     position: relative;
     order: 4;
@@ -108,5 +109,13 @@ export const StateFlag = styled.image`
     width: ${pixelToRem(472)};
     height: ${pixelToRem(600)};
     left: 0;
+  }
+`;
+
+export const DivButton = styled.div`
+  width: ${pixelToRem(264)};
+  padding-top: ${pixelToRem(32)};
+  @media ${device.mobile} {
+    padding-bottom: ${pixelToRem(63)};
   }
 `;
