@@ -47,14 +47,7 @@ export const Header = styled.div`
   }
 `;
 
-export const Logo = styled.image<GalleryFlexContainerProps>`
-  width: ${pixelToRem(201)};
-  height: ${pixelToRem(41)};
-  background-image: url("/images/logo-atc.svg");
-  @media ${device.mobile} {
-    height: ${pixelToRem(30)};
-  }
-`;
+
 export const Main = styled.div<GalleryFlexContainerProps>`
   display: flex;
   flex-direction: column;

@@ -1,9 +1,10 @@
 import React from 'react';
 import { GlobalStyles } from './styles/globalstyles'
-import { Container, Header, Logo, Main, FirstTitle, SecondTitle, StateFlag, DivButton } from './styles/styles'
+import { Container, Header, Main, FirstTitle, SecondTitle, StateFlag, DivButton } from './styles/styles'
 
 import Button from './components/Button'
 import pixelToRem from './utils/pxToRem'
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Container flex='column' margin={pixelToRem(24, 112, 50)}>
 
         <Header>
-        <Logo />
+          <NavBar />
+        
         </Header>
 
         <Main>
@@ -25,10 +27,13 @@ function App() {
         <StateFlag />
 
         <DivButton>
-            <Button text="ASSOCIE-SE" fullWidth />
+          <Button text="ASSOCIE-SE" fullWidth />
         </DivButton>
-
+        
         </Main>
+
+        
+
         
       </Container>
       
