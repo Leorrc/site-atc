@@ -11,7 +11,7 @@ function Button({ text, fullWidth }: ButtonProps) {
     <>
       <ButtonComponent
         fullWidth={fullWidth}>
-
+      
 
         {text}
       </ButtonComponent>

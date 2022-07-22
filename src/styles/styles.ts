@@ -6,7 +6,7 @@ interface GalleryFlexContainerProps {
   flex?: "row" | "column";
   width?: string;
   margin?: string;
-  padding?: string;
+
   alignItems?: "flex-start" | "flex-end" | "center" | "stretch";
   justifyContent?:
     | "flex-start"
@@ -25,11 +25,12 @@ interface ImageGalleryProps {
 }
 
 export const Container = styled.div<GalleryFlexContainerProps>`
+  padding: calc(5rem + var(--header-height)) 0;
   display: flex;
   flex-direction: ${(props) => props.flex};
   width: ${(props) => props.width};
   margin: ${(props) => props.margin};
-  padding: ${(props) => props.padding};
+
   align-items: ${(props) => props.alignItems};
   justify-content: ${(props) => props.justifyContent};
   @media ${device.mobile} {
@@ -40,11 +41,16 @@ export const Container = styled.div<GalleryFlexContainerProps>`
 `;
 
 export const Header = styled.div`
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
   display: flex;
-  padding-bottom: ${pixelToRem(75)};
-  @media ${device.mobile} {
-    padding-bottom: ${pixelToRem(78)};
-  }
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: var(--body-color);
+  width: 100%;
 `;
 
 
@@ -61,8 +67,8 @@ export const Main = styled.div<GalleryFlexContainerProps>`
 `;
 
 export const FirstTitle = styled.div`
-  color: var(--sun);
-  font: var(--text-4);
+  color: var(--title-color);
+  font: var(--font-display);
   text-transform: uppercase;
   letter-spacing: ${pixelToRem(5)};
   @media ${device.mobile} {
@@ -73,8 +79,8 @@ export const FirstTitle = styled.div`
 `;
 
 export const SecondTitle = styled.p`
-  color: var(--text);
-  font: var(--font-display);
+  color: var(--base-color);
+  font: var(--font-heading-2);
   @media ${device.mobile} {
     font: var(--font-mobile-heading-1);
     text-align: center;

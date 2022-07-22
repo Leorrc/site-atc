@@ -8,53 +8,63 @@ export const GlobalStyles = createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   
- }
-
- body {
-  font-family: "Heebo", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  background-color: #37517e;
 }
 
+ul {
+  list-style: none;
+}
 
+a {
+  text-decoration: none;
+}
 
-  html {
-    @media(max-width: 1440px){
+body {
+  font-family: "Heebo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font: 400 1rem var(--body-font);
+  color: var(--text-color);
+  background-color: var(--body-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+  @media(max-width: 1440px){
       /*font-size: 93.75%; */
     }
 
-    @media(max-width: 375px){
+  @media(max-width: 375px){
       /*font-size: 87.5%; */
     }
-  }
+}  
   
-  :root {
-  /* Colors */
-  --section-base: #f3f5fa;
-  --space: #0B1E8A;
-  --space-ligth: #3D68B2;
-  --space-dark: #040327;
-  --gray-01: #0D0E13;
-  --gray-02: #2C2D3A;
-  --gray-03: #60616F;
-  --gray-04: #898A93;
-  --gray-05: #D5D5DB;
-  --mars: #E85937;
-  --mars-light: #FF8C70;
-  --mars-dark: #CF3F1D;
-  --sun: #F5D15F;
-  --uranus: #24FFE9;
-  --jupiter: #E00E34;
-  --earth: #0FDD86;
-  --saturn: #554AD7;
-  --text: #FFF;
-  --background: #04032C;
-  --background-section: linear-gradient(180deg, #040327 0%, #0D0E13 24.49%);
-  --background-form: #0E0D40;
+:root {
+--header-height: 4.5rem;
+--header-height: 4.5rem;
+
+/* colors */
+--hue: 122;
+/* HSL color mode */
+--base-color: hsl(var(--hue) 36% 57%);
+--base-color-second: hsl(var(--hue) 65% 88%);
+--base-color-alt: hsl(var(--hue) 57% 53%);
+--title-color: hsl(var(--hue) 41% 10%);
+--text-color: hsl(0 0% 46%);
+--text-color-light: hsl(0 0% 98%);
+--body-color: hsl(0 0% 98%);
+
+/* fonts */
+--title-font-size: 1.875rem;
+--subtitle-font-size: 1rem;
+
+--title-font: 'Poppins' , sans-serif;
+--body-font: 'DM Sans' , sans-serif;
+
+
   
   /* Fonts */
-    --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Heebo", sans-serif;
-    --font-heading-1: 700 ${pixelToRem(32)}/${pixelToRem(
+--font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Heebo", sans-serif;
+--font-heading-1: 700 ${pixelToRem(32)}/${pixelToRem(
   48
 )} "Heebo", sans-serif;
     --font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(

@@ -11,13 +11,12 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles />
+      <Header>
+        <NavBar />
+      </Header>
 
       <Container flex='column' margin={pixelToRem(24, 112, 50)}>
 
-        <Header>
-          <NavBar />
-        
-        </Header>
 
         <Main>
           <FirstTitle>Bem-Vindo(a) ao site da ATC-SC</FirstTitle>
