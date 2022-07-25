@@ -13,6 +13,7 @@ export const ButtonComponent = styled.button<ButtonProps>`
   color: var(--text);
   font: var(--text-3);
   font-weight: 700;
+  
   &:hover {
     cursor: pointer;
   }

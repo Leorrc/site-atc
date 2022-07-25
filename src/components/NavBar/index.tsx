@@ -4,20 +4,28 @@ import Logo from '../Logo'
 
 const links = [
   {
-    title: 'link-01',
-    url: 'link-01'
+    title: 'Início',
+    url: 'https://psicologamariaveronica.com.br/'
   },
   {
-    title: 'link-02',
+    title: 'Sobre nós',
     url: 'link-02'
   },
   {
-    title: 'link-03',
+    title: 'Eventos',
     url: 'link-03'
   },
   {
-    title: 'link-04',
+    title: 'Encontre um terapeuta',
     url: 'link-04'
+  },
+  {
+    title: 'Parceiros da ATC',
+    url: 'link-05'
+  },
+  {
+    title: 'Materiais/Links',
+    url: 'link-06'
   },
 ]
 

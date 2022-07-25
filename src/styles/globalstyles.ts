@@ -19,8 +19,6 @@ a {
 }
 
 body {
-  font-family: "Heebo", sans-serif;
-  -webkit-font-smoothing: antialiased;
   font: 400 1rem var(--body-font);
   color: var(--text-color);
   background-color: var(--body-color);
@@ -36,10 +34,40 @@ html {
   @media(max-width: 375px){
       /*font-size: 87.5%; */
     }
-}  
+}
+
+/*====  LAYOUT ============================ */
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section {
+  padding: calc(5rem + var(--header-height)) 0;
+}
+
+.section .title {
+  margin-bottom: 1rem;
+}
+
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
+}
+
+.section header {
+  margin-bottom: 4rem;
+}
+
+.section header strong {
+  color: var(--base-color);
+}
   
 :root {
---header-height: 4.5rem;
 --header-height: 4.5rem;
 
 /* colors */

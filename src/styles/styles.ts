@@ -40,18 +40,28 @@ export const Container = styled.div<GalleryFlexContainerProps>`
   }
 `;
 
+export const ContainerHeader = styled.div`
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+`;
+
 export const Header = styled.div`
   border-bottom: 1px solid #e4e4e4;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
   display: flex;
-
+  padding: 0 10rem 0 10rem;
   position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background: var(--body-color);
   width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 `;
+
+
+
+
+
+
 
 
 export const Main = styled.div<GalleryFlexContainerProps>`
@@ -68,7 +78,7 @@ export const Main = styled.div<GalleryFlexContainerProps>`
 
 export const FirstTitle = styled.div`
   color: var(--title-color);
-  font: var(--font-display);
+  font: var(--text-0);
   text-transform: uppercase;
   letter-spacing: ${pixelToRem(5)};
   @media ${device.mobile} {
@@ -80,7 +90,7 @@ export const FirstTitle = styled.div`
 
 export const SecondTitle = styled.p`
   color: var(--base-color);
-  font: var(--font-heading-2);
+  font: var(--font-heading-1);
   @media ${device.mobile} {
     font: var(--font-mobile-heading-1);
     text-align: center;
