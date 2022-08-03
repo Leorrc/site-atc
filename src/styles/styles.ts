@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import pixelToRem from "../utils/pxToRem";
-import { device } from "./responsive";
+import { device } from "../utils/responsive";
+
 
 interface GalleryFlexContainerProps {
   flex?: "row" | "column";
@@ -40,26 +41,10 @@ export const Container = styled.div<GalleryFlexContainerProps>`
   }
 `;
 
-export const ContainerHeader = styled.div`
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-`;
-
-export const Header = styled.div`
-  border-bottom: 1px solid #e4e4e4;
-  margin-top: 2rem;
-  display: flex;
-  padding: 0 10rem 0 10rem;
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-`;
-
-
-
-
+// export const ContainerHeader = styled.div`
+//   margin-left: 1.5rem;
+//   margin-right: 1.5rem;
+// `;
 
 
 

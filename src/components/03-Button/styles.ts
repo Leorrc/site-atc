@@ -10,7 +10,7 @@ export const ButtonComponent = styled.button<ButtonProps>`
   height: ${pixelToRem(60)};
   border: none;
   border-radius: ${pixelToRem(6)};
-  color: var(--text);
+  color: white;
   font: var(--text-3);
   font-weight: 700;
   

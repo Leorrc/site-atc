@@ -1,43 +1,33 @@
-import React from 'react';
-import { GlobalStyles } from './styles/globalstyles'
-import { Container, Header, ContainerHeader, Main, FirstTitle, SecondTitle, StateFlag, DivButton } from './styles/styles'
+import { GlobalStyles } from './styles/GlobalStyles';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Button from './components/Button'
-import pixelToRem from './utils/pxToRem'
-import NavBar from './components/NavBar';
+
+import { Header } from './components/01-Header';
+import { Home } from './pages';
+import { Events } from './pages/events';
+import { Footer } from './components/Footer';
+
 
 
 function App() {
   return (
-    <div className="App">
-    <GlobalStyles />
-        <Header>
-          <NavBar />
-        </Header>
-      <Container flex='column' margin={pixelToRem(24, 112, 50)}>
-
-
-
-        <Main>
-          <FirstTitle>Bem-Vindo(a) ao site da ATC-SC</FirstTitle>
-
-          <SecondTitle>Associação de Terapias Cognitivas <p>do Estado de Santa Catarina</p></SecondTitle>
-
-        
-
-        <DivButton>
-          <Button text="ASSOCIE-SE" fullWidth />
-        </DivButton>
-        
-        </Main>
-
-        
-
-        
-      </Container>
+    <Router>
+      <GlobalStyles />
+        <Header />
       
-    </div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/events' element={<Events />} />
+          {/* <Route path='/affiliates' element={<Affiliates />} />
+          <Route path='/partners' element={<Partners />} />
+          <Route path='/materials' element={<Materials />} /> */}
+        </Routes>
+
+        <Footer />
+    </Router>
   );
 }
 
 export default App;
+
+
