@@ -1,13 +1,10 @@
-import { Divider2 } from '../Dividers/styles';
-import { SectionTeam } from './styles'
+import pixelToRem from '../../utils/pxToRem'
+import { Divider2 } from '../0-UtilsComps/Dividers/styles'
 
 export function Team() {
   return (
     <>
-    <Divider2 />
-      <SectionTeam>
-        
-      </SectionTeam>
+      <Divider2 />
     </>
-  );
+  )
 }

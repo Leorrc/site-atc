@@ -6,7 +6,7 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const Nav = styled.nav`
   background: var(--body-color);
-  height: 80px;
+  height: 5rem;
   /* margin-top: -80px; */
   display: flex;
   justify-content: center;
@@ -26,11 +26,11 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 5rem;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
+  padding: 0 1.5rem;
+  max-width: 68.75rem;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -40,7 +40,7 @@ export const NavLogo = styled(LinkR)`
   font: 700 1.31rem var(--title-font);
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 1.5rem;
   font-weight: bold;
   text-decoration: none;
   
@@ -66,7 +66,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: -1.375rem;
 
   @media screen and (max-width: 768px) {
     display: none;

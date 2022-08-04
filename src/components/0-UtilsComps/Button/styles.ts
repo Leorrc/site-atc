@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import pixelToRem from "../../utils/pxToRem";
+import pixelToRem from '../../../utils/pxToRem'
 
 import { ButtonProps } from ".";
 
@@ -13,8 +13,10 @@ export const ButtonComponent = styled.button<ButtonProps>`
   color: white;
   font: var(--text-3);
   font-weight: 700;
+  transition: background 0.3s;
   
   &:hover {
     cursor: pointer;
+    background: var(--base-color-alt);
   }
 `;

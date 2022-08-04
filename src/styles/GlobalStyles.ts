@@ -3,9 +3,14 @@ import pixelToRem from '../utils/pxToRem';
 
 export const GlobalStyles = createGlobalStyle`
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -17,8 +22,9 @@ ul,li {
 }
 
 body {
-  font-family: 'Poppins' , sans-serif;
-  transition: .4s;
+  font: 400 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--body-color);
 }
 
 :root {

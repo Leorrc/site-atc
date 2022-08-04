@@ -1,6 +1,6 @@
-import { Divider2 } from '../Dividers/styles';
+import { Divider2 } from '../0-UtilsComps/Dividers/styles'
 
-import { 
+import {
   ContainerFooter,
   FooterLinks,
   FooterLinksContainer,
@@ -26,58 +26,56 @@ type Props = {
 export function Footer() {
   return (
     <>
-  <ContainerFooter>
-  <Divider2 />
-    <Email>
-      <ContainerEmail>
-        <ContentEmail>
-          <h4>Cadastrar Email</h4>
-          <p>Receba a divulgação dos Eventos da ATC-SC</p>
-        <FormEmail>
-          <input type="email" name="" id="" />
-          <input type="submit" value="Inscreva-se" />
-        </FormEmail>
-        </ContentEmail>
-      </ContainerEmail>
-    </Email>
+      <ContainerFooter>
+        <Divider2 />
+        <Email>
+          <ContainerEmail>
+            <ContentEmail>
+              <h4>Cadastrar Email</h4>
+              <p>Receba a divulgação dos Eventos da ATC-SC</p>
+              <FormEmail>
+                <input type="email" name="" id="" />
+                <input type="submit" value="Inscreva-se" />
+              </FormEmail>
+            </ContentEmail>
+          </ContainerEmail>
+        </Email>
 
-  <Divider2 />
+        <Divider2 />
 
-    <FooterLinks>
-      <FooterLinksContainer>
-        <FooterLinksRow>
-          <RowLogo>
-            <h4>ATC-SC</h4>
-          </RowLogo>
-          <RowLinks>
-            <h4>Todos os Links</h4>
-            <MenuLinks>
-              <ListMe  to="/">Home</ListMe>
-              <ListMe  to="sobrenós">Sobre nós</ListMe>
-              <ListMe  to="Eventos">Eventos</ListMe>
-              <ListMe  to="Encontre um terapeuta">Encontre um terapeuta</ListMe>
-              <ListMe  to="Parceiros da ATC">Parceiros da ATC</ListMe>
-            </MenuLinks>
-          </RowLinks>
-          <RowSocial>
-            <h4>Nas redes sociais</h4>
-            <p>Todas as nossas redes sociais</p>
-            <SocialLinks>
+        <FooterLinks>
+          <FooterLinksContainer>
+            <FooterLinksRow>
+              <RowLogo>
+                <h4>ATC-SC</h4>
+              </RowLogo>
+              <RowLinks>
+                <h4>Todos os Links</h4>
+                <MenuLinks>
+                  <ListMe to="/">Home</ListMe>
+                  <ListMe to="sobrenós">Sobre nós</ListMe>
+                  <ListMe to="Eventos">Eventos</ListMe>
+                  <ListMe to="Encontre um terapeuta">
+                    Encontre um terapeuta
+                  </ListMe>
+                  <ListMe to="Parceiros da ATC">Parceiros da ATC</ListMe>
+                </MenuLinks>
+              </RowLinks>
+              <RowSocial>
+                <h4>Nas redes sociais</h4>
+                <p>Todas as nossas redes sociais</p>
+                <SocialLinks></SocialLinks>
+              </RowSocial>
+            </FooterLinksRow>
+          </FooterLinksContainer>
+        </FooterLinks>
 
-              
-            </SocialLinks>
-          </RowSocial>
-        </FooterLinksRow>
-      </FooterLinksContainer>
-    </FooterLinks>
-  
-    <FooterBottom>
-      <Copyright>
-      @2022 Site Desenvolvido por <span>LeoCarvalho.DEV</span>
-      </Copyright>
-    </FooterBottom>
-
-  </ContainerFooter>
+        <FooterBottom>
+          <Copyright>
+            @2022 Site Desenvolvido por <span>LeoCarvalho.DEV</span>
+          </Copyright>
+        </FooterBottom>
+      </ContainerFooter>
     </>
-  );
+  )
 }
