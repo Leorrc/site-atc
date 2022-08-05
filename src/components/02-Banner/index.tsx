@@ -1,8 +1,8 @@
 import { SectionDefault } from '../0-UtilsComps/0-SectionDefault'
 
-import { ContainerGrid } from '../0-UtilsComps/ContainerGrid'
+import { ContainerGrid } from '../0-UtilsComps/Containers/ContainerGrid'
 import Button from '../0-UtilsComps/Button'
-import img from '../../images/hero-img.png'
+import img from '../../images/full/hero-img.png'
 
 import { DivImage, DivText } from './styles'
 

@@ -7,6 +7,7 @@ interface SectionContainerProps {
   margin?: string;
   maxWidth?: string
   textAlign?: string
+  backgroundColor?: string
 
 }
 
@@ -15,5 +16,8 @@ export const SectionContainer = styled.section<SectionContainerProps>`
   margin: ${(props) => props.margin} ;
   max-width: ${(props) => props.maxWidth} ;
   text-align: ${(props) => props.textAlign} ;
+  background-color: ${(props) => props.backgroundColor} ;
 `;
+
+
 

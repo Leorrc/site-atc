@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
-interface CardProps {
-  
-}
 
-export const CardDefault = styled.div<CardProps>`
+export const CardDefault = styled.div`
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
   border-bottom: 0.25rem solid var(--base-color);
@@ -30,6 +27,10 @@ export const CardDefault = styled.div<CardProps>`
 
   button {
     margin-top: 1.5rem;
+  }
+
+  @media (max-width: 1200px){
+    width: 100%;
   }
 `;
 

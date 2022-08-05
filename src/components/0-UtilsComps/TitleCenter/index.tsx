@@ -5,6 +5,7 @@ interface TitleContainerProps {
   marginRight?: string
   textAlign?: string
   title: string
+  maxWidth?: string
   children?: JSX.Element | JSX.Element[]
 }
 
@@ -13,10 +14,12 @@ export function TitleCenter({
   marginRight,
   textAlign,
   title,
+  maxWidth,
   children
 }: TitleContainerProps) {
   return (
     <TitleContainer
+      maxWidth={maxWidth}
       marginLeft={marginLeft}
       marginRight={marginRight}
       textAlign={textAlign}

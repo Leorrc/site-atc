@@ -1,11 +1,12 @@
 import { Divider2 } from '../0-UtilsComps/Dividers/styles'
 import { SectionDefault } from '../0-UtilsComps/0-SectionDefault'
-import { ContainerGrid } from '../0-UtilsComps/ContainerGrid'
+import { ContainerGrid } from '../0-UtilsComps/Containers/ContainerGrid'
 import { TitleCenter } from '../0-UtilsComps/TitleCenter'
-
-import { CardJoin } from '../0-UtilsComps/Card'
+import { CardJoin } from '../0-UtilsComps/CardJoin'
 
 import { Cards } from './styles'
+
+import contentCard from '../../utils/data/cardJoin.json'
 
 export function Join() {
   return (
@@ -23,27 +24,13 @@ export function Join() {
           </TitleCenter>
 
           <Cards>
-            <CardJoin
-              title="Vantagens de ser associado:"
-              ul=""
-              li0="- Descontos nos eventos organizados ou apoiados pela ATC/SC"
-              li1="- Acesso às seções do website exclusivas para sócios"
-              li2="- Possibilidade de participação em cursos e eventos oferecidos ou apoiados pela ATC/SC"
-            />
-            <CardJoin
-              title="Valor da associação por categoria:"
-              ul=""
-              li0="- Profissional R$ 90,00"
-              li1="- Estudante de Pós-Graduação R$ 70,00"
-              li2="- Estudante de Graduação R$ 50,00"
-            ></CardJoin>
-            <CardJoin
-              title="Vantagens de ser associado:"
-              ul=""
-              li0="- Fazer parte da nossa lista de Associados neste nosso site"
-              li1="- Fazer parte de uma comunidade que troca informações e está em constante atualização"
-              li2="- Ter a oportunidade de tirar dúvidas com especialistas"
-            />
+            {contentCard.map(content => (
+              <CardJoin
+                title={content.title}
+                descriptionList={content.descriptionList}
+                buttonText={content.button?.text}
+              />
+            ))}
           </Cards>
         </ContainerGrid>
       </SectionDefault>

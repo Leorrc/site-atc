@@ -1,17 +1,17 @@
 import { Divider2 } from '../0-UtilsComps/Dividers/styles'
 import { SectionDefault } from '../0-UtilsComps/0-SectionDefault'
+import { ContainerGrid } from '../0-UtilsComps/Containers/ContainerGrid'
 import { TitleCenter } from '../0-UtilsComps/TitleCenter'
 import Button from '../0-UtilsComps/Button'
 
 import { DivPs, DivP1, DivP2 } from './styles'
-import { ContainerGrid } from '../0-UtilsComps/ContainerGrid'
 
 export function About() {
   return (
     <>
       <Divider2 />
       <SectionDefault>
-        <ContainerGrid grid="row">
+        <ContainerGrid grid="row" justifyContent="center">
           <TitleCenter title="Sobre Nós" />
           <DivPs>
             <DivP1>

@@ -15,8 +15,8 @@ import {
   FooterBottom,
   Email,
   ContainerEmail,
-  FormEmail,
-  ContentEmail
+  BoxEmail,
+  FormEmail
 } from './styles'
 
 type Props = {
@@ -30,14 +30,14 @@ export function Footer() {
         <Divider2 />
         <Email>
           <ContainerEmail>
-            <ContentEmail>
-              <h4>Cadastrar Email</h4>
+            <BoxEmail>
+              <h4>CADASTRAR EMAIL</h4>
               <p>Receba a divulgação dos Eventos da ATC-SC</p>
               <FormEmail>
-                <input type="email" name="" id="" />
+                <input type="email" name="email" />
                 <input type="submit" value="Inscreva-se" />
               </FormEmail>
-            </ContentEmail>
+            </BoxEmail>
           </ContainerEmail>
         </Email>
 

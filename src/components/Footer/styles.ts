@@ -1,89 +1,82 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 
-
-
 type Props = {
   isOpen: boolean
 }
 
 // FOOTER FULLCONTAINER START //
 export const ContainerFooter = styled.footer`
-  padding-top: .1rem;
   background: var(--body-color);
   width: 100%;
 `;
 // FOOTER FULLCONTAINER END //
 
-
 // FOOTER EMAIL START //
-export const Email = styled.div`
-  padding: 70px 0 70px 0;
+export const Email = styled.section`
+  padding: 7rem 0;
 `;
 
 export const ContainerEmail = styled.div`
-  display: flex;
-  flex-direction: row;
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
-export const ContentEmail = styled.div`
-  padding: 3.625rem 4rem;
-  border-radius: 20px;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+export const BoxEmail = styled.div`
+  padding: 2rem 2rem;
+  box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 12%);
+  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
+  text-align: center;
+  margin: 0 auto;
 
 
-h4 {
-  margin-top: -22px;
-
+  h4 {
   font-size: 24px;
-  font-weight: bold;
-  color: #01bf71;
-  padding-bottom: 12px;
-  justify-content: center;
-}
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+  }
 
-p {
-  font-size: 14px;
-  color: var(--title-color);
-  position: relative;
-  padding-bottom: 12px;
-}
+  p {
+    display: block;
+    font-size: 0.938rem;
+    padding-bottom: 0.625rem;
+    position: relative;
+    font-weight: 500;
+  }
 `;
 
 export const FormEmail = styled.form`
-  display: flex;
-  justify-content: center;
-  padding: 6px 10px;
-  position: absolute;
-
-  input[type="submit"] {
+  
+input[type="submit"] {
+    width: calc(100% - 179.2rem);
+    padding: 2rem 0.75rem;
     border: 0;
     background: none;
-    font-size: 16px;
-    padding: 0 20px;
+    font-size: 1rem;
+    padding: 0 1.25rem;
     background: #47b2e4;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   }
-
+  
   input[type="email"] {
+    width: calc(100% - 76.8rem);
+    padding: 0.25rem 0.5rem;
     border: 0;
     transition: 0.3s;
     border-radius: 50px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   }
-
 `;
-
-
-
 // FOOTER EMAIL END//
-
 
 // FOOTER LINKS START /
 export const FooterLinks = styled.div`

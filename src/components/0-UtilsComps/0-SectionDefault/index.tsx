@@ -6,6 +6,7 @@ interface SectionContainerProps {
   margin?: string
   maxWidth?: string
   textAlign?: string
+  backgroundColor?: string
   children?: JSX.Element | JSX.Element[]
 }
 
@@ -14,7 +15,8 @@ export function SectionDefault({
   padding,
   margin,
   maxWidth,
-  textAlign
+  textAlign,
+  backgroundColor
 }: SectionContainerProps) {
   return (
     <>
@@ -23,6 +25,7 @@ export function SectionDefault({
         margin={margin}
         maxWidth={maxWidth}
         textAlign={textAlign}
+        backgroundColor={backgroundColor}
       >
         {children}
       </SectionContainer>

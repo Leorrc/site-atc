@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Vantagens de ser associado:",
+    "descriptionList": [
+      "Descontos nos eventos organizados ou apoiados pela ATC/SC",
+      "Acesso às seções do website exclusivas para sócios",
+      "Possibilidade de participação em cursos e eventos oferecidos ou apoiados pela ATC/SC"
+    ]
+  },
+  {
+    "title": "Valor da associação por categoria:",
+    "descriptionList": [
+      "Profissional R$ 90,00",
+      "Estudante de Pós-Graduação R$ 70,00",
+      "Estudante de Graduação R$ 50,00"
+    ],
+    "button": {
+      "text": "ASSOCIAR-SE"
+    }
+  },
+  {
+    "title": "Vantagens de ser associado:",
+    "descriptionList": [
+      "Fazer parte da nossa lista de Associados neste nosso site",
+      "Fazer parte de uma comunidade que troca informações e está em constante atualização",
+      "Ter a oportunidade de tirar dúvidas com especialistas"
+    ]
+  }
+]

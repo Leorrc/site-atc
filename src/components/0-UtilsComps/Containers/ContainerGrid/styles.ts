@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import pixelToRem from '../../../utils/pxToRem'
-import { device } from "../../../utils/responsive";
 
 
 interface GalleryGridContainerProps {
@@ -14,16 +12,19 @@ interface GalleryGridContainerProps {
     | "space-evenly";
 
   margin?: string;
+  marginTop?: string
   maxWidth?: string;
   gap?: string
+  columns?: string
 }
 
 export const MainContainer = styled.div<GalleryGridContainerProps>`
   display: grid;
   grid-auto-flow: ${(props) => props.grid};
+  grid-template-columns: ${(props) => props.columns};
+  gap: ${(props) => props.gap};
+  margin-top: ${(props) => props.marginTop};
   justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'space-between'};
   margin: ${(props) => props.margin ? props.margin : '0 auto'};
-  max-width: ${(props) => props.margin ? props.maxWidth : '1200px'};
-  gap: ${(props) => props.gap};
+  max-width: ${(props) => props.margin ? props.maxWidth : '75rem'};
 `;
-

@@ -4,11 +4,13 @@ interface TitleContainerProps {
   marginLeft?: string;
   marginRight?: string;
   textAlign?: string;
+  maxWidth?: string
 }
 
 export const TitleContainer = styled.div<TitleContainerProps>`
-  margin-left: ${(props) => props.marginLeft ? props.marginLeft : '1.5rem'};
-  margin-right: ${(props) => props.marginRight ? props.marginRight : '1.5rem'};
+  max-width: ${(props) => props.maxWidth ? props.maxWidth : '32rem'};
+  margin-left: ${(props) => props.marginLeft ? props.marginLeft : 'auto'};
+  margin-right: ${(props) => props.marginRight ? props.marginRight : 'auto'};
   text-align: ${(props) => props.textAlign ? props.textAlign : 'center'};
 
   h2{

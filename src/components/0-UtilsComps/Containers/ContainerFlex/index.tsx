@@ -1,7 +1,8 @@
 import { MainContainer } from './styles'
 
-interface GalleryGridContainerProps {
-  grid?: 'row' | 'column'
+interface GalleryFlexContainerProps {
+  flex?: 'row' | 'column'
+  flexWrap?: 'wrap' | 'nowrap'
   justifyContent?:
     | 'flex-start'
     | 'flex-end'
@@ -16,18 +17,20 @@ interface GalleryGridContainerProps {
   children?: JSX.Element | JSX.Element[]
 }
 
-export function ContainerGrid({
-  grid,
+export function ContainerFlex({
+  flex,
+  flexWrap,
   margin,
   justifyContent,
   maxWidth,
   children,
   gap
-}: GalleryGridContainerProps) {
+}: GalleryFlexContainerProps) {
   return (
     <>
       <MainContainer
-        grid={grid}
+        flex={flex}
+        flexWrap={flexWrap}
         margin={margin}
         justifyContent={justifyContent}
         maxWidth={maxWidth}
