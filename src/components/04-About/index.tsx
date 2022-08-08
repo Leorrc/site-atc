@@ -18,20 +18,20 @@ export function About() {
               <p>
                 Este é o site da Associação de Terapias Cognitivas do Estado de
                 Santa Catarina (ATC-SC).
-              </p>{' '}
+              </p>
               <br />
               <ul>
                 <li>
                   A ATC-SC é uma entidade sem fins lucrativos que representa a
                   FBTC (Federação Brasileira de Terapias Cognitivas) em Santa
                   Catarina.
-                </li>{' '}
+                </li>
                 <br />
                 <li>
                   Objetiva divulgar as PSICOTERAPIAS COGNITIVAS e favorecer a
                   troca e qualificação entre interessados nesta abordagem
                   terapêutica em nosso estado.
-                </li>{' '}
+                </li>
                 <br />
                 <li>
                   Para executarmos nossos projetos, é importante divulgar este

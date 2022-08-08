@@ -1,33 +1,30 @@
-import { Divider2 } from '../0-UtilsComps/Dividers/styles'
 import { SectionDefault } from '../0-UtilsComps/0-SectionDefault'
 import { ContainerGrid } from '../0-UtilsComps/Containers/ContainerGrid'
 import { TitleCenter } from '../0-UtilsComps/TitleCenter'
+
+import { ContainerAffi } from './styles'
+
+import cardAffi from '../../utils/data/cardAffi.json'
 import { CardMember } from '../0-UtilsComps/CardMember'
 
-import { ContainerMember } from './styles'
-
-import cardMember from '../../utils/data/cardMember.json'
-
-export function Team() {
+export function ComponenteDoAffiliates() {
   return (
     <>
-      <Divider2 />
       <SectionDefault backgroundColor="var(--body-color)">
         <ContainerGrid grid="row" justifyContent="center">
-          <TitleCenter title="DIRETORIA GESTÃO 2022">
-            <p>Veja quem faz parte deste time de profissionais</p>
+          <TitleCenter title="ASSOCIADOS DA ATC/SC 2021/2022">
+            <p>Encontre um terapeuta associado a nós!</p>
           </TitleCenter>
-          <ContainerMember>
-            {cardMember.map(member => (
+          <ContainerAffi>
+            {cardAffi.map(member => (
               <CardMember
-                imgUrl={member.imgUrl}
                 name={member.name}
                 title={member.title}
                 description={member.description}
                 socialList={member.socialList}
               />
             ))}
-          </ContainerMember>
+          </ContainerAffi>
         </ContainerGrid>
       </SectionDefault>
     </>

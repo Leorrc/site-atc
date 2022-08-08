@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 import { FaBars } from 'react-icons/fa'
-import { 
+import {
   Nav,
   NavbarContainer,
   NavLogo,
@@ -10,52 +10,45 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink
-} from "./styles";
+} from './styles'
 
 type Props = {
   toggle: () => void
 }
 
-export function NavBar({toggle}: Props) {
-
-
+export function NavBar({ toggle }: Props) {
   return (
     <>
       <Nav>
-        <NavbarContainer >
-          <NavLogo to='/'><img src="" alt="" /></NavLogo>
-          <MobileIcon onClick={toggle} >
+        <NavbarContainer>
+          <NavLogo to="/">
+            <img src="" alt="" />
+          </NavLogo>
+          <MobileIcon onClick={toggle}>
             <FaBars />
-          </MobileIcon >
+          </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='/'>Home</NavLinks>
+              <NavLinks to="/">Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='sobrenós'>Sobre nós</NavLinks>
+              <NavLinks to="#teste">Sobre nós</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='/events'>Eventos</NavLinks>
+              <NavLinks to="/events">Eventos</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='Encontre um terapeuta'>Encontre um terapeuta</NavLinks>
+              <NavLinks to="/affiliates">Encontre um terapeuta</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='Parceiros da ATC'>Parceiros da ATC</NavLinks>
+              <NavLinks to="/parceiros">Parceiros da ATC</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='Materiais/Links'>Materiais/Links</NavLinks>
+              <NavLinks to="Materiais/Links">Materiais/Links</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
       </Nav>
     </>
-  );
+  )
 }
-
-
-
-
-
-
-

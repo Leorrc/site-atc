@@ -1,0 +1,254 @@
+[
+  {
+    "imgUrl": "team/t1.jpg",
+    "name": "Juliana Vieira Almeida Silva ",
+    "title": "Presidente",
+    "description": "(CRP 12/03297)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "https://www.facebook.com/psicologajulianavieira/"
+      },
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/julianavieira03/"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t2.jpg",
+    "name": "Fábia Farina ",
+    "title": "Vice Presidente",
+    "description": "(CRP 00/00000)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t3.jpg",
+    "name": "Júlio Pachalski ",
+    "title": "1° Secretário",
+    "description": "(CRP 7/19778)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t4.jpg",
+    "name": "Rafaela Matavelli",
+    "title": "2° Secretária",
+    "description": "(CRP 00/00000)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t5.jpg",
+    "name": "Maria Verônica Zink",
+    "title": "1° Tesoureira",
+    "description": "(CRP 12/16758)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t6.jpg",
+    "name": "Anna Júlia Reis",
+    "title": "2° Tesoureira",
+    "description": "(CRP 12/17231)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t7.jpg",
+    "name": "Adriana Mussi Lenzi Maia",
+    "title": "Conselheiro Fiscal",
+    "description": "(CRP 12/17231)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t8.jpg",
+    "name": "Gabriela Oltramari",
+    "title": "Conselheiro Fiscal",
+    "description": "(CRP 00/00000)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t9.jpg",
+    "name": "Edson Costa",
+    "title": "Suplente Conselheiro Fiscal",
+    "description": "(CRP 12/22158)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
+    "imgUrl": "team/t10.jpg",
+    "name": "Grazielle Zwielewski",
+    "title": "Suplente Conselheiro Fiscal",
+    "description": "(CRP 12/07596)",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      },
+      {
+        "network": "instagram",
+        "link": "#"
+      },
+      {
+        "network": "twitter",
+        "link": "#"
+      },
+      {
+        "network": "linkedin",
+        "link": "#"
+      }
+
+    ]
+  }
+  
+
+]
