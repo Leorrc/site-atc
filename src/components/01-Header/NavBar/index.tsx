@@ -12,6 +12,8 @@ import {
   NavBtnLink
 } from './styles'
 
+import logo from '../../../images/logosParceiros/logo1.svg'
+
 type Props = {
   toggle: () => void
 }
@@ -22,11 +24,9 @@ export function NavBar({ toggle }: Props) {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <img src="" alt="" />
+            <img src={logo} />
           </NavLogo>
-          <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
+
           <NavMenu>
             <NavItem>
               <NavLinks to="/">Home</NavLinks>
@@ -47,6 +47,10 @@ export function NavBar({ toggle }: Props) {
               <NavLinks to="Materiais/Links">Materiais/Links</NavLinks>
             </NavItem>
           </NavMenu>
+
+          <MobileIcon onClick={toggle}>
+            <FaBars />
+          </MobileIcon>
         </NavbarContainer>
       </Nav>
     </>

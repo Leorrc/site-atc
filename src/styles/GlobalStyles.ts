@@ -8,6 +8,10 @@ export const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -31,7 +35,7 @@ body {
   --header-height: 4.5rem;
   
   /* colors */
-  --hue: 122;
+  --hue: 195;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);

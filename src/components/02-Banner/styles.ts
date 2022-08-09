@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
 
+
+
+
+
 export const ContainerBannerGrid = styled.div`
   display: grid;
   grid-auto-flow: column;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-
 `;
 
 

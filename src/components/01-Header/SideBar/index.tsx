@@ -48,9 +48,6 @@ export function SideBar({ isOpen, toggle }: Props) {
               teste
             </SidebarLink>
           </SidebarMenu>
-          <SideBtnWrap>
-            <SidebarRoute to="/">Teste BTN</SidebarRoute>
-          </SideBtnWrap>
         </SidebarWrapper>
       </SidebarContainer>
     </>

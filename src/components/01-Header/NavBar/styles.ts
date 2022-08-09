@@ -2,22 +2,17 @@ import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 
 
-
-
-
 export const Nav = styled.nav`
-  background: var(--body-color);
-  height: 5rem;
-  /* margin-top: -80px; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
   border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: var(--body-color);
+  width: 100%;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -25,13 +20,13 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer = styled.div`
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  height: 5rem;
-  z-index: 1;
   width: 100%;
-  padding: 0 1.5rem;
-  max-width: 68.75rem;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -92,7 +87,7 @@ export const NavLinks = styled(LinkR)`
   }
 
   &:hover {
-    color: #01bf71;
+    color: #9EDFE9;
     transition: 0.2s ease-in-out;
   }
 `;
@@ -108,7 +103,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 150px;
-  background: #01bf71;
+  background: #9EDFE9;
   white-space: nowrap;
   padding: 10px 22px;
   color: #010606;
