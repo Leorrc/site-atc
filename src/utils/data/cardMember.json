@@ -200,31 +200,6 @@
     ]
   },
   {
-    "imgUrl": "team/t9.jpg",
-    "name": "Edson Costa",
-    "title": "Suplente Conselheiro Fiscal",
-    "description": "(CRP 12/22158)",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
-      }
-
-    ]
-  },
-  {
     "imgUrl": "team/t10.jpg",
     "name": "Grazielle Zwielewski",
     "title": "Suplente Conselheiro Fiscal",
