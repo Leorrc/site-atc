@@ -17,15 +17,19 @@ export const DivImage = styled.div`
 
 export const DivText = styled.div`
   order: 0;
-  max-width: 24rem;
+  max-width: 39rem;
   text-align: left;
 
   h1 {
-    font: 700 var(--title-font-size) var(--title-font);
+    font: 700 3rem var(--title-font);
     color: var(--title-color);
+    line-height: 3.5rem;
     -webkit-font-smoothing: auto;
     margin-bottom: 1rem;
   }
+
+    
+  
 
   span {
     color: var(--base-color);

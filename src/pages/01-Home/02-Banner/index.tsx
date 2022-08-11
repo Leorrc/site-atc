@@ -10,7 +10,7 @@ export function Banner() {
   return (
     <>
       <SectionDefault padding="0" paddingTop="18rem" paddingBotton="10rem">
-        <ContainerGrid grid="column">
+        <ContainerGrid grid="column" margin="0 auto 0 auto" maxWidth="90rem">
           <DivImage>
             <img src={img} />
           </DivImage>
