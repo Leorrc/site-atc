@@ -12,9 +12,9 @@ export function Join() {
   return (
     <>
       <Divider2 />
-      <SectionDefault>
+      <SectionDefault padding="0" paddingTop="7rem" paddingBotton="10rem">
         <ContainerGrid>
-          <TitleCenter title="ASSOCIE-SE À ATC-SC EM 2022">
+          <TitleCenter maxWidth="65rem" title="ASSOCIE-SE À ATC-SC EM 2022">
             <p>
               Podem associar-se à Associação de Terapias Cognitivas do Estado de
               Santa Catarina os(as) Psicólogos(as), Psiquiatras e estudantes das

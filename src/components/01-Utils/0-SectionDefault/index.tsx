@@ -3,7 +3,10 @@ import { SectionContainer } from './styles'
 
 interface SectionContainerProps {
   padding?: string
+  paddingTop?: string
+  paddingBotton?: string
   margin?: string
+  marginTop?: string
   maxWidth?: string
   textAlign?: string
   backgroundColor?: string
@@ -13,7 +16,10 @@ interface SectionContainerProps {
 export function SectionDefault({
   children,
   padding,
+  paddingTop,
+  paddingBotton,
   margin,
+  marginTop,
   maxWidth,
   textAlign,
   backgroundColor
@@ -22,7 +28,10 @@ export function SectionDefault({
     <>
       <SectionContainer
         padding={padding}
+        paddingTop={paddingTop}
+        paddingBotton={paddingBotton}
         margin={margin}
+        marginTop={marginTop}
         maxWidth={maxWidth}
         textAlign={textAlign}
         backgroundColor={backgroundColor}

@@ -8,34 +8,57 @@ export interface ButtonProps {
   fullWidth?: boolean
 }
 
-export const DivPs = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-`;
+export const ContainerText = styled.div`
+  padding: 3.625rem 2rem;
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+  border-bottom: 0.25rem solid var(--base-color);
+  border-radius: 0.25rem 0.25rem 0 0;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background: #FAFAFA;
 
-export const DivP1 = styled.div`
+  h3 {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-weight: 500 bold;
 
-`;
-
-export const DivP2 = styled.div`
-
-  button {
-    margin-top: 2rem;
+    font-size: 1.25rem;
+    
   }
 
   span {
-    font: 700 1.35rem var(--title-font);
-    color: var(--title-color);
-    -webkit-font-smoothing: auto;
+    color: var(--base-color);
   }
+
+  ul, li {
+    display: list-item;
+    text-align: left;
+    padding: 0.3rem 0;
+    margin-top: 1rem;
+  }
+
+  p {
+    font: 700 1.5rem var(--title-font);
+    color: var(--title-color);
+    text-align: left;
+    margin-top: 3rem;
+  }
+`;
+
+export const DivButton = styled.div`
+   margin-top: 1.5rem;
+
+   float: left;
+
+   
 `;
 
 export const ButtonAbout = styled(LinkS)`
   background-color: var(--base-color);
+
   color: red;
   padding: 1.3rem 2rem;
-
   border: none;
   border-radius: 0.375rem;
   color: white;
@@ -49,7 +72,4 @@ export const ButtonAbout = styled(LinkS)`
   }
 `;
 
-export const DivButton = styled.div`
-   margin-top: 2rem;
-`;
 

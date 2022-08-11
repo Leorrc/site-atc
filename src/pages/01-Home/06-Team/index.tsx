@@ -12,7 +12,12 @@ export function Team() {
   return (
     <>
       <Divider2 />
-      <SectionDefault backgroundColor="var(--body-color)">
+      <SectionDefault
+        padding="0"
+        paddingTop="7rem"
+        paddingBotton="10rem"
+        backgroundColor="var(--body-color)"
+      >
         <ContainerGrid grid="row" justifyContent="center" id="team">
           <TitleCenter title="DIRETORIA GESTÃO 2022">
             <p>Veja quem faz parte deste time de profissionais</p>

@@ -19,6 +19,7 @@ export const TitleContainer = styled.div<TitleContainerProps>`
     font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
+    margin-bottom: 2rem;
   }
 
 

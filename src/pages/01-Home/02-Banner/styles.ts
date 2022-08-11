@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 
-
-
-
-
 export const ContainerBannerGrid = styled.div`
   display: grid;
   grid-auto-flow: column;
@@ -12,7 +8,6 @@ export const ContainerBannerGrid = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 `;
-
 
 export const DivImage = styled.div`
   order: 1;
@@ -32,8 +27,15 @@ export const DivText = styled.div`
     margin-bottom: 1rem;
   }
 
+  span {
+    color: var(--base-color);
+  }
+
   p {
     margin-bottom: 2rem;
+    color: var(--title-color);
+    font-weight: 500 bold;
+    font-size: 1.25rem;
   }
 
   Button {
