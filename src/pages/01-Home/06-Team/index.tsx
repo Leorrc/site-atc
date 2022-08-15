@@ -29,6 +29,8 @@ export function Team() {
                 name={member.name}
                 title={member.title}
                 city={member.city}
+                phone={member.phone}
+                email={member.email}
                 description={member.description}
                 socialList={member.socialList}
               />

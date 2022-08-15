@@ -8,7 +8,8 @@ type Props = {
 
 export const FooterDefault = styled.footer`
   background: var(--body-color);
-  padding: 8rem 0;
+  height: 30rem;
+  box-sizing: border-box;
 `;
 
 
@@ -19,16 +20,17 @@ export const ContainerGridFooter = styled.section`
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  
+  padding-top: 5rem;
 `;
 
 // box email //
 export const BoxEmail = styled.div`
-  padding: 2rem 2rem;
-  box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 12%);
+  padding: 4rem 4rem;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
   text-align: center;
   margin: 0 auto;
+  background: #FFFFFF;
 
 
   h4 {
@@ -153,8 +155,7 @@ export const DivSocial = styled.div`
 export const ContainerButton = styled.div`
   width: 100%;
   background-color: var(--base-color);
-  padding: 1.875rem 0;
-
+  padding: 1.25rem 0;
 `;
 
 export const Copyright = styled.div`

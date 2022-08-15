@@ -5,7 +5,8 @@ import {
   AiFillInstagram,
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillStar
+  AiFillStar,
+  AiFillGift
 } from 'react-icons/ai'
 
 interface SocialMedia {
@@ -20,6 +21,7 @@ interface MemberProps {
   title: string
   city?: string
   phone?: string
+  email?: string
   socialList: SocialMedia[]
 }
 
@@ -39,6 +41,9 @@ const renderSwitch = (network: string) => {
 
     case 'doctor':
       return <AiFillStar />
+
+    case 'site':
+      return <AiFillGift />
   }
 }
 
@@ -49,6 +54,7 @@ export function CardMember({
   description,
   city,
   phone,
+  email,
   socialList
 }: MemberProps) {
   return (
@@ -63,8 +69,9 @@ export function CardMember({
         <span>{title}</span>
         <p>{description}</p>
 
-        <p>{city}</p>
-        <p>{phone}</p>
+        {city && <p>Cidade: {city} </p>}
+        {phone && <p>Telefone: {phone}</p>}
+        {email && <p>Email: {email}</p>}
         <Social>
           {socialList.map(social => (
             <a href={social.link} target="_blank">

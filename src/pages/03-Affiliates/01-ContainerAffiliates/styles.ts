@@ -19,4 +19,5 @@ export const ContainerAffi = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin-top: 2rem;
+  padding-bottom: 10rem;
 `;

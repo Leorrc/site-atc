@@ -4,6 +4,8 @@
     "name": "Juliana Vieira Almeida Silva ",
     "title": "Presidente",
     "city": "Itajaí-SC",
+    "phone": "(47) 9 9969-1966",
+    "email": "julianapsy@hotmail.com.br",
     "description": "(CRP 12/03297)",
     "socialList": [
       {
@@ -29,7 +31,10 @@
     "imgUrl": "team/t2.jpg",
     "name": "Fábia Farina ",
     "title": "Vice Presidente",
-    "description": "(CRP 00/00000)",
+    "description": "(CRP 12/01176)",
+    "city": "Itajaí-SC",
+    "phone": "(49) 9 9989-2409",
+    "email": "fabiafarina1107@gmail.com",
     "socialList": [
       {
         "network": "facebook",
@@ -54,7 +59,10 @@
     "imgUrl": "team/t3.jpg",
     "name": "Júlio Pachalski ",
     "title": "1° Secretário",
-    "description": "(CRP 7/19778)",
+    "description": "(CRP 07/19778)",
+    "city": "Itajaí-SC",
+    "phone": "(51) 9 8595-9088",
+    "email": "jpachalski@hotmail.com",
     "socialList": [
       {
         "network": "facebook",
@@ -77,9 +85,12 @@
   },
   {
     "imgUrl": "team/t4.jpg",
-    "name": "Rafaela Matavelli",
+    "name": "Rafaela Dias Matavelli Faleiro",
     "title": "2° Secretária",
-    "description": "(CRP 00/00000)",
+    "description": "(CRP 12/19707)",
+    "city": "Itajaí-SC",
+    "phone": "(48) 9 9665-4863",
+    "email": "rafaela.d.matavelli@gmail.com ",
     "socialList": [
       {
         "network": "facebook",
@@ -105,22 +116,29 @@
     "name": "Maria Verônica Zink",
     "title": "1° Tesoureira",
     "description": "(CRP 12/16758)",
+    "city": "Brusque-SC",
+    "phone": "(47) 9 9922-7628",
+    "email": "mariaveronicazink@gmail.com",
     "socialList": [
       {
         "network": "facebook",
-        "link": "#"
+        "link": "https://www.facebook.com/psicomariaveronica/"
       },
       {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/psimariaveronicazink/"
       },
       {
-        "network": "twitter",
-        "link": "#"
+        "network": "doctor",
+        "link": "https://www.doctoralia.com.br/maria-veronica-zink/psicologo/brusque"
       },
       {
         "network": "linkedin",
-        "link": "#"
+        "link": "https://www.linkedin.com/in/maria-ver%C3%B4nica-zink-6a667b195/?originalSubdomain=br"
+      },
+      {
+        "network": "site",
+        "link": "https://psicologamariaveronica.com.br/"
       }
 
     ]
@@ -130,6 +148,9 @@
     "name": "Anna Júlia Reis",
     "title": "2° Tesoureira",
     "description": "(CRP 12/17231)",
+    "city": "Itajaí-SC",
+    "phone": "(47) 9 9625-5944",
+    "email": "annajreis-@hotmail.com",
     "socialList": [
       {
         "network": "facebook",
@@ -155,6 +176,9 @@
     "name": "Adriana Mussi Lenzi Maia",
     "title": "Conselheiro Fiscal",
     "description": "(CRP 12/17231)",
+    "city": "Itajaí-SC",
+    "phone": "(00) 0 0000-0000",
+    "email": "AdrianaMussi@email.com",
     "socialList": [
       {
         "network": "facebook",
@@ -179,7 +203,10 @@
     "imgUrl": "team/t8.jpg",
     "name": "Gabriela Oltramari",
     "title": "Conselheiro Fiscal",
-    "description": "(CRP 00/00000)",
+    "description": "(CRP 12/01097)",
+    "city": "Florianópolis-SC",
+    "phone": "(00) 0 0000-0000",
+    "email": "GabrielaOltramari@email.com",
     "socialList": [
       {
         "network": "facebook",
@@ -205,6 +232,9 @@
     "name": "Grazielle Zwielewski",
     "title": "Suplente Conselheiro Fiscal",
     "description": "(CRP 12/07596)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 8461-2327",
+    "email": "grazizw@gmail.com ",
     "socialList": [
       {
         "network": "facebook",

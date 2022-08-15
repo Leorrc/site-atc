@@ -59,7 +59,7 @@ export function NavBar({ toggle1 }: Props) {
               <NavLinks to="/parceiros">Parceiros da ATC</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Materiais/Links">Materiais/Links</NavLinks>
+              <NavLinks to="/leitura">Materiais/Links</NavLinks>
             </NavItem>
           </NavMenu>
 
