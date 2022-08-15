@@ -1,11 +1,19 @@
-import { CardDefault, MemberInfos, Pic, Social } from './styles'
+import {
+  CardDefault,
+  Name,
+  Infos,
+  DivDescription,
+  DivContact,
+  Social
+} from './styles'
 
 import {
   AiFillFacebook,
   AiFillInstagram,
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillStar
+  AiFillStar,
+  AiFillGift
 } from 'react-icons/ai'
 
 interface SocialMedia {
@@ -13,13 +21,12 @@ interface SocialMedia {
   link: string
 }
 
-interface MemberProps {
-  imgUrl?: string
+interface AffiProps {
   name: string
   description?: string
-  title: string
   city?: string
   phone?: string
+  email?: string
   socialList: SocialMedia[]
 }
 
@@ -39,32 +46,34 @@ const renderSwitch = (network: string) => {
 
     case 'doctor':
       return <AiFillStar />
+
+    case 'site':
+      return <AiFillGift />
   }
 }
 
-export function CardMember({
-  imgUrl,
+export function CardAffi({
   name,
-  title,
   description,
   city,
   phone,
+  email,
   socialList
-}: MemberProps) {
+}: AffiProps) {
   return (
     <CardDefault>
-      {imgUrl && (
-        <Pic>
-          <img src={imgUrl} />
-        </Pic>
-      )}
-      <MemberInfos>
+      <Name>
         <h4>{name}</h4>
-        <span>{title}</span>
-        <p>{description}</p>
-
-        <p>{city}</p>
-        <p>{phone}</p>
+      </Name>
+      <Infos>
+        <DivDescription>
+          <span>{description}</span>
+        </DivDescription>
+        <DivContact>
+          {city && <p>Cidade: {city} </p>}
+          {phone && <p>Telefone: {phone}</p>}
+          {email && <p>Email: {email}</p>}
+        </DivContact>
         <Social>
           {socialList.map(social => (
             <a href={social.link} target="_blank">
@@ -72,7 +81,7 @@ export function CardMember({
             </a>
           ))}
         </Social>
-      </MemberInfos>
+      </Infos>
     </CardDefault>
   )
 }

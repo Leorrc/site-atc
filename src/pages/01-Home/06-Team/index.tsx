@@ -28,6 +28,7 @@ export function Team() {
                 imgUrl={member.imgUrl}
                 name={member.name}
                 title={member.title}
+                city={member.city}
                 description={member.description}
                 socialList={member.socialList}
               />

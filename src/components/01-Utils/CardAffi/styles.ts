@@ -1,36 +1,29 @@
 import styled from "styled-components";
 
 export const CardDefault = styled.div`
-  display: flex;
-  align-items: flex-start;
-
-  position: relative;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-  padding: 0.938rem;
+  padding: 0.75rem;
   border-radius: 0.313rem;
   background: #fff;
-  transition: 0.5s;
+  max-width: 100%;
+`;
+
+export const Name = styled.div`
+  margin-left: 1.5rem;
   
-`;
-
-export const Pic = styled.div`
-  overflow: hidden;
-  width: 11.25rem;
-  border-radius: 50%;
-`;
-
-export const MemberInfos = styled.div`
-  padding: 1.875rem;
-  font: var(--title-font);
-
   h4 {
-  font-weight: 700;
-  margin-bottom: 0.313rem;
-  font-size: 1.25rem;
-  color: #37517e;
+    font: 700 1.25rem var(--title-font);
+    color: #37517e;
 }
+`;
 
-  span {
+export const Infos = styled.div`
+  margin-left: 1.5rem;
+`;
+
+export const DivDescription = styled.div`
+
+span {
   display: block;
   font-size: 0.938rem;
   padding-bottom: 0.625rem;
@@ -41,23 +34,30 @@ export const MemberInfos = styled.div`
     content: '';
     position: absolute;
     display: block;
-    width: 50px;
-    height: 1px;
+    width: 3.125rem;
+    height: 0.063rem;
     background: #cbd6e9;
     bottom: 0;
     left: 0;
   }
 }
+`;
 
-  p {
-  margin: 0.625rem 0 0 0;
+export const DivContact = styled.div`
+
+  display: grid;
+  padding-top: 0.625rem;
   font-size: 0.938rem;
+  padding-bottom: 0.625rem;
+  position: relative;
   font-weight: 500;
-}
+  gap: 0.3rem;
+  font: bold;
+
 `;
 
 export const Social = styled.div`
-  margin-top: 0.75rem;
+  margin-top: 0.15rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -82,4 +82,3 @@ export const Social = styled.div`
   }
 
 `;
-

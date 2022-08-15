@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fundo from '../../../../images/full/3.svg'
+import fundo from '../../../../images/full/affi2.svg'
 
 export const DivBg = styled.div`
   background-image: url(${fundo});
@@ -7,4 +7,5 @@ export const DivBg = styled.div`
   background-repeat: no-repeat;
   background-position: center ;
   width: auto;
+  padding-top: 0rem;
 `;

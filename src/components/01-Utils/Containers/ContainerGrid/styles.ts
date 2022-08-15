@@ -24,7 +24,7 @@ export const MainContainer = styled.div<GalleryGridContainerProps>`
   grid-template-columns: ${(props) => props.columns};
   gap: ${(props) => props.gap};
   margin-top: ${(props) => props.marginTop};
-  justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'space-between'};
+  justify-content: ${(props) => props.justifyContent};
   margin: ${(props) => props.margin ? props.margin : '0 auto'};
   max-width: ${(props) => props.margin ? props.maxWidth : '75rem'};
 `;

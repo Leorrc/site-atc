@@ -48,4 +48,3 @@ export const DivText = styled.div`
 `;
 
 
-

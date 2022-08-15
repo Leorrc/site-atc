@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link as LinkS } from 'react-scroll'
 import { animateScroll as scroll } from 'react-scroll'
+import { useLocation } from 'react-router-dom'
 
 import { FaBars } from 'react-icons/fa'
 import {
@@ -22,7 +23,9 @@ type Props = {
 
 export function NavBar({ toggle1 }: Props) {
   const toggleHome = () => {
-    scroll.scrollToTop()
+    scroll.scrollToTop({
+      delay: 1
+    })
   }
 
   return (
@@ -38,15 +41,13 @@ export function NavBar({ toggle1 }: Props) {
               <NavLinks to="/">Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks2
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-240}
-                duration={300}
-              >
-                Sobre nós
-              </NavLinks2>
+              {useLocation().pathname === '/' ? (
+                <NavLinks2 to="about" offset={-120} duration={300}>
+                  Sobre nós
+                </NavLinks2>
+              ) : (
+                <NavLinks to="/">Sobre nós</NavLinks>
+              )}
             </NavItem>
             <NavItem>
               <NavLinks to="/events">Eventos</NavLinks>

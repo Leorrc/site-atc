@@ -21,7 +21,4 @@ export const TitleContainer = styled.div<TitleContainerProps>`
     -webkit-font-smoothing: auto;
     margin-bottom: 2rem;
   }
-
-
 `;
-

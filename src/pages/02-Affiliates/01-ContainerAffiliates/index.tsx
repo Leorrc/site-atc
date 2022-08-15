@@ -2,26 +2,33 @@ import { SectionDefault } from '../../../components/01-Utils/0-SectionDefault'
 import { ContainerGrid } from '../../../components/01-Utils/Containers/ContainerGrid'
 import { TitleCenter } from '../../../components/01-Utils/TitleCenter'
 
-import { ContainerAffi } from './styles'
+import { ContainerAffi, Tittle } from './styles'
 
 import cardAffi from '../../../utils/data/cardAffi.json'
-import { CardMember } from '../../../components/01-Utils/CardMember'
+import { CardAffi } from '../../../components/01-Utils/CardAffi'
+import { BgAffi } from '../../../components/01-Utils/0-SectionDefault/02-BgAffi'
 
 export function ContainerAffiliates() {
   return (
     <>
-      <SectionDefault backgroundColor="var(--body-color)">
-        <ContainerGrid grid="row" justifyContent="center">
-          <TitleCenter title="ASSOCIADOS DA ATC/SC 2021/2022">
-            <p>Encontre um terapeuta associado a nós!</p>
-          </TitleCenter>
+      <BgAffi>
+        <Tittle>
+          <h3>
+            ASSOCIADOS <span>2021/2022</span>
+          </h3>
+        </Tittle>
+      </BgAffi>
+      <SectionDefault backgroundColor="var(--body-color)" padding="2rem 0">
+        <ContainerGrid grid="row">
           <ContainerAffi>
-            {cardAffi.map(member => (
-              <CardMember
-                name={member.name}
-                title={member.title}
-                description={member.description}
-                socialList={member.socialList}
+            {cardAffi.map(affi => (
+              <CardAffi
+                name={affi.name}
+                description={affi.description}
+                city={affi.city}
+                phone={affi.phone}
+                email={affi.email}
+                socialList={affi.socialList}
               />
             ))}
           </ContainerAffi>

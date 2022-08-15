@@ -10,6 +10,7 @@ interface SectionContainerProps {
   maxWidth?: string
   textAlign?: string
   backgroundColor?: string
+  id?: string
   children?: JSX.Element | JSX.Element[]
 }
 
@@ -22,11 +23,13 @@ export function SectionDefault({
   marginTop,
   maxWidth,
   textAlign,
-  backgroundColor
+  backgroundColor,
+  id
 }: SectionContainerProps) {
   return (
     <>
       <SectionContainer
+        id={id}
         padding={padding}
         paddingTop={paddingTop}
         paddingBotton={paddingBotton}
