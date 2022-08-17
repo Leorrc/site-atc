@@ -1,12 +1,10 @@
 import { SectionDefault } from '../../../components/01-Utils/0-SectionDefault'
 import { ContainerGrid } from '../../../components/01-Utils/Containers/ContainerGrid'
-import { TitleCenter } from '../../../components/01-Utils/TitleCenter'
-
-import { ContainerAffi, Tittle } from './styles'
-
-import cardAffi from '../../../utils/data/cardAffi.json'
 import { CardAffi } from '../../../components/01-Utils/CardAffi'
 import { BgAffi } from '../../../components/01-Utils/0-SectionDefault/02-BgAffi'
+import cardAffi from '../../../utils/data/cardAffi.json'
+
+import { ContainerAffi, Tittle } from './styles'
 
 export function ContainerAffiliates() {
   return (

@@ -1,30 +1,28 @@
 import styled from "styled-components";
 
-export const Grid = styled.div`
+export const Section = styled.section`
+  padding: 10rem 0;
+`;
+
+export const Container = styled.div`
+  max-width: 1320px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+`;
+
+export const ContainerBook = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 0.225rem;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
 `;
 
-export const ContainerLivros = styled.div`
-  order: 0;
-`;
-
-export const Livro = styled.div`
-  padding: 2rem 2rem;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
-  background: #FFFFFF;
-`;
-
-export const ContainerLinks = styled.div`
-  order: 1;
-`;
-
-export const Link = styled.div`
-  padding: 2rem 2rem;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
-  background: #FFFFFF;
-
+export const ContainerLink = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.225rem;
+  margin-top: 2rem;
+  padding-bottom: 10rem;
 `;
