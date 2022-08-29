@@ -1,37 +1,40 @@
-import { SectionDefault } from '../../../components/01-Utils/0-SectionDefault'
-import { ContainerGrid } from '../../../components/01-Utils/Containers/ContainerGrid'
-import { CardAffi } from '../../../components/01-Utils/CardAffi'
-import { BgAffi } from '../../../components/01-Utils/0-SectionDefault/02-BgAffi'
 import cardAffi from '../../../utils/data/cardAffi.json'
 
-import { ContainerAffi, Tittle } from './styles'
+import {
+  Container,
+  ContainerSection,
+  Tittle,
+  SectionBg,
+  ContainerMember
+} from './styles'
+import { CardMember } from '../../../components/01-Utils/CardMember'
 
 export function ContainerAffiliates() {
   return (
     <>
-      <BgAffi>
+      <SectionBg />
+
+      <ContainerSection>
         <Tittle>
-          <h3>
+          <h2>
             ASSOCIADOS <span>2021/2022</span>
-          </h3>
+          </h2>
         </Tittle>
-      </BgAffi>
-      <SectionDefault backgroundColor="var(--body-color)" padding="2rem 0">
-        <ContainerGrid grid="row">
-          <ContainerAffi>
-            {cardAffi.map(affi => (
-              <CardAffi
-                name={affi.name}
-                description={affi.description}
-                city={affi.city}
-                phone={affi.phone}
-                email={affi.email}
-                socialList={affi.socialList}
+        <Container>
+          <ContainerMember>
+            {cardAffi.map(member => (
+              <CardMember
+                name={member.name}
+                city={member.city}
+                phone={member.phone}
+                email={member.email}
+                description={member.description}
+                socialList={member.socialList}
               />
             ))}
-          </ContainerAffi>
-        </ContainerGrid>
-      </SectionDefault>
+          </ContainerMember>
+        </Container>
+      </ContainerSection>
     </>
   )
 }

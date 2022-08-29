@@ -1,6 +1,6 @@
 import Button from '../Button'
 import { CardDefault } from './styles'
-
+import { FaChevronRight } from 'react-icons/fa'
 interface CardProps {
   title: string
   descriptionList: string[]
@@ -13,7 +13,13 @@ export function CardJoin({ title, descriptionList, buttonText }: CardProps) {
       <h3>{title}</h3>
       <ul>
         {descriptionList.map(description => (
-          <li>- {description}</li>
+          <li>
+            {' '}
+            <span>
+              <FaChevronRight />
+            </span>{' '}
+            {description}
+          </li>
         ))}
       </ul>
       {buttonText && <Button text={buttonText} />}

@@ -32,10 +32,7 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarLink onClick={toggle} to="/">
               Home
             </SidebarLink>
-            <SidebarLink onClick={toggle} to="#teste">
-              sobrenós
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="Eventos">
+            <SidebarLink onClick={toggle} to="/events">
               Eventos
             </SidebarLink>
             <SidebarLink onClick={toggle} to="/affiliates">
@@ -44,8 +41,8 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarLink onClick={toggle} to="/parceiros">
               Parceiros da ATC
             </SidebarLink>
-            <SidebarLink onClick={toggle} to="teste">
-              teste
+            <SidebarLink onClick={toggle} to="/leitura">
+              Materiais
             </SidebarLink>
           </SidebarMenu>
         </SidebarWrapper>

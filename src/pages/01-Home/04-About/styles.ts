@@ -1,74 +1,195 @@
 import styled from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS} from 'react-scroll';
 
+import banner from '../../../images/full/n1.svg'
+import mobile from '../../../images/full/mobile.svg'
 
-export interface ButtonProps {
-  text?: string
-  fullWidth?: boolean
-}
 
-export const ContainerText = styled.div`
-  padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
-  border-bottom: 0.25rem solid var(--base-color);
-  border-radius: 0.25rem 0.25rem 0 0;
+export const ContainerSection = styled.section`
+  padding: calc(5rem + var(--header-height)) 0;
+
+  background-image: url(${mobile});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 100%;
+  height: 100%; 
+
+
+  @media (min-width: 992px) {
+    padding: 7rem 0;
+    display: grid;
+
+  background-image: url(${banner});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 100%;
+  height: 100%; 
+  }
+`;
+
+
+export const Container = styled.div`
+  display: grid;
+  gap: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   text-align: center;
-  padding-left: 3rem;
-  padding-right: 3rem;
+
+  @media (min-width: 992px) {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+  }
+`;
+
+export const Box = styled.div`
+  display: grid;
+  padding: 1.875rem 1.875rem;
+  box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+  border-bottom: 0.25rem solid var(--att-color);
+  border-radius: 0.25rem 0.25rem 0 0;
   background: #FAFAFA;
 
-  h3 {
-    display: block;
-    margin-bottom: 1.5rem;
-    font-weight: 500 bold;
-
-    font-size: 1.25rem;
-    
-  }
-
   span {
-    color: var(--base-color);
+    color: var(--att-color);
   }
 
-  ul, li {
-    display: list-item;
-    text-align: left;
-    padding: 0.3rem 0;
-    margin-top: 1rem;
+  li {
+    gap: 1rem;
+    align-items: center;
   }
 
-  p {
-    font: 700 1.5rem var(--title-font);
-    color: var(--title-color);
-    text-align: left;
-    margin-top: 3rem;
+  button {
+    margin: 0 auto;
+  }
+
+  @media (min-width: 992px) {
+
+
+
   }
 `;
 
-export const DivButton = styled.div`
-   margin-top: 1.5rem;
+export const Ul = styled.ul`
+  text-align: left;
 
-   float: left;
+@media (min-width: 992px) {
 
-   
-`;
-
-export const ButtonAbout = styled(LinkS)`
-  background-color: var(--base-color);
-
-  color: red;
-  padding: 1.3rem 2rem;
-  border: none;
-  border-radius: 0.375rem;
-  color: white;
-  font: var(--text-3);
-  font-weight: 700;
-  transition: background 0.3s;
+  gap: 1rem;
   
-  &:hover {
-    cursor: pointer;
-    background: var(--base-color-alt);
+}
+`;
+
+export const Title = styled.div`
+  text-align: center;
+
+  h2 {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+}
+
+  h4 {
+    font-size: 1rem;
+    color: var(--title-color);
+    margin-bottom: 2rem;
+}
+  span {
+    color: var(--att-color);
+}
+
+
+  @media (min-width: 992px) {
+    
+
+    h2 {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+    margin-bottom: 0.75rem;
+    }
+
+    h4 {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-bottom: 2rem;
+    }
+
+    span {
+      color: var(--att-color);
+    }
+  }
+`;
+
+export const TitleIcon = styled.div`
+
+
+
+  
+  i {
+  display: block;
+  font-size: 3rem;
+  color: var(--att-color);
+  }
+  
+  h3 {
+    color: var(--att-color);
+  }
+
+@media (min-width: 992px) {
+  margin-bottom: 1rem;
+
+  i {
+  color: var(--att-color);
+  
+  }
+  
+  h5 {
+    color: var(--title-color);
+  }
+}
+`;
+
+
+export const Div1 = styled.div`
+  display: grid;
+  margin: 1rem 0;
+  text-align: center;
+
+
+  @media (min-width: 992px) {
+  display: inline-flex;
+  gap: 12px;
+
+  
+  }
+`;
+
+export const Div2 = styled.div`
+  display: grid;
+  margin: 1rem 0;
+  text-align: center;
+
+  @media (min-width: 992px) {
+  display: inline-flex;
+  gap: 12px;
+
+
+  
+  }
+`;
+
+export const Div3 = styled.div`
+  display: grid;
+  margin: 1rem 0;
+  text-align: center;
+
+  @media (min-width: 992px) {
+  display: inline-flex;
+  gap: 12px;
   }
 `;
 

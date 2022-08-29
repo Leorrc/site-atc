@@ -31,11 +31,12 @@ body {
   background: var(--body-color);
 }
 
+
 :root {
   --header-height: 4.5rem;
   
   /* colors */
-  --hue: 195;
+  --hue: 188;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
@@ -44,7 +45,9 @@ body {
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
-  --red: red;
+  --blue: #37517e;
+  --shape-hover: #29292e;
+  --att-color: #19BAAA;
   
   /* fonts */
   --title-font-size: 1.875rem;
@@ -52,6 +55,13 @@ body {
   
   --title-font: 'Poppins' , sans-serif;
   --body-font: 'DM Sans' , sans-serif;
+
+  @media (min-width: 992px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+}
 
   /* Fonts */
 --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Heebo", sans-serif;

@@ -17,6 +17,7 @@ interface GalleryGridContainerProps {
   children?: JSX.Element | JSX.Element[]
   columns?: string
   id?: string
+  padding?: string
 }
 
 export function ContainerGrid({
@@ -28,7 +29,8 @@ export function ContainerGrid({
   gap,
   columns,
   marginTop,
-  id
+  id,
+  padding
 }: GalleryGridContainerProps) {
   return (
     <>
@@ -41,6 +43,7 @@ export function ContainerGrid({
         gap={gap}
         columns={columns}
         id={id}
+        padding={padding}
       >
         {children}
       </MainContainer>

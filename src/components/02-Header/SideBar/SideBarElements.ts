@@ -21,10 +21,11 @@ export const SidebarContainer = styled.aside<Props>`
   transition: 0.3s ease-in-out;
   opacity: ${(props) => props.isOpen ? '1': '0'};
   top: ${(props) => props.isOpen ? '0': '-100rem'};
+
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: black;
+  color: var(--att-color);
 `;
 
 export const Icon = styled.div`
@@ -38,35 +39,34 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
-  color: black;
+  color: var(--att-color);
 `;
 
 export const SidebarMenu = styled.ul`
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 100px);
+  gap: 4rem;
+  place-content: center;
   text-align: center;
-
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
-  }
 `;
 
-export const SidebarLink = styled(LinkS)`
+export const SidebarLink = styled(LinkR)`
+  font: 700 var(--title-font-size) var(--title-font);
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
   text-decoration: none;
   list-style: none;
-  transition: 0.2s ease-in-out;
-  color: black;
+  transition: color 0.2s ease-in-out;
   cursor: pointer;
 
+
   &:hover {
-    color: #01bf71;
-    transition: 0.2s ease-in-out;
-  }
+    color: var(--att-color);
+    transition: color 0.2s ease-in-out;
+}
+
 `;
 
 export const SideBtnWrap = styled.div`
@@ -74,7 +74,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidebarRoute = styled(LinkR)`
+export const SidebarRoute = styled(LinkS)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;

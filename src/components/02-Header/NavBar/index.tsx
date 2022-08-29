@@ -5,17 +5,17 @@ import { useLocation } from 'react-router-dom'
 
 import { FaBars } from 'react-icons/fa'
 import {
+  ContainerHeader,
   Nav,
-  NavbarContainer,
-  NavLogo,
+  Menu,
   MobileIcon,
-  NavMenu,
-  NavItem,
-  NavLinks,
-  NavLinks2
+  Item,
+  ItemLink,
+  Container,
+  LogoA
 } from './styles'
 
-import logo from '../../../images/logosParceiros/logo1.svg'
+import logo from '../../../images/full/lh.svg'
 
 type Props = {
   toggle1: () => void
@@ -30,44 +30,35 @@ export function NavBar({ toggle1 }: Props) {
 
   return (
     <>
-      <Nav>
-        <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+      <ContainerHeader>
+        <Container>
+          <LogoA>
             <img src={logo} />
-          </NavLogo>
-
-          <NavMenu>
-            <NavItem>
-              <NavLinks to="/">Home</NavLinks>
-            </NavItem>
-            <NavItem>
-              {useLocation().pathname === '/' ? (
-                <NavLinks2 to="about" offset={-120} duration={300}>
-                  Sobre nós
-                </NavLinks2>
-              ) : (
-                <NavLinks to="/">Sobre nós</NavLinks>
-              )}
-            </NavItem>
-            <NavItem>
-              <NavLinks to="/events">Eventos</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="/affiliates">Encontre um terapeuta</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="/parceiros">Parceiros da ATC</NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="/leitura">Materiais/Links</NavLinks>
-            </NavItem>
-          </NavMenu>
-
-          <MobileIcon onClick={toggle1}>
-            <FaBars />
-          </MobileIcon>
-        </NavbarContainer>
-      </Nav>
+          </LogoA>
+          <Nav>
+            <MobileIcon onClick={toggle1}>
+              <FaBars />
+            </MobileIcon>
+            <Menu>
+              <Item>
+                <ItemLink to="/">Home</ItemLink>
+              </Item>
+              <Item>
+                <ItemLink to="/events">Eventos</ItemLink>
+              </Item>
+              <Item>
+                <ItemLink to="/affiliates">Encontre um terapeuta</ItemLink>
+              </Item>
+              <Item>
+                <ItemLink to="/parceiros">Parceiros da ATC</ItemLink>
+              </Item>
+              <Item>
+                <ItemLink to="/leitura">Materiais</ItemLink>
+              </Item>
+            </Menu>
+          </Nav>
+        </Container>
+      </ContainerHeader>
     </>
   )
 }

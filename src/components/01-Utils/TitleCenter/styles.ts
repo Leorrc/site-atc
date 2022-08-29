@@ -6,6 +6,7 @@ interface TitleContainerProps {
   textAlign?: string;
   maxWidth?: string;
   paddingBotton?: string;
+  marginBotton?: string;
 }
 
 export const TitleContainer = styled.div<TitleContainerProps>`
@@ -14,6 +15,7 @@ export const TitleContainer = styled.div<TitleContainerProps>`
   margin-right: ${(props) => props.marginRight ? props.marginRight : 'auto'};
   text-align: ${(props) => props.textAlign ? props.textAlign : 'center'};
   padding-bottom: ${(props) => props.paddingBotton};
+  margin-bottom: ${(props) => props.marginBotton};
 
   h2{
     font: 700 var(--title-font-size) var(--title-font);

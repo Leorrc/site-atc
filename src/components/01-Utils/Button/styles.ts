@@ -4,7 +4,7 @@ import pixelToRem from '../../../utils/pxToRem'
 import { ButtonProps } from ".";
 
 export const ButtonComponent = styled.button<ButtonProps>`
-  background-color: var(--base-color);
+  background-color: var(--att-color);
   color: var(--text-color-light);
   width: ${({ fullWidth }) => (fullWidth ? "100%" : pixelToRem(200))};
   height: ${pixelToRem(60)};
@@ -17,6 +17,6 @@ export const ButtonComponent = styled.button<ButtonProps>`
   
   &:hover {
     cursor: pointer;
-    background: var(--base-color-alt);
+    background: var(--att-color);
   }
 `;

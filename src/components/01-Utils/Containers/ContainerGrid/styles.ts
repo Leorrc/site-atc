@@ -16,6 +16,7 @@ interface GalleryGridContainerProps {
   maxWidth?: string;
   gap?: string
   columns?: string
+  padding?: string
 }
 
 export const MainContainer = styled.div<GalleryGridContainerProps>`
@@ -26,5 +27,7 @@ export const MainContainer = styled.div<GalleryGridContainerProps>`
   margin-top: ${(props) => props.marginTop};
   justify-content: ${(props) => props.justifyContent};
   margin: ${(props) => props.margin ? props.margin : '0 auto'};
-  max-width: ${(props) => props.margin ? props.maxWidth : '75rem'};
+  max-width: ${(props) => props.maxWidth ? props.maxWidth : '75rem'};
+  padding: ${(props) => props.padding};
 `;
+

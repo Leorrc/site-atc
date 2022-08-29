@@ -1,10 +1,8 @@
 import { Divider2 } from '../../../components/01-Utils/Dividers/styles'
-import { SectionDefault } from '../../../components/01-Utils/0-SectionDefault'
-import { ContainerGrid } from '../../../components/01-Utils/Containers/ContainerGrid'
 import { TitleCenter } from '../../../components/01-Utils/TitleCenter'
 import { CardMember } from '../../../components/01-Utils/CardMember'
 
-import { ContainerMember } from './styles'
+import { ContainerSection, ContainerMember, Container } from './styles'
 
 import cardMember from '../../../utils/data/cardMember.json'
 
@@ -12,13 +10,8 @@ export function Team() {
   return (
     <>
       <Divider2 />
-      <SectionDefault
-        padding="0"
-        paddingTop="7rem"
-        paddingBotton="10rem"
-        backgroundColor="var(--body-color)"
-      >
-        <ContainerGrid grid="row" justifyContent="center" id="team">
+      <ContainerSection>
+        <Container>
           <TitleCenter title="DIRETORIA GESTÃO 2022">
             <p>Veja quem faz parte deste time de profissionais</p>
           </TitleCenter>
@@ -36,8 +29,8 @@ export function Team() {
               />
             ))}
           </ContainerMember>
-        </ContainerGrid>
-      </SectionDefault>
+        </Container>
+      </ContainerSection>
     </>
   )
 }

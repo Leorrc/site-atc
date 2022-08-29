@@ -18,7 +18,7 @@ interface MemberProps {
   imgUrl?: string
   name: string
   description?: string
-  title: string
+  title?: string
   city?: string
   phone?: string
   email?: string

@@ -3,31 +3,32 @@ import styled from "styled-components";
 export const CardDefault = styled.div`
   display: flex;
   align-items: flex-start;
-
-  position: relative;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
   padding: 0.938rem;
   border-radius: 0.313rem;
   background: #fff;
   transition: 0.5s;
-  
+
+  @media (min-width: 992px) {
+    
+  }
 `;
 
 export const Pic = styled.div`
   overflow: hidden;
-  width: 11.25rem;
+  width: 30%;
   border-radius: 50%;
 `;
 
 export const MemberInfos = styled.div`
-  padding: 1.875rem;
+  padding: 1rem;
   font: var(--title-font);
 
   h4 {
   font-weight: 700;
   margin-bottom: 0.313rem;
   font-size: 1.25rem;
-  color: #37517e;
+  color: var(--att-color);
 }
 
   span {
@@ -63,7 +64,6 @@ export const Social = styled.div`
   justify-content: flex-start;
   gap: 0.5rem;
 
-
   a {
     transition: ease-in-out 0.3s;
     display: flex;
@@ -76,10 +76,8 @@ export const Social = styled.div`
   }
 
   svg {
-    color: #37517e;
-    font-size: 1.2rem;
+    color: var(--att-color);
+    font-size: 1.5rem;
     margin: 0 0.125rem;
   }
-
 `;
-

@@ -1,169 +1,246 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 
-type Props = {
-  isOpen: boolean
+import bgemail from '../../images/full/pontefooter.svg'
+
+export const Footer1 = styled.footer`
+
+`;
+
+export const SectionEmail = styled.section`
+  padding: var(--header-height) 0;
+
+  background-image: url(${bgemail});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 100%;
+  height: 100%; 
+
+  @media (min-width: 992px) {
+    padding: 8rem 0;
+    display: grid;
 }
-
-
-export const FooterDefault = styled.footer`
-  background: var(--body-color);
-  height: 30rem;
-  box-sizing: border-box;
 `;
 
-
-export const ContainerGridFooter = styled.section`
+export const Container = styled.div`
   display: grid;
-  gap: 2rem;
-  grid-auto-flow: column;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+
+
+  @media (min-width: 992px) {
+    margin: 0 auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 `;
 
-// box email //
-export const BoxEmail = styled.div`
-  padding: 4rem 4rem;
-  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-  border-radius: 0.7rem 0.7rem 0.7rem 0.7rem;
-  text-align: center;
-  margin: 0 auto;
-  background: #FFFFFF;
-
-
-  h4 {
-    font: 700 1.31rem var(--title-font);
-    margin-bottom: 0.313rem;
-    color: #37517e;
+export const TitleEmail = styled.div`
+  h2 {
+    font: 700 var(--title-font-size) var(--title-font);
+    color: var(--text-color-light);
+    -webkit-font-smoothing: auto;
   }
 
   p {
-    display: block;
-    font-size: 0.938rem;
-    padding-bottom: 0.625rem;
-    position: relative;
-    font-weight: 500;
+    color: var(--text-color-light);
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 992px) {
+    width: 100%;
   }
 `;
 
-export const FormEmail = styled.form`
-  
-  input[type="submit"] {
-    width: 7.5rem;
+export const Email = styled.form`
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+
+  input[type="email"] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+
+  input[type="submit"] { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
     border: 0;
     background: none;
-    font-size: 1rem;
-    padding: .2rem 0.5rem;
-    background: #47b2e4;
+    font-size: 16px;
+    padding: 0 20px;
+    background: var(--att-color);
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    cursor: pointer;
   }
+
+  @media (min-width: 992px) {
+    width: 60%;
+    margin: 0 auto;
+  }
+`;
+
+export const SectionInfo = styled.section`
+  padding: 4rem 0;
   
-  input[type="email"] {
-    width: 10rem;
-    padding: .2rem 0.5rem;
-    border: 0;
-    transition: 0.3s;
-    border-radius: 50px;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-  }
-`;
-// box email //
-
-// box links //
-export const DivLinks = styled.div`
-  
-  h4 {
-    font: 700 1.31rem var(--title-font);
-    margin-bottom: 0.313rem;
-    color: #37517e;
-  }
-`;
-
-export const DivUl = styled.ul`
-  display: grid;
-  margin-top: 1rem;
-`;
-
-export const ListMe = styled(LinkR)`
-  display: flex;
-  justify-content: start;
-  font: 400 1rem var(--title-font);
-  margin-bottom: 0.313rem;
-  transition: 0.2s ease-in-out;
-  color: black;
-  cursor: pointer;
-
-  &:hover {
-    color: #01bf71;
-    transition: 0.2s ease-in-out;
-  }
-`;
-
-export const DivRedeSociais = styled.div`
-  
-  `;
-
-export const DivText = styled.div`
-  margin-bottom: 7rem;
-
-  h4 {
-    font: 700 1.31rem var(--title-font);
-    margin-bottom: 0.313rem;
-    color: #37517e;
+  span {
+    color: var(--att-color);
   }
 
   p {
-    display: block;
-    font-size: 0.938rem;
-    padding-bottom: 0.625rem;
+    text-align: center;
+    color: var(--title-color);
+  }
+  
+  @media (min-width: 576px) {
+
+}
+`;
+
+export const Container2 = styled.div`
+  display: grid;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  img {
+    margin-bottom: 2rem;
+    width: auto;
+  }
+  
+
+
+  @media (min-width: 576px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    img {
+      margin: 0 auto;
+    }
+
+  }
+
+`;
+
+export const Links = styled.div`
+  display: grid;
+  margin-bottom: 2rem;
+  
+  font: 600 1.375rem ;
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 600;
+
+  h4 {
+    display: inline-block;
+    margin-bottom: 1rem;
     position: relative;
-    font-weight: 500;
+    color: var(--title-color)  ;
+    font: 700 1.31rem var(--title-font);
+
+    :after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: var(--att-color);
+    bottom: 0;
+    left: 0;
   }
-`;
+  }
 
-export const DivSocial = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  gap: 3rem;
-  
+  @media (min-width: 576px) {
+  text-align: left;
 
-
-  a {
-    transition: ease-in-out 0.3s;
-    display: flex;
-    align-items: center;
+  h4 {
     justify-content: center;
-    border-radius: 50px;
-    width: 2rem;
-    height: 2rem;
-    background: #eff2f8;
+    position: relative;
+
+    :after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: var(--att-color);
+    bottom: 0;
   }
+}
+}
+`;
+
+export const Link = styled(LinkR)`
+  text-decoration: none;
+  color: var(--title-color);
+  margin-bottom: 0.75rem;
+
+  &:hover {
+    color: var(--att-color);
+    transition: color 0.3s ease-in-out;
+  }
+
+  @media (min-width: 576px) {
+    text-align: left;
+
+  }
+`;
+
+export const Socials = styled.div`
+  display: grid;
   
+  font: 600 1.375rem ;
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: 600;
 
+  h4 {
+    display: inline-block;
+    margin-bottom: 1rem;
+    position: relative;
+    color: var(--title-color)  ;
+    font: 700 1.31rem var(--title-font);
+
+    :after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 2px;
+    background: var(--att-color);
+    bottom: 0;
+    left: 0;
+  }
+}
   svg {
-    color: #37517e;
-    font-size: 1.2rem;
-    margin: 0 0.125rem;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--att-color);
+}
+  
+    @media (min-width: 576px) {
+
+    
   }
 `;
 
-export const ContainerButton = styled.div`
-  width: 100%;
-  background-color: var(--base-color);
-  padding: 1.25rem 0;
+export const Social = styled.a`
+
 `;
-
-export const Copyright = styled.div`
-  color: #fff;
-  margin-left: 2rem;
-`;
-
-
-
-
-
