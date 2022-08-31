@@ -8,6 +8,7 @@ interface TitleContainerProps {
   maxWidth?: string
   paddingBotton?: string
   marginBotton?: string
+  span?: string
   children?: JSX.Element | JSX.Element[]
 }
 
@@ -16,6 +17,7 @@ export function TitleCenter({
   marginRight,
   textAlign,
   title,
+  span,
   maxWidth,
   paddingBotton,
   marginBotton,
@@ -28,8 +30,11 @@ export function TitleCenter({
       marginRight={marginRight}
       textAlign={textAlign}
       paddingBotton={paddingBotton}
+      marginBotton={marginBotton}
     >
-      <h2>{title}</h2>
+      <h2>
+        {title} {span}
+      </h2>
       {children}
     </TitleContainer>
   )

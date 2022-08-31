@@ -85,18 +85,20 @@ export function Footer() {
 
             <Socials>
               <h4>Redes Sociais</h4>
-              <a
-                href="https://www.facebook.com/ATCSantaCatarina"
-                target="_blank"
-              >
-                <AiFillFacebook />
-              </a>
-              <a href="www.google.com" target="_blank">
-                <AiFillInstagram />
-              </a>
-              <a href="www.google.com" target="_blank">
-                <AiFillTwitterCircle />
-              </a>
+              <Social>
+                <a
+                  href="https://www.facebook.com/ATCSantaCatarina"
+                  target="_blank"
+                >
+                  <AiFillFacebook />
+                </a>
+                <a href="www.google.com" target="_blank">
+                  <AiFillInstagram />
+                </a>
+                <a href="www.google.com" target="_blank">
+                  <AiFillTwitterCircle />
+                </a>
+              </Social>
             </Socials>
           </Container2>
           <p>Todos os direitos reservados</p>

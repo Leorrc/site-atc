@@ -3,7 +3,7 @@ import {
   CloseIcon,
   Icon,
   SidebarContainer,
-  SidebarLink,
+  SidebarScroll,
   SidebarMenu,
   SidebarRoute,
   SidebarWrapper,
@@ -29,21 +29,24 @@ export function SideBar({ isOpen, toggle }: Props) {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink onClick={toggle} to="/">
+            <SidebarRoute onClick={toggle} to="/">
               Home
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="/events">
+            </SidebarRoute>
+            <SidebarRoute onClick={toggle} to="/events">
               Eventos
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="/affiliates">
+            </SidebarRoute>
+            <SidebarRoute onClick={toggle} to="/affiliates">
               Encontre um terapeuta
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="/parceiros">
+            </SidebarRoute>
+            <SidebarRoute onClick={toggle} to="/parceiros">
               Parceiros da ATC
-            </SidebarLink>
-            <SidebarLink onClick={toggle} to="/leitura">
+            </SidebarRoute>
+            <SidebarRoute onClick={toggle} to="/leitura">
               Materiais
-            </SidebarLink>
+            </SidebarRoute>
+            <SidebarScroll onClick={toggle} to="team">
+              teste
+            </SidebarScroll>
           </SidebarMenu>
         </SidebarWrapper>
       </SidebarContainer>

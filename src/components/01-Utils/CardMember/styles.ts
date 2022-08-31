@@ -9,8 +9,8 @@ export const CardDefault = styled.div`
   background: #fff;
   transition: 0.5s;
 
-  @media (min-width: 992px) {
-    
+  @media (max-width: 576px) {
+    display: grid;
   }
 `;
 
@@ -18,6 +18,11 @@ export const Pic = styled.div`
   overflow: hidden;
   width: 30%;
   border-radius: 50%;
+
+  @media (max-width: 576px) {
+    width: 50%;
+    margin: 0 auto;
+  }
 `;
 
 export const MemberInfos = styled.div`
@@ -43,8 +48,8 @@ export const MemberInfos = styled.div`
     position: absolute;
     display: block;
     width: 50px;
-    height: 1px;
-    background: #cbd6e9;
+    height: 1.5px;
+    background: var(--att-color);
     bottom: 0;
     left: 0;
   }
@@ -55,6 +60,9 @@ export const MemberInfos = styled.div`
   font-size: 0.938rem;
   font-weight: 500;
 }
+
+    
+
 `;
 
 export const Social = styled.div`

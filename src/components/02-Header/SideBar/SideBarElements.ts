@@ -49,7 +49,7 @@ export const SidebarMenu = styled.ul`
   text-align: center;
 `;
 
-export const SidebarLink = styled(LinkR)`
+export const SidebarRoute = styled(LinkR)`
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
@@ -74,7 +74,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidebarRoute = styled(LinkS)`
+export const SidebarScroll = styled(LinkS)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;

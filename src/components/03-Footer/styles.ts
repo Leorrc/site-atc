@@ -204,7 +204,7 @@ export const Link = styled(LinkR)`
 
 export const Socials = styled.div`
   display: grid;
-  
+  margin-bottom: 3rem;
   font: 600 1.375rem ;
   font-family: var(--title-font);
   font-style: normal;
@@ -235,12 +235,28 @@ export const Socials = styled.div`
   color: var(--att-color);
 }
   
-    @media (min-width: 576px) {
+@media (min-width: 576px) {
 
+
+  h4 {
+    justify-content: center;
+    position: relative;
+
+    :after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 2px;
+    background: var(--att-color);
     
   }
+}
+}
 `;
 
-export const Social = styled.a`
+export const Social = styled.div`
+
+
 
 `;

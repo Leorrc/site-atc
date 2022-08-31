@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkS} from 'react-scroll';
 
-import banner from '../../../images/full/n1.svg'
+import banner from '../../../images/full/about2.svg'
 import mobile from '../../../images/full/mobile.svg'
 
 
@@ -17,8 +17,8 @@ export const ContainerSection = styled.section`
 
 
   @media (min-width: 992px) {
-    padding: 7rem 0;
-    display: grid;
+  padding: 7rem 0;
+  display: grid;
 
   background-image: url(${banner});
   background-size: cover;
@@ -77,7 +77,6 @@ export const Ul = styled.ul`
   text-align: left;
 
 @media (min-width: 992px) {
-
   gap: 1rem;
   
 }
@@ -101,10 +100,8 @@ export const Title = styled.div`
     color: var(--att-color);
 }
 
-
   @media (min-width: 992px) {
     
-
     h2 {
     font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
@@ -126,9 +123,6 @@ export const Title = styled.div`
 
 export const TitleIcon = styled.div`
 
-
-
-  
   i {
   display: block;
   font-size: 3rem;
@@ -193,4 +187,7 @@ export const Div3 = styled.div`
   }
 `;
 
+export const Scroll = styled(LinkS)`
+  
+`;
 

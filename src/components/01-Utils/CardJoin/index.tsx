@@ -22,7 +22,11 @@ export function CardJoin({ title, descriptionList, buttonText }: CardProps) {
           </li>
         ))}
       </ul>
-      {buttonText && <Button text={buttonText} />}
+      {buttonText && (
+        <Button>
+          <a href="">Saiba mais</a>
+        </Button>
+      )}
     </CardDefault>
   )
 }

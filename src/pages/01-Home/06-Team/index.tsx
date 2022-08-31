@@ -10,9 +10,9 @@ export function Team() {
   return (
     <>
       <Divider2 />
-      <ContainerSection>
+      <ContainerSection id="team">
         <Container>
-          <TitleCenter title="DIRETORIA GESTÃO 2022">
+          <TitleCenter title="DIRETORIA GESTÃO" span="2022" marginBotton="2rem">
             <p>Veja quem faz parte deste time de profissionais</p>
           </TitleCenter>
           <ContainerMember>

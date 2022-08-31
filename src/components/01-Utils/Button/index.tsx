@@ -1,14 +1,14 @@
 import { ButtonComponent } from './styles'
 
 export interface ButtonProps {
-  text?: string
   fullWidth?: boolean
+  children?: JSX.Element | JSX.Element[]
 }
 
-function Button({ text, fullWidth }: ButtonProps) {
+function Button({ fullWidth, children }: ButtonProps) {
   return (
     <>
-      <ButtonComponent fullWidth={fullWidth}>{text}</ButtonComponent>
+      <ButtonComponent>{children}</ButtonComponent>
     </>
   )
 }

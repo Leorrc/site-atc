@@ -32,7 +32,7 @@ export function NavBar({ toggle1 }: Props) {
     <>
       <ContainerHeader>
         <Container>
-          <LogoA>
+          <LogoA to="/">
             <img src={logo} />
           </LogoA>
           <Nav>

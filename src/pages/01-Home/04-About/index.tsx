@@ -14,7 +14,8 @@ import {
   Div3,
   Title,
   TitleIcon,
-  Ul
+  Ul,
+  Scroll
 } from './styles'
 
 import { Divider2 } from '../../../components/01-Utils/Dividers/styles'
@@ -30,7 +31,8 @@ export function About() {
               <h2>Sobre Nós</h2>
               <h4>
                 Este é o site da Associação de Terapias Cognitivas do
-                <span> Estado de Santa Catarina (ATC-SC)</span> .
+                <br />
+                <span> Estado de Santa Catarina (ATC-SC)</span>
               </h4>
             </Title>
             <Divider2 />
@@ -46,9 +48,11 @@ export function About() {
                   <span>
                     <FaChevronRight />
                   </span>
-                  A ATC-SC é uma entidade sem fins lucrativos que representa a
-                  FBTC (Federação Brasileira de Terapias Cognitivas) em Santa
-                  Catarina.
+                  Associação de Terapias Cognitivas do Estado de Santa Catarina
+                  caracteriza-se por ser uma associação estadual dos
+                  profissionais e estudantes que se dedicam ao estudo e à
+                  prática das diferentes abordagens das Terapias Cognitivas e
+                  Contextuais no estado de Santa Catarina.
                 </li>
               </Ul>
             </Div1>
@@ -65,9 +69,12 @@ export function About() {
                   <span>
                     <FaChevronRight />
                   </span>
-                  Objetiva divulgar as PSICOTERAPIAS COGNITIVAS e favorecer a
-                  troca e qualificação entre interessados nesta abordagem
-                  terapêutica em nosso estado.
+                  Além de ter como objetivo a divulgação das psicoterapias
+                  cognitivas, a ATC tem como propósito o favorecimento, a troca
+                  e a qualificação entre interessados nesta abordagem
+                  terapêutica em nosso Estado. O associado tem a oportunidade de
+                  se inserir em um grupo com profissionais da mesma área
+                  possibilitando constante atualização e troca de informações.
                 </li>
                 <br />
                 <li>
@@ -112,7 +119,11 @@ export function About() {
                 </li>
               </Ul>
             </Div3>
-            <Button text="Saiba mais" />
+            <Scroll to="team">
+              <Button>
+                <a href="">Saiba mais</a>
+              </Button>
+            </Scroll>
           </Box>
         </Container>
       </ContainerSection>

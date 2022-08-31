@@ -36,7 +36,7 @@ export const Container = styled.div`
   }
 `;
 
-export const LogoA = styled.a`
+export const LogoA = styled(LinkR)`
   width: 250px;
   height: 71px;
   display: flex;

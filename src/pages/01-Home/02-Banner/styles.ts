@@ -62,7 +62,7 @@ export const DivText = styled.div`
   margin-right: 1.5rem;
   text-align: center;
 
-  h2 {
+  h1 {
     font: 700 var(--title-font-size) var(--title-font);
     color: white;
     -webkit-font-smoothing: auto;
@@ -83,13 +83,12 @@ export const DivText = styled.div`
 
   @media (min-width: 992px) {
     
-
     span {
     color: var(--att-color);
   }
   
 
-    h2 {
+    h1 {
       color: var(--title-color);
     }
     order: 0;

@@ -66,7 +66,8 @@ export function CardMember({
       )}
       <MemberInfos>
         <h4>{name}</h4>
-        <span>{title}</span>
+        <p>{title}</p>
+        <span></span>
         <p>{description}</p>
 
         {city && <p>Cidade: {city} </p>}

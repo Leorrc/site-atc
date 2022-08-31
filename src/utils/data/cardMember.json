@@ -1,12 +1,12 @@
 [
   {
-    "imgUrl": "team/t1.jpg",
+    "imgUrl": "team/t1.svg",
     "name": "Juliana Vieira Almeida Silva ",
     "title": "Presidente",
     "city": "Itajaí-SC",
     "phone": "(47) 9 9969-1966",
     "email": "julianapsy@hotmail.com.br",
-    "description": "(CRP 12/03297)",
+    "description": "(CRP 12/03297)", 
     "socialList": [
       {
         "network": "facebook",
@@ -17,102 +17,66 @@
         "link": "https://www.instagram.com/julianavieira03/"
       },
       {
-        "network": "twitter",
-        "link": "#"
+        "network": "doctor",
+        "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
       },
       {
         "network": "linkedin",
-        "link": "#"
+        "link": "https://www.linkedin.com/in/juliana-vieira-almeida-silva-71a65465/?originalSubdomain=br"
       }
 
     ]
   },
   {
-    "imgUrl": "team/t2.jpg",
-    "name": "Fábia Farina ",
+    "imgUrl": "team/t2.svg",
+    "name": "Fábia Susanne Farina",
     "title": "Vice Presidente",
     "description": "(CRP 12/01176)",
-    "city": "Itajaí-SC",
+    "city": "Concórdia-SC",
     "phone": "(49) 9 9989-2409",
     "email": "fabiafarina1107@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
+        "link": "https://www.instagram.com/fabiafarina08/"
       }
 
     ]
   },
   {
-    "imgUrl": "team/t3.jpg",
-    "name": "Júlio Pachalski ",
+    "imgUrl": "team/t3.svg",
+    "name": "Júlio Rodrigues Pachalski",
     "title": "1° Secretário",
     "description": "(CRP 07/19778)",
-    "city": "Itajaí-SC",
+    "city": "Itapema-SC",
     "phone": "(51) 9 8595-9088",
     "email": "jpachalski@hotmail.com",
     "socialList": [
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
       }
 
     ]
   },
   {
-    "imgUrl": "team/t4.jpg",
-    "name": "Rafaela Dias Matavelli Faleiro",
+    "imgUrl": "team/t4.svg",
+    "name": "Rafaela Matavelli",
     "title": "2° Secretária",
     "description": "(CRP 12/19707)",
-    "city": "Itajaí-SC",
+    "city": "00000-SC",
     "phone": "(48) 9 9665-4863",
     "email": "rafaela.d.matavelli@gmail.com ",
     "socialList": [
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
       }
 
     ]
   },
   {
-    "imgUrl": "team/t5.jpg",
+    "imgUrl": "team/t5.svg",
     "name": "Maria Verônica Zink",
     "title": "1° Tesoureira",
     "description": "(CRP 12/16758)",
@@ -144,91 +108,52 @@
     ]
   },
   {
-    "imgUrl": "team/t6.jpg",
+    "imgUrl": "team/t6.svg",
     "name": "Anna Júlia Reis",
     "title": "2° Tesoureira",
     "description": "(CRP 12/17231)",
     "city": "Itajaí-SC",
     "phone": "(47) 9 9625-5944",
-    "email": "annajreis-@hotmail.com",
+    "email": "psi.annajulia@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
+        "link": "https://www.instagram.com/sobrepsicoterapia/"
       }
-
     ]
   },
   {
-    "imgUrl": "team/t7.jpg",
+    "imgUrl": "team/t7.svg",
     "name": "Adriana Mussi Lenzi Maia",
     "title": "Conselheiro Fiscal",
-    "description": "(CRP 12/17231)",
-    "city": "Itajaí-SC",
-    "phone": "(00) 0 0000-0000",
-    "email": "AdrianaMussi@email.com",
+    "description": "(CRP 12/0163)", 
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9962-8239",
+    "email": "adrianalenzi.maia@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
+        "link": "https://www.instagram.com/adrianamlmaia/"
       }
-
     ]
   },
   {
-    "imgUrl": "team/t8.jpg",
+    "imgUrl": "team/t8.svg",
     "name": "Gabriela Oltramari",
     "title": "Conselheiro Fiscal",
     "description": "(CRP 12/01097)",
     "city": "Florianópolis-SC",
-    "phone": "(00) 0 0000-0000",
-    "email": "GabrielaOltramari@email.com",
+    "phone": "(48) 9 9911-6995",
+    "email": "gabi.oltramari@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
-        "link": "#"
+        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
       }
-
     ]
   },
   {
-    "imgUrl": "team/t10.jpg",
+    "imgUrl": "team/t9.svg",
     "name": "Grazielle Zwielewski",
     "title": "Suplente Conselheiro Fiscal",
     "description": "(CRP 12/07596)",
@@ -238,18 +163,6 @@
     "socialList": [
       {
         "network": "facebook",
-        "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      },
-      {
-        "network": "twitter",
-        "link": "#"
-      },
-      {
-        "network": "linkedin",
         "link": "#"
       }
 

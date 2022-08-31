@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import banner from '../../../images/full/fundoaffi.svg'
+import banner from '../../../images/full/affi.svg'
 
 export const SectionBg = styled.section`
   padding: 6rem 0;

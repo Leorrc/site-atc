@@ -15,9 +15,11 @@ export const Container = styled.div`
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 
-
+  span {
+    color: var(--att-color);
+  }
   @media (min-width: 992px) {
-    max-width: 1200px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;

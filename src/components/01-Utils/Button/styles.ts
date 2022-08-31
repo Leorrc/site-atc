@@ -9,14 +9,18 @@ export const ButtonComponent = styled.button<ButtonProps>`
   width: ${({ fullWidth }) => (fullWidth ? "100%" : pixelToRem(200))};
   height: ${pixelToRem(60)};
   border: none;
-  border-radius: ${pixelToRem(6)};
+  border-radius: ${pixelToRem(9)};
   color: white;
   font: var(--text-3);
   font-weight: 700;
   transition: background 0.3s;
+
+  a {
+    color: white;
+  }
   
   &:hover {
     cursor: pointer;
-    background: var(--att-color);
+    background: #23d9c7;
   }
 `;
