@@ -2,7 +2,8 @@ import {
   FaQuestion,
   FaCalendarCheck,
   FaChartLine,
-  FaChevronRight
+  FaChevronRight,
+  FaExternalLinkAlt
 } from 'react-icons/fa'
 
 import {
@@ -11,11 +12,10 @@ import {
   Box,
   Div1,
   Div2,
-  Div3,
   Title,
   TitleIcon,
-  Ul,
-  Scroll
+  Scroll,
+  TitleIcon2
 } from './styles'
 
 import { Divider2 } from '../../../components/01-Utils/Dividers/styles'
@@ -43,7 +43,7 @@ export function About() {
                 </i>
                 <h3>QUEM SOMOS</h3>
               </TitleIcon>
-              <Ul>
+              <ul>
                 <li>
                   <span>
                     <FaChevronRight />
@@ -54,17 +54,17 @@ export function About() {
                   prática das diferentes abordagens das Terapias Cognitivas e
                   Contextuais no estado de Santa Catarina.
                 </li>
-              </Ul>
+              </ul>
             </Div1>
             <Divider2 />
             <Div2>
-              <TitleIcon>
+              <TitleIcon2>
                 <i>
                   <FaCalendarCheck />
                 </i>
                 <h3>O QUE FAZEMOS</h3>
-              </TitleIcon>
-              <Ul>
+              </TitleIcon2>
+              <ul>
                 <li>
                   <span>
                     <FaChevronRight />
@@ -76,7 +76,7 @@ export function About() {
                   se inserir em um grupo com profissionais da mesma área
                   possibilitando constante atualização e troca de informações.
                 </li>
-                <br />
+
                 <li>
                   <span>
                     <FaChevronRight />
@@ -84,44 +84,42 @@ export function About() {
                   Para executarmos nossos projetos, é importante divulgar este
                   site e estimular a participação nas nossas programações.
                 </li>
-              </Ul>
+              </ul>
             </Div2>
             <Divider2 />
-            <Div3>
+            <Div2>
               <TitleIcon>
                 <i>
                   <FaChartLine />
                 </i>
                 <h3>POR ISSO </h3>
               </TitleIcon>
-              <Ul>
+              <ul>
                 <li>
                   <span>
                     <FaChevronRight />
                   </span>
-                  Portanto, contamos com a colaboração de você, interessado nas
-                  Psicoterapias Cognitivas.
+                  Sobre os nossos projetos, você pode acompanhar as programações
+                  diretamente por este site ou pelo nosso canal do instagram{' '}
+                  <a href="https://www.instagram.com/atc_sc/" target="blank">
+                    @atc_sc
+                  </a>{' '}
+                  <FaExternalLinkAlt />
                 </li>
-                <br />
+
                 <li>
                   <span>
                     <FaChevronRight />
                   </span>
-                  Gostaríamos que este site seja utilizado por todos.
+                  Convidamos você a participar com artigos, trocas de
+                  experiências e demais interações como associado da ATC- SC.
                 </li>
-                <br />
-                <li>
-                  <span>
-                    <FaChevronRight />
-                  </span>
-                  Convidamos você a participar com artigos, troca de
-                  experiências, contato conosco e como Associado da ATC-SC.
-                </li>
-              </Ul>
-            </Div3>
+              </ul>
+            </Div2>
+            <Divider2 />
             <Scroll to="team">
               <Button>
-                <a href="">Saiba mais</a>
+                <a>Saiba mais</a>
               </Button>
             </Scroll>
           </Box>

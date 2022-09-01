@@ -4,6 +4,8 @@ import { Link as LinkR } from 'react-router-dom';
 import bgemail from '../../images/full/pontefooter.svg'
 
 export const Footer1 = styled.footer`
+  width: 100%;
+
 
 `;
 
@@ -96,18 +98,19 @@ export const Email = styled.form`
 
 export const SectionInfo = styled.section`
   padding: 4rem 0;
-  
+  background-color: var(--base-color-second);
+
   span {
     color: var(--att-color);
   }
 
   p {
     text-align: center;
-    color: var(--title-color);
+    color: var(--text-color-light);
   }
-  
-  @media (min-width: 576px) {
 
+  @media (min-width: 576px) {
+  padding: 4rem 4rem;
 }
 `;
 
@@ -204,7 +207,8 @@ export const Link = styled(LinkR)`
 
 export const Socials = styled.div`
   display: grid;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  
   font: 600 1.375rem ;
   font-family: var(--title-font);
   font-style: normal;
@@ -227,36 +231,18 @@ export const Socials = styled.div`
     bottom: 0;
     left: 0;
   }
-}
-  svg {
-  display: inline-block;
-  margin-top: 1rem;
-  font-size: 2rem;
-  color: var(--att-color);
-}
-  
-@media (min-width: 576px) {
-
-
-  h4 {
-    justify-content: center;
-    position: relative;
-
-    :after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 148px;
-    height: 2px;
-    background: var(--att-color);
-    
   }
-}
-}
+
+  
 `;
 
 export const Social = styled.div`
-
-
-
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  svg {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--att-color);
+}
 `;

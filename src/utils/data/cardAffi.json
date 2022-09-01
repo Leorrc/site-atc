@@ -1,35 +1,49 @@
 [
   {
-    "name": "Anna Julia Reis",
+    "name": "Adriana Mussi Lenzi Maia",
+    "description": "Psicológa (CRP 12/0163)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9962-8239",
+    "email": "adrianalenzi.maia@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/adrianamlmaia/"
+      }
+
+    ]
+  },
+  {
+    "name": "Anna Júlia Reis",
     "description": "Psicológa (CRP 12/17231)",
     "city": "Itajaí-SC",
     "phone": "(47) 9 9625-5944",
-    "email": "annajreis-@hotmail.com",
+    "email": "psi.annajulia@gmail.com",
     "socialList": [
       {
-        "network": "doctor",
-        "link": "https://www.doctoralia.com.br/anna-julia-reis/psicologo/itajai"
+        "network": "instagram",
+        "link": "https://www.instagram.com/sobrepsicoterapia/"
       }
 
     ]
   },
   {
     "name": "Aroldo Manoel Vieira",
-    "description": "Psicológo (CRP 22/22488 **(e o CRP 12?))",
+    "description": "Psicológo (CRP 12/22488)",
     "city": "Itajaí-SC",
     "phone": "(47) 9 9161-8877",
     "email": "aroldovieira.m@gmail.com",
     "socialList": [
       {
-        "network": "linkedin",
-        "link": "https://www.linkedin.com/in/aroldo-manoel-vieira-339b8a46/?originalSubdomain=br"
+        "network": "instagram",
+        "link": "https://www.instagram.com/aroldovieira.psico/"
       }
 
     ]
   },
   {
     "name": "Catarina Costa Marques",
-    "description": "Psicológa (CRP 12/08067)",
+    "description": "Psicológa (CRM/SC: 6742 / CRP 12/08067)",
     "city": "Florianópolis-SC",
     "email": "catarina.mcm@gmail.com",
     "phone": "(48) 9 8804-1309",
@@ -55,7 +69,7 @@
     ]
   },
   {
-    "name": "Daniela O. Pereira Medeiros",
+    "name": "Daniella de Oliveira Pereira",
     "description": "Psicológa (CRP 12/03280)",
     "city": "Florianópolis-SC",
     "phone": "(48) 9 8407-0411",
@@ -64,44 +78,19 @@
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
       }
-
-    ]
-  },
-  {
-    "name": "Dayana de Menezes Abrahim",
-    "description": "Psicológa (05/60247)",
-    "phone": "(21) 9 8271-2112",
-    "email": "daymenezes@gmail.com",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      }
-
     ]
   },
   {
     "name": "Edna Lopes Batista Bento",
     "description": "Psicológa CRP 12/17492)",
+    "city": "Gov Celso Ramos-SC",
     "phone": "(48) 9 9189-3131",
     "email": "ednalopes_tj@hotmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/ednabento_psi/"
       }
 
     ]
@@ -109,16 +98,27 @@
   {
     "name": "Edson Rodrigo da Costa",
     "description": "Psicológo (CRP 12/22158)",
+    "city": "Itajaí-SC",
     "phone": "(41) 9 9816-4395",
     "email": "psiedsoncosta@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
+        "network": "instagram",
+        "link": "https://www.instagram.com/psi.edsoncosta/"
+      }
+
+    ]
+  },
+  {
+    "name": "Emanuella Melina da Silva Nicolazzi",
+    "description": "Psicológo (CRP 12/22158)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9625-9364",
+    "email": "emanuellamelina@gmail.com",
+    "socialList": [
       {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/psicoemanuellanicolazzi/"
       }
 
     ]
@@ -126,34 +126,13 @@
   {
     "name": "Fábia Susanne Farina",
     "description": "Psicológa (CRP 12/01176)",
+    "city": "Concórdia-SC",
     "phone": "(49) 9 9989-2409",
     "email": "fabiafarina1107@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
-      }
-
-    ]
-  },
-  {
-    "name": "Fabiane Braun Burger ",
-    "description": "Psicológa (CRP 12/07183)",
-    "phone": "(48) 9 9905-0708",
-    "city": "Florianópolis - SC",
-    "email": "fabianebraunburger@gmail.com",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/fabiafarina08/"
       }
 
     ]
@@ -161,16 +140,13 @@
   {
     "name": "Fabiane Silveira Martins",
     "description": "Psicológa (CRP 12/02001)",
+    "city": "Florianópolis-SC",
     "phone": "(48) 9 9101-1752",
     "email": "fabiane.clinica@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/dra.fabianemartinspsi/"
       }
 
     ]
@@ -178,18 +154,27 @@
   {
     "name": "Fabíola Garcia da Silva Merisio ",
     "description": "Psicológa (CRP 12/04334)",
+    "city": "São José-SC",
     "phone": "(48) 9 9156-0307",
     "email": "fabiolamerisio07@gmail.com ",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
+        "network": "instagram",
+        "link": "https://www.instagram.com/psicologafabiolamerisio/"
+      }
+    ]
+  },
+  {
+    "name": "Gabriela Oltramari",
+    "description": "Psicológa (CRP CRP 12/01097)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9911-6995",
+    "email": "gabi.oltramari@gmail.com",
+    "socialList": [
       {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
       }
-
     ]
   },
   {
@@ -201,29 +186,20 @@
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
       }
-
     ]
   },
   {
     "name": "Josiane Albanas",
     "description": "Psicológa (CRP 12/06102)",
+    "city":"São José-SC",
     "phone": "(48) 9 9915-3429",
     "email": "josialbanas@gmail.com",
     "socialList": [
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
       }
-
     ]
   },
   {
@@ -249,41 +225,45 @@
         "network":"doctor",
         "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
       }
-
     ]
   },
   {
     "name": "Júlio Rodrigues Pachalski",
-    "description": "Psicológo (CRP 07/19778 ** (e o CRP 12?))",
+    "description": "Psicológo (CRP 07/19778)",
+    "city": "Itapema-SC",
     "phone": "(51) 9 8595-9088",
     "email": "jpachalski@hotmail.com",
     "socialList": [
       {
         "network": "facebook",
         "link": "#"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Maria Claudia Hoeschl Gonçalves Gomes",
+    "description": "Psicológa (CRP 12/1005)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9983-2830",
+    "email": "mclaudiahg@gmail.com",
+    "socialList": [
       {
-        "network": "instagram",
+        "network": "facebook",
         "link": "#"
       }
-
     ]
   },
   {
     "name": "Maria Solange de Souza Pereira",
     "description": "Psicológa (CRP 12/00962)",
+    "city": "Joinville-SC",
     "phone": "(47) 9 9994-0040",
     "email": "solygg@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
         "network": "instagram",
-        "link": "#"
+        "link": "https://www.instagram.com/msolangepsicologa/"
       }
-
     ]
   },
   {
@@ -313,42 +293,19 @@
         "network": "site",
         "link": "https://psicologamariaveronica.com.br/"
       }
-
     ]
   },
   {
     "name": "Rafaela Dias Matavelli Faleiro",
     "description": "Psicológa (CRP 12/19707)",
-    "city": "Itajaí-SC",
+    "city": "Florianópolis-SC",
     "phone": "(48) 9 9665-4863",
     "email": "rafaela.d.matavelli@gmail.com",
     "socialList": [
       {
         "network": "facebook",
         "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
       }
-
-    ]
-  },
-  {
-    "name": "Silvia Sant'Anna Braga dos Santos ",
-    "description": "Psicológa (CRP 12/00853)",
-    "phone": "(47) 9 9911-9325",
-    "email": "silviasbs@gmail.com",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      },
-      {
-        "network": "instagram",
-        "link": "#"
-      }
-
     ]
   }
 ]

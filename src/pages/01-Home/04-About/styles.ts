@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkS} from 'react-scroll';
 
-import banner from '../../../images/full/about2.svg'
+import banner from '../../../images/full/about5.svg'
 import mobile from '../../../images/full/mobile.svg'
 
 
@@ -15,20 +15,18 @@ export const ContainerSection = styled.section`
   width: 100%;
   height: 100%; 
 
+    @media (min-width: 992px) {
+    padding: 7rem 0;
+    display: grid;
 
-  @media (min-width: 992px) {
-  padding: 7rem 0;
-  display: grid;
-
-  background-image: url(${banner});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center ;
-  width: 100%;
-  height: 100%; 
-  }
+    background-image: url(${banner});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 100%;
+    height: 100%; 
+    }
 `;
-
 
 export const Container = styled.div`
   display: grid;
@@ -38,10 +36,10 @@ export const Container = styled.div`
   text-align: center;
 
   @media (min-width: 992px) {
-    max-width: 800px;
+    max-width: 992px;
     margin-left: auto;
     margin-right: auto;
-    margin: 0 auto;
+
   }
 `;
 
@@ -51,15 +49,15 @@ export const Box = styled.div`
   box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
   border-bottom: 0.25rem solid var(--att-color);
   border-radius: 0.25rem 0.25rem 0 0;
-  background: #FAFAFA;
+  background-color: rgba(250, 250, 250, 0.96);
 
   span {
     color: var(--att-color);
   }
 
   li {
-    gap: 1rem;
-    align-items: center;
+    margin-bottom: 1rem;
+
   }
 
   button {
@@ -67,19 +65,13 @@ export const Box = styled.div`
   }
 
   @media (min-width: 992px) {
-
+  
+    li {
+      font: var(--text-2);
+    }
 
 
   }
-`;
-
-export const Ul = styled.ul`
-  text-align: left;
-
-@media (min-width: 992px) {
-  gap: 1rem;
-  
-}
 `;
 
 export const Title = styled.div`
@@ -106,7 +98,7 @@ export const Title = styled.div`
     font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
-    margin-bottom: 0.75rem;
+    
     }
 
     h4 {
@@ -122,72 +114,95 @@ export const Title = styled.div`
 `;
 
 export const TitleIcon = styled.div`
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
 
   i {
-  display: block;
   font-size: 3rem;
   color: var(--att-color);
+  
   }
   
   h3 {
     color: var(--att-color);
+    display: flex;
+
   }
+
 
 @media (min-width: 992px) {
-  margin-bottom: 1rem;
 
-  i {
-  color: var(--att-color);
-  
-  }
-  
-  h5 {
-    color: var(--title-color);
-  }
+
 }
 `;
 
-
 export const Div1 = styled.div`
   display: grid;
-  margin: 1rem 0;
-  text-align: center;
-
+  text-align: left;
+  padding: 1rem 0;
 
   @media (min-width: 992px) {
-  display: inline-flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.45rem;
+  text-align: left;
 
-  
   }
 `;
 
 export const Div2 = styled.div`
   display: grid;
-  margin: 1rem 0;
-  text-align: center;
+  padding: 1rem 0;
+  text-align: left;
+
+  a {
+    color: var(--att-color);
+  }
+
+  svg {
+    color: var(--att-color);
+  }
 
   @media (min-width: 992px) {
-  display: inline-flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1.45rem;
+  text-align: left;
 
+  }
+`;
 
+export const TitleIcon2 = styled.div`
+  padding: 1rem;
+  margin: auto auto;
+  text-align: center;
+
+  i {
+  font-size: 3rem;
+  color: var(--att-color);
   
   }
-`;
+  
+  h3 {
+    color: var(--att-color);
+    display: flex;
 
-export const Div3 = styled.div`
-  display: grid;
-  margin: 1rem 0;
-  text-align: center;
-
-  @media (min-width: 992px) {
-  display: inline-flex;
-  gap: 12px;
   }
+
+
+@media (min-width: 992px) {
+
+
+}
 `;
+
+
+
 
 export const Scroll = styled(LinkS)`
-  
+  button {
+    margin-top: 2rem;
+  }
 `;
 

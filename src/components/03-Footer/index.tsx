@@ -12,7 +12,7 @@ import {
   Socials
 } from './styles'
 
-import logo from '../../images/full/lh.svg'
+import logo from '../../images/full/logo2.svg'
 
 import {
   AiFillTwitterCircle,

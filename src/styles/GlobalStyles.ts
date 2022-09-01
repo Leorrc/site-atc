@@ -40,7 +40,7 @@ body {
   /* --hue: 174; */
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
+  --base-color-second: hsl(var(--hue) 100% 96% 1);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
