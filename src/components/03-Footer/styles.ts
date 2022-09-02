@@ -106,7 +106,7 @@ export const SectionInfo = styled.section`
 
   p {
     text-align: center;
-    color: var(--text-color-light);
+    color: var(--text-color);
   }
 
   @media (min-width: 576px) {
@@ -121,12 +121,12 @@ export const Container2 = styled.div`
 
   img {
     margin-bottom: 2rem;
-    width: auto;
+    
   }
   
 
 
-  @media (min-width: 576px) {
+  @media (min-width: 832px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
@@ -134,7 +134,7 @@ export const Container2 = styled.div`
     margin-right: auto;
 
     img {
-      margin: 0 auto;
+      width: auto;
     }
 
   }
@@ -213,6 +213,10 @@ export const Socials = styled.div`
   font-family: var(--title-font);
   font-style: normal;
   font-weight: 600;
+
+  p {
+    font: var(--font-mobile-text-1);
+  }
 
   h4 {
     display: inline-block;

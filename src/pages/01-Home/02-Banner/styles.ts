@@ -17,12 +17,6 @@ export const ContainerSection = styled.section`
     padding: calc(10rem + var(--header-height)) 0;
     background: var(--body-color);
 
-    /* background-image: url(${banner});
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center ;
-    width: 100%;
-    height: 100%; */
     h2 {
     color: white;
   }

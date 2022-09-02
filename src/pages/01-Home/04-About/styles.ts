@@ -56,8 +56,8 @@ export const Box = styled.div`
   }
 
   li {
-    margin-bottom: 1rem;
-
+    margin-bottom: 0.5rem;
+    
   }
 
   button {
@@ -65,9 +65,12 @@ export const Box = styled.div`
   }
 
   @media (min-width: 992px) {
+    padding: 0 1.875rem 1rem;
+
   
     li {
       font: var(--text-2);
+      
     }
 
 
@@ -81,30 +84,31 @@ export const Title = styled.div`
     font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
+    position: relative;
 }
 
   h4 {
     font-size: 1rem;
     color: var(--title-color);
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
   span {
     color: var(--att-color);
 }
 
   @media (min-width: 992px) {
+    padding: 0.5rem;
     
     h2 {
     font: 700 var(--title-font-size) var(--title-font);
     color: var(--title-color);
     -webkit-font-smoothing: auto;
-    
     }
 
     h4 {
     font-size: 1.25rem;
     color: var(--title-color);
-    margin-bottom: 2rem;
+    margin: 0;
     }
 
     span {
@@ -142,11 +146,25 @@ export const Div1 = styled.div`
   text-align: left;
   padding: 1rem 0;
 
+  a {
+    color: var(--att-color);
+  }
+
+  svg {
+    color: var(--att-color);
+  }
+
   @media (min-width: 992px) {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  padding: 0;
   gap: 1.45rem;
-  text-align: left;
+  
+  ul {
+    
+    padding: 0.5rem 0;
+    text-align: justify;
+  }
 
   }
 `;
@@ -167,8 +185,15 @@ export const Div2 = styled.div`
   @media (min-width: 992px) {
   display: grid;
   grid-template-columns: 1fr 4fr;
+  padding: 0;
   gap: 1.45rem;
   text-align: left;
+
+  ul {
+    padding-top: 0.313rem;
+    margin: auto;
+    text-align: justify;
+  }
 
   }
 `;
@@ -191,18 +216,26 @@ export const TitleIcon2 = styled.div`
   }
 
 
-@media (min-width: 992px) {
+  @media (min-width: 992px) {
 
 
-}
+  }
 `;
 
 
 
 
 export const Scroll = styled(LinkS)`
+  
   button {
-    margin-top: 2rem;
+    margin-top: 1.875rem;
   }
+
+  @media (min-width: 992px) {
+  button {
+    margin-top: 1rem;
+  }
+
+}
 `;
 

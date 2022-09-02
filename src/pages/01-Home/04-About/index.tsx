@@ -87,7 +87,7 @@ export function About() {
               </ul>
             </Div2>
             <Divider2 />
-            <Div2>
+            <Div1>
               <TitleIcon>
                 <i>
                   <FaChartLine />
@@ -115,7 +115,7 @@ export function About() {
                   experiências e demais interações como associado da ATC- SC.
                 </li>
               </ul>
-            </Div2>
+            </Div1>
             <Divider2 />
             <Scroll to="team">
               <Button>
