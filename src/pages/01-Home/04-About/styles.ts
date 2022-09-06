@@ -3,6 +3,7 @@ import { Link as LinkS} from 'react-scroll';
 
 import banner from '../../../images/full/about5.svg'
 import mobile from '../../../images/full/mobile.svg'
+import { device } from "../../../utils/responsive";
 
 
 export const ContainerSection = styled.section`
@@ -35,11 +36,10 @@ export const Container = styled.div`
   margin-right: 1.5rem;
   text-align: center;
 
-  @media (min-width: 992px) {
+  @media ${device.laptopS} {
     max-width: 992px;
     margin-left: auto;
     margin-right: auto;
-
   }
 `;
 

@@ -56,7 +56,7 @@ export const TitleEmail = styled.div`
   }
 `;
 
-export const Email = styled.form`
+export const Email = styled.label`
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;

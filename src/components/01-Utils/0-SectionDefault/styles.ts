@@ -22,6 +22,10 @@ export const SectionContainer = styled.section<SectionContainerProps>`
   max-width: ${(props) => props.maxWidth} ;
   text-align: ${(props) => props.textAlign} ;
   background-color: ${(props) => props.backgroundColor} ;
+
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto;
 `;
 
 

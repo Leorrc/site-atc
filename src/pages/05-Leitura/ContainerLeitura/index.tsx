@@ -1,5 +1,11 @@
 import { Book } from '../../../components/01-Utils/Books'
-import { Section, Container, ContainerBook, ContainerLink } from './styles'
+import {
+  Section,
+  Container,
+  ContainerBook,
+  ContainerLink,
+  SectionBg
+} from './styles'
 
 import cardBook from '../../../utils/data/cardBook.json'
 import cardLink from '../../../utils/data/cardLink.json'
@@ -9,9 +15,12 @@ import { Sites } from '../../../components/01-Utils/Sites'
 export function ContainerLeitura() {
   return (
     <>
+      <SectionBg />
       <Section>
-        <TitleCenter title="LEITURAS SUGERIDAS" />
         <Container>
+          <TitleCenter title="LEITURAS SUGERIDAS">
+            <p>Livros surgeridos</p>
+          </TitleCenter>
           <ContainerBook>
             {cardBook.map(book => (
               <Book content={book.content} author={book.author} />
