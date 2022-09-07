@@ -7,7 +7,6 @@ export const Container = styled.div`
   border-radius: 0.313rem;
   background: #fff;
   max-width: 100%;
-
 `;
 
 export const Name = styled.div`

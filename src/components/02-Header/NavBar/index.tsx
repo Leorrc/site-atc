@@ -11,8 +11,8 @@ import {
   MobileIcon,
   Item,
   ItemLink,
-  Container,
-  LogoA
+  LogoA,
+  Wrapper
 } from './styles'
 
 import logo from '../../../images/full/lh.svg'
@@ -31,33 +31,39 @@ export function NavBar({ toggle1 }: Props) {
   return (
     <>
       <ContainerHeader>
-        <Container>
+        <Nav>
           <LogoA to="/">
             <img src={logo} />
           </LogoA>
-          <Nav>
-            <MobileIcon onClick={toggle1}>
-              <FaBars />
-            </MobileIcon>
-            <Menu>
-              <Item>
-                <ItemLink to="/">Home</ItemLink>
-              </Item>
-              <Item>
-                <ItemLink to="/events">Eventos</ItemLink>
-              </Item>
-              <Item>
-                <ItemLink to="/affiliates">Encontre um terapeuta</ItemLink>
-              </Item>
-              <Item>
-                <ItemLink to="/parceiros">Parceiros da ATC</ItemLink>
-              </Item>
-              <Item>
-                <ItemLink to="/leitura">Materiais</ItemLink>
-              </Item>
-            </Menu>
-          </Nav>
-        </Container>
+          <MobileIcon onClick={toggle1}>
+            <FaBars />
+          </MobileIcon>
+          <Menu>
+            <Item>
+              <ItemLink to="/">Home</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink to="/events">Eventos</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink to="/affiliates">Encontre um terapeuta</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink to="/parceiros">Parceiros da ATC</ItemLink>
+            </Item>
+            <Item>
+              <ItemLink to="/leitura">Materiais</ItemLink>
+            </Item>
+          </Menu>
+          <Wrapper>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
+              target="blank"
+            >
+              <span>Associar-se</span>
+            </a>
+          </Wrapper>
+        </Nav>
       </ContainerHeader>
     </>
   )

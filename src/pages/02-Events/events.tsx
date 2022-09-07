@@ -1,10 +1,9 @@
-import React from 'react'
-import { SectionDefault } from '../../components/01-Utils/0-SectionDefault'
+import { ContainerEvents } from './ContainerEvents'
 
 export function Events() {
   return (
     <>
-      <SectionDefault></SectionDefault>
+      <ContainerEvents />
     </>
   )
 }

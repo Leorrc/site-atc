@@ -5,12 +5,10 @@ import bgemail from '../../images/full/pontefooter.svg'
 
 export const Footer1 = styled.footer`
   width: 100%;
-
-
 `;
 
 export const SectionEmail = styled.section`
-  padding: var(--header-height) 0;
+  padding: 3.125rem 0;
 
   background-image: url(${bgemail});
   background-size: cover;
@@ -20,7 +18,7 @@ export const SectionEmail = styled.section`
   height: 100%; 
 
   @media (min-width: 992px) {
-    padding: 8rem 0;
+    padding: 3.125rem 0;
     display: grid;
 }
 `;
@@ -97,7 +95,7 @@ export const Email = styled.label`
 `;
 
 export const SectionInfo = styled.section`
-  padding: 4rem 0;
+  padding: 1rem 0;
   background-color: var(--base-color-second);
 
   span {
@@ -108,10 +106,6 @@ export const SectionInfo = styled.section`
     text-align: center;
     color: var(--text-color);
   }
-
-  @media (min-width: 576px) {
-  padding: 4rem 4rem;
-}
 `;
 
 export const Container2 = styled.div`
@@ -120,11 +114,8 @@ export const Container2 = styled.div`
   margin-right: 1.5rem;
 
   img {
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem; 
   }
-  
-
 
   @media (min-width: 832px) {
     display: grid;
@@ -136,15 +127,12 @@ export const Container2 = styled.div`
     img {
       width: auto;
     }
-
   }
-
 `;
 
 export const Links = styled.div`
   display: grid;
   margin-bottom: 2rem;
-  
   font: 600 1.375rem ;
   font-family: var(--title-font);
   font-style: normal;
@@ -168,24 +156,23 @@ export const Links = styled.div`
     left: 0;
   }
   }
-
   @media (min-width: 576px) {
-  text-align: left;
+    text-align: left;
 
-  h4 {
-    justify-content: center;
-    position: relative;
+    h4 {
+      justify-content: center;
+      position: relative;
 
-    :after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 56px;
-    height: 2px;
-    background: var(--att-color);
-    bottom: 0;
+      :after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 56px;
+      height: 2px;
+      background: var(--att-color);
+      bottom: 0;
+    }
   }
-}
 }
 `;
 
@@ -208,15 +195,6 @@ export const Link = styled(LinkR)`
 export const Socials = styled.div`
   display: grid;
   margin-bottom: 2rem;
-  
-  font: 600 1.375rem ;
-  font-family: var(--title-font);
-  font-style: normal;
-  font-weight: 600;
-
-  p {
-    font: var(--font-mobile-text-1);
-  }
 
   h4 {
     display: inline-block;
@@ -237,16 +215,32 @@ export const Socials = styled.div`
   }
   }
 
-  
+  h3 {
+    position: relative;
+    margin-bottom: 1rem;
+    color: var(--title-color)  ;
+    font: 700 1.31rem var(--title-font);
+
+    :after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 2px;
+    background: var(--att-color);
+    top: -10;
+  }
+  }
 `;
 
 export const Social = styled.div`
   display: flex;
-  flex-direction: row;
+
   gap: 2rem;
+
   svg {
-  margin-bottom: 2rem;
-  font-size: 2rem;
+
+  font-size: 3rem;
   color: var(--att-color);
 }
 `;

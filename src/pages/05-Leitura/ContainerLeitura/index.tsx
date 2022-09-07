@@ -18,9 +18,7 @@ export function ContainerLeitura() {
       <SectionBg />
       <Section>
         <Container>
-          <TitleCenter title="LEITURAS SUGERIDAS">
-            <p>Livros surgeridos</p>
-          </TitleCenter>
+          <TitleCenter title="LEITURAS SUGERIDAS"></TitleCenter>
           <ContainerBook>
             {cardBook.map(book => (
               <Book content={book.content} author={book.author} />

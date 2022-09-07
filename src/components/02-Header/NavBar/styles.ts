@@ -1,67 +1,55 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS} from 'react-scroll';
-
-
+import pixelToRem from "../../../utils/pxToRem";
+import { device } from "../../../utils/responsive";
 
 export const ContainerHeader = styled.header`
-  height: var(--header-height);
-  z-index: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--body-color);
   border-bottom: 1px solid #e4e4e4;
-  transition: all .3s ease-out;
-  width: 100%;
+  margin-bottom: 2rem;
+
   position: fixed;
-
-
-  @media (min-width: 992px) {
-    
-  }
-
-`;
-
-export const Container = styled.div`
+  top: 0;
+  left: 0;
   z-index: 100;
-  align-items: center;
-  margin: 0 1.5rem;
-  width: 1120px;
-  display: flex;
-  justify-content: space-between;
+  background: var(--body-color);
+  width: 100%;
+  max-height: ${pixelToRem(72)};
 
-  @media (max-width: 992px) {
+  @media ${device.laptop} {
 
   }
-`;
-
-export const LogoA = styled(LinkR)`
-  width: 250px;
-  height: 71px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  border: none;
 `;
 
 export const Nav = styled.nav`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 
+`;
 
-  @media (max-width: 992px) {
+export const LogoA = styled(LinkR)`
+  width: auto;
+  height: 72px;
 
+  img {
+    width: auto;
+    height: 72px;
   }
 `;
 
 export const MobileIcon = styled.div`
+  color: var(--base-color);
+  font-size: 1.5rem;
+  cursor: pointer;
 
-
-color: var(--base-color);
-    font-size: 1.5rem;
-    cursor: pointer;
   svg {
     color: var(--att-color);
-
   }
   
   @media (max-width: 992px) {
@@ -82,7 +70,19 @@ color: var(--base-color);
 
 export const Menu = styled.ul`
   display: flex;
-  list-style: none;
+  gap: ${pixelToRem(29)};
+
+  a {
+    font: 400 1rem var(--body-font);
+  }
+
+  @media (max-width: 1070px) {
+    gap: ${pixelToRem(25)};
+  }
+
+  @media (max-width: 1030px) {
+    gap: ${pixelToRem(16)};
+  }
 
   @media (max-width: 992px) {
     display: none;
@@ -90,33 +90,69 @@ export const Menu = styled.ul`
 `;
 
 export const Item = styled.li`
-  height: 5rem;
-
-
+  text-align: center;
 `;
 
 export const ItemLink = styled(LinkR)`
   color: var(--text-color);
-  display: flex;
-  align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  font: 400 1rem var(--body-font);
 
   &.active {
     border-bottom: 3px solid var(--base-color-alt) ;
   }
-
   &:hover {
     color: var(--att-color);
     transition: 0.2s ease-in-out;
   }
-
 `;
 
+export const Wrapper = styled.div`
 
+  a{
+  display: block;
+  width: ${pixelToRem(150)};
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid var(--att-color);
+  border-radius: ${pixelToRem(9)};
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
 
+a span{
+  position: relative;
+  z-index: 2;
+  font: var(--text-4);
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: var(--att-color);
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+    display: none;
+  }
+
+`;
 
 

@@ -31,7 +31,7 @@ export function Footer() {
         <SectionEmail>
           <Container>
             <TitleEmail>
-              <h2>Cadastrar email</h2>
+              <h2>Cadastrar e-mail</h2>
               <p>Receba a divulgação dos Eventos da ATC-SC</p>
             </TitleEmail>
             <Email>
@@ -84,7 +84,7 @@ export function Footer() {
             </Links>
 
             <Socials>
-              <h4>Redes Sociais</h4>
+              <h3>Redes Sociais</h3>
               <Social>
                 <a
                   href="https://www.facebook.com/ATCSantaCatarina"

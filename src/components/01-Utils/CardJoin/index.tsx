@@ -24,7 +24,12 @@ export function CardJoin({ title, descriptionList, buttonText }: CardProps) {
       </ul>
       {buttonText && (
         <Button>
-          <a href="">Saiba mais</a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
+            target="_blank"
+          >
+            Associar-se
+          </a>
         </Button>
       )}
     </CardDefault>

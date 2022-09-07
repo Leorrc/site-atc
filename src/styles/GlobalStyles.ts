@@ -49,6 +49,7 @@ body {
   --blue: #37517e;
   --shape-hover: #29292e;
   --att-color: #19BAAA;
+  --att-color2: #23d9c7;
   
   /* fonts */
   --title-font-size: 1.875rem;

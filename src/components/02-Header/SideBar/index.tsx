@@ -44,8 +44,13 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarRoute onClick={toggle} to="/leitura">
               Materiais
             </SidebarRoute>
-            <SidebarScroll onClick={toggle} to="team">
-              teste
+            <SidebarScroll>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
+                target="blank"
+              >
+                Associar-se
+              </a>
             </SidebarScroll>
           </SidebarMenu>
         </SidebarWrapper>
