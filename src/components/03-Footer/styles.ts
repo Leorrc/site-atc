@@ -5,6 +5,7 @@ import bgemail from '../../images/full/pontefooter.svg'
 
 export const Footer1 = styled.footer`
   width: 100%;
+  background: #FAFAFA;
 `;
 
 export const SectionEmail = styled.section`
@@ -31,9 +32,8 @@ export const Container = styled.div`
 
 
   @media (min-width: 992px) {
-    margin: 0 auto;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 `;
 
@@ -105,6 +105,7 @@ export const SectionInfo = styled.section`
   p {
     text-align: center;
     color: var(--text-color);
+    
   }
 `;
 
@@ -112,6 +113,7 @@ export const Container2 = styled.div`
   display: grid;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+
 
   img {
     margin-bottom: 2rem; 
@@ -121,8 +123,9 @@ export const Container2 = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
 
     img {
       width: auto;
@@ -157,7 +160,7 @@ export const Links = styled.div`
   }
   }
   @media (min-width: 576px) {
-    text-align: left;
+    margin: 0 auto;
 
     h4 {
       justify-content: center;
@@ -195,6 +198,7 @@ export const Link = styled(LinkR)`
 export const Socials = styled.div`
   display: grid;
   margin-bottom: 2rem;
+  margin: 0 auto;
 
   h4 {
     display: inline-block;

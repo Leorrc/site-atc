@@ -1,3 +1,6 @@
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+
 import { FaBars } from 'react-icons/fa'
 import {
   ContainerHeader,
@@ -17,6 +20,12 @@ type Props = {
 }
 
 export function NavBar({ toggle1 }: Props) {
+  const location = useLocation()
+
+  useEffect(() => {
+    console.log(location)
+  }, [location])
+
   return (
     <>
       <ContainerHeader>

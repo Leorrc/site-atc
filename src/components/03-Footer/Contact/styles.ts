@@ -5,7 +5,8 @@ export const Background = styled.section`
   font-weight: 700;
   letter-spacing: 1.4px;
   display: flex;
-  padding: 3.125rem 0;
+  padding: 0 0 3rem 0;
+  background: #FAFAFA;
 `;
 
 export const Container1= styled.div`
@@ -174,13 +175,13 @@ export const AppFormGroupButtons = styled.div`
 export const AppFormControl = styled.div`
 
   input {
-    font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 100%;
   padding: 10px 0;
   background: none;
   border: none;
   border-bottom: 1px solid #666;
-  color: #ddd;
+  color: var(--title-color);
   font-size: 14px;
   text-transform: uppercase;
   outline: none;
