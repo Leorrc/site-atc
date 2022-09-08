@@ -21,13 +21,14 @@ import {
 } from 'react-icons/ai'
 import { Divider2 } from '../01-Utils/Dividers/styles'
 import { FaChevronRight } from 'react-icons/fa'
+import { Contact } from './Contact'
 
 export function Footer() {
   return (
     <>
       <Divider2 />
-
       <Footer1>
+        <Contact />
         <SectionEmail>
           <Container>
             <TitleEmail>

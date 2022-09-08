@@ -1,8 +1,3 @@
-import React, { useState } from 'react'
-import { Link as LinkS } from 'react-scroll'
-import { animateScroll as scroll } from 'react-scroll'
-import { useLocation } from 'react-router-dom'
-
 import { FaBars } from 'react-icons/fa'
 import {
   ContainerHeader,
@@ -22,12 +17,6 @@ type Props = {
 }
 
 export function NavBar({ toggle1 }: Props) {
-  const toggleHome = () => {
-    scroll.scrollToTop({
-      delay: 1
-    })
-  }
-
   return (
     <>
       <ContainerHeader>
@@ -58,7 +47,8 @@ export function NavBar({ toggle1 }: Props) {
           <Wrapper>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
-              target="blank"
+              target="_blank"
+              rel="noreferrer"
             >
               <span>Associar-se</span>
             </a>

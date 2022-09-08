@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import {
   CloseIcon,
   Icon,
@@ -6,8 +5,7 @@ import {
   SidebarScroll,
   SidebarMenu,
   SidebarRoute,
-  SidebarWrapper,
-  SideBtnWrap
+  SidebarWrapper
 } from './SideBarElements'
 
 type Props = {
@@ -47,7 +45,8 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarScroll>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
-                target="blank"
+                target="_blank"
+                rel="noreferrer"
               >
                 Associar-se
               </a>
