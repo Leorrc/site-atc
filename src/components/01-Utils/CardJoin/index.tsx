@@ -13,13 +13,16 @@ export function CardJoin({ title, descriptionList, buttonText }: CardProps) {
       <h3>{title}</h3>
       <ul>
         {descriptionList.map(description => (
-          <li>
-            {' '}
-            <span>
-              <FaChevronRight />
-            </span>{' '}
-            {description}
-          </li>
+          <>
+            <li>
+              {' '}
+              <span>
+                <FaChevronRight />
+              </span>{' '}
+              {description}
+            </li>
+            <br />
+          </>
         ))}
       </ul>
       {buttonText && (

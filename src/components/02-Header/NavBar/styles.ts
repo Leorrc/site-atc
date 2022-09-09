@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS} from 'react-scroll';
+import { Link as LinkS } from 'react-scroll';
+
 import pixelToRem from "../../../utils/pxToRem";
 import { device } from "../../../utils/responsive";
 
@@ -155,4 +156,18 @@ a:hover:after{
 
 `;
 
+export const ItemScroll = styled(LinkS)`
+  color: var(--text-color);
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid var(--base-color-alt) ;
+  }
+  &:hover {
+    color: var(--att-color);
+    transition: 0.2s ease-in-out;
+  }
+`;
 

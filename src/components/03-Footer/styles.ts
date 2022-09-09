@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll'
 
 import bgemail from '../../images/full/pontefooter.svg'
 
@@ -195,6 +196,22 @@ export const Link = styled(LinkR)`
   }
 `;
 
+export const Scroll = styled(LinkS)`
+  text-decoration: none;
+  color: var(--title-color);
+  margin-bottom: 0.75rem;
+
+  &:hover {
+    color: var(--att-color);
+    transition: color 0.3s ease-in-out;
+  }
+
+  @media (min-width: 576px) {
+    text-align: left;
+
+  }
+`;
+
 export const Socials = styled.div`
   display: grid;
   margin-bottom: 2rem;
@@ -222,6 +239,8 @@ export const Socials = styled.div`
   h3 {
     position: relative;
     margin-bottom: 1rem;
+
+    
     color: var(--title-color)  ;
     font: 700 1.31rem var(--title-font);
 

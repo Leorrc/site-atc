@@ -22,7 +22,7 @@ export const CardDefault = styled.div`
   }
 
   li {
-    margin-bottom: 1rem;
+    
   }
 
   button {

@@ -76,7 +76,7 @@ export function About() {
                   se inserir em um grupo com profissionais da mesma área
                   possibilitando constante atualização e troca de informações.
                 </li>
-
+                <br />
                 <li>
                   <span>
                     <FaChevronRight />
@@ -106,7 +106,7 @@ export function About() {
                   </a>{' '}
                   <FaExternalLinkAlt />
                 </li>
-
+                <br />
                 <li>
                   <span>
                     <FaChevronRight />

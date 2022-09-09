@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link as LinkS} from 'react-scroll';
+import { Link as LinkS } from 'react-scroll';
 
 import banner from '../../../images/full/about5.svg'
 import mobile from '../../../images/full/mobile.svg'
@@ -56,8 +56,7 @@ export const Box = styled.div`
   }
 
   li {
-    margin-bottom: 0.5rem;
-    
+    text-align: justify;
   }
 
   button {
@@ -226,7 +225,6 @@ export const TitleIcon2 = styled.div`
 
 
 export const Scroll = styled(LinkS)`
-  
   button {
     margin-top: 1.875rem;
   }
@@ -235,7 +233,6 @@ export const Scroll = styled(LinkS)`
   button {
     margin-top: 1rem;
   }
-
 }
 `;
 
