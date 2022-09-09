@@ -200,6 +200,7 @@ export const Scroll = styled(LinkS)`
   text-decoration: none;
   color: var(--title-color);
   margin-bottom: 0.75rem;
+  cursor: pointer;
 
   &:hover {
     color: var(--att-color);
