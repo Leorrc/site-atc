@@ -1,3 +1,5 @@
+import { useLocation } from 'react-router-dom'
+
 import {
   Footer1,
   Container,
@@ -9,10 +11,9 @@ import {
   Links,
   Link,
   Social,
-  Socials
+  Socials,
+  Scroll
 } from './styles'
-
-import logo from '../../images/full/logo2.svg'
 
 import {
   AiFillTwitterCircle,
@@ -23,7 +24,11 @@ import { Divider2 } from '../01-Utils/Dividers/styles'
 import { FaChevronRight } from 'react-icons/fa'
 import { Contact } from './Contact'
 
+import logo from '../../images/full/logo2.svg'
+
 export function Footer() {
+  const { pathname } = useLocation()
+
   return (
     <>
       <Divider2 />
@@ -47,22 +52,28 @@ export function Footer() {
             <img src={logo} />
             <Links>
               <h4>Links</h4>
-              <Link to="/">
-                {' '}
-                <span>
-                  <FaChevronRight />
-                </span>
-                Home
-              </Link>
+              {pathname === '/' ? (
+                <Scroll to="hometop">
+                  <span>
+                    <FaChevronRight />
+                  </span>
+                  Home
+                </Scroll>
+              ) : (
+                <Link to="/">
+                  <span>
+                    <FaChevronRight />
+                  </span>
+                  Home
+                </Link>
+              )}
               <Link to="/events">
-                {' '}
                 <span>
                   <FaChevronRight />
                 </span>
                 Eventos
               </Link>
               <Link to="/affiliates">
-                {' '}
                 <span>
                   <FaChevronRight />
                 </span>

@@ -30,6 +30,7 @@ export const TitleContainer = styled.div<TitleContainerProps>`
 
   p {
     font: var(--subtitle-font-size);
+    
   }
 
   @media ${device.tablet} {

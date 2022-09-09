@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ContainerSection = styled.section`
   padding: calc(5rem + var(--header-height)) 0;
+  
 
   @media (min-width: 992px) {
     padding: 10rem 0;
@@ -15,6 +16,10 @@ export const Container = styled.div`
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
+
+  p {
+    margin-bottom: 1rem;
+  }
 
   @media (min-width: 992px) {
     max-width: 1200px;

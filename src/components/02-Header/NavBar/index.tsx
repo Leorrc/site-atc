@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
 import { FaBars } from 'react-icons/fa'
@@ -10,7 +9,8 @@ import {
   Item,
   ItemLink,
   LogoA,
-  Wrapper
+  Wrapper,
+  ItemScroll
 } from './styles'
 
 import logo from '../../../images/full/lh.svg'
@@ -20,11 +20,7 @@ type Props = {
 }
 
 export function NavBar({ toggle1 }: Props) {
-  const location = useLocation()
-
-  useEffect(() => {
-    console.log(location)
-  }, [location])
+  const { pathname } = useLocation()
 
   return (
     <>
@@ -38,7 +34,11 @@ export function NavBar({ toggle1 }: Props) {
           </MobileIcon>
           <Menu>
             <Item>
-              <ItemLink to="/">Home</ItemLink>
+              {pathname === '/' ? (
+                <ItemScroll to="hometop">Home</ItemScroll>
+              ) : (
+                <ItemLink to="/">Home</ItemLink>
+              )}
             </Item>
             <Item>
               <ItemLink to="/events">Eventos</ItemLink>
