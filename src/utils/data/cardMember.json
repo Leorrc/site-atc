@@ -17,6 +17,10 @@
         "link": "https://www.instagram.com/julianavieira03/"
       },
       {
+        "network":"site",
+        "link": "https://www.instagram.com/ibtccinstituto/"
+      },
+      {
         "network": "doctor",
         "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
       },
@@ -64,7 +68,7 @@
     "name": "Rafaela Matavelli",
     "title": "2° Secretária",
     "description": "(CRP 12/19707)",
-    "city": "00000-SC",
+    "city": "Itajaí-SC",
     "phone": "(48) 9 9665-4863",
     "email": "rafaela.d.matavelli@gmail.com ",
     "socialList": [

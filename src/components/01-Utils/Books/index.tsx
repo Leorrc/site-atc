@@ -24,7 +24,7 @@ export function Book({ content, author }: BookProps) {
         {author && (
           <>
             <Right>
-              <FaUserTag /> <span>Autor:</span>
+              <FaUserTag /> <span>Autores:</span>
             </Right>
             {author}
           </>
