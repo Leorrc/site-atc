@@ -180,12 +180,21 @@
   {
     "name": "Graziele Zwielewski",
     "description": "Psicológa (CRP 12/07596)",
+    "city": "Florianópolis-SC",
     "phone": "(48) 9 8461-2327",
     "email": "grazizw@gmail.com",
     "socialList": [
       {
-        "network": "facebook",
-        "link": "#"
+        "network": "instagram",
+        "link": "https://www.instagram.com/grazi_muitoprazer/"
+      },
+      {
+        "network": "site",
+        "link": "https://www.instagram.com/manualdepsicoterapiaonline"
+      },
+      {
+        "network": "doctor",
+        "link": "https://www.psikcorpoemente.com/"
       }
     ]
   },
