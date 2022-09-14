@@ -9,6 +9,7 @@ import { Footer } from './components/03-Footer'
 import { Affiliates } from './pages/03-Affiliates/affiliates'
 import { Leitura } from './pages/05-Leitura/leitura'
 import ScrollToTop from './components/01-Utils/ScrollTop'
+import ScrollToTopButton from './components/01-Utils/ScrollTopButton'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/leitura" element={<Leitura />} />
       </Routes>
-
+      <ScrollToTopButton />
       <Footer />
     </Router>
   )
