@@ -17,7 +17,7 @@
         "link": "https://www.instagram.com/julianavieira03/"
       },
       {
-        "network":"site",
+        "network":"instagram",
         "link": "https://www.instagram.com/ibtccinstituto/"
       },
       {
@@ -55,22 +55,6 @@
     "city": "Itapema-SC",
     "phone": "(51) 9 8595-9088",
     "email": "jpachalski@hotmail.com",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      }
-
-    ]
-  },
-  {
-    "imgUrl": "team/t4.svg",
-    "name": "Rafaela Matavelli",
-    "title": "2° Secretária",
-    "description": "(CRP 12/19707)",
-    "city": "Itajaí-SC",
-    "phone": "(48) 9 9665-4863",
-    "email": "rafaela.d.matavelli@gmail.com ",
     "socialList": [
       {
         "network": "facebook",
@@ -157,6 +141,22 @@
     ]
   },
   {
+    "imgUrl": "team/t4.svg",
+    "name": "Rafaela Dias Matavelli Faleiro",
+    "title": "Conselheiro Fiscal",
+    "description": "(CRP 12/19707)",
+    "city": "Itajaí-SC",
+    "phone": "(48) 9 9665-4863",
+    "email": "rafaela.d.matavelli@gmail.com ",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "#"
+      }
+
+    ]
+  },
+  {
     "imgUrl": "team/t9.svg",
     "name": "Grazielle Zwielewski",
     "title": "Suplente Conselheiro Fiscal",
@@ -180,6 +180,4 @@
 
     ]
   }
-  
-
 ]

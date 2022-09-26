@@ -316,5 +316,26 @@
         "link": "#"
       }
     ]
+  },
+  {
+    "name": "Silvia Sant'Anna Braga Dos Santos",
+    "description": "Psicológa (CRP 12/00853)",
+    "city": "Itajaí-SC",
+    "phone": "(47) 9 9911-9325",
+    "email": "silviapsicologaitajai@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/silvia_braga_psico"
+      },
+      {
+        "network": "doctor",
+        "link": "https://www.doctoralia.com.br/silvia-sant-anna-braga-dos-santos"
+      },
+      {
+        "network": "site",
+        "link": "https://maps.app.goo.gl/tPJaKXmUiqoECoWr7"
+      }
+    ]
   }
 ]
