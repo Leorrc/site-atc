@@ -82,7 +82,7 @@ export function ContainerParceiros() {
               >
                 Univali
               </a>
-              <p>Desconte de 10% para associados da ATC-SC</p>
+              <p></p>
             </Infos>
           </Parceiro>
           <Divider3 />
