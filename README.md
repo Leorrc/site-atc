@@ -1,3 +1,3 @@
-<h1 align="center">
-	<img alt="Logo" src="https://imgur.com/cKnrXvg" width="200px" />
-</h1>
+[
+![descrição da imagem][(url da imagem gerado pelo serviço de hospedagem ou GitHubcKnrXvg" width="200px"](https://imgur.com/cKnrXvg) />
+](https://imgur.com/cKnrXvg)
