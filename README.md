@@ -2,16 +2,6 @@
   <img src="./src/assets/logo.png" width="250px"/>
 </div>
 
-<br />
-## 🚀 Autor
-- [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
-
-# 👨🏻‍💻 Site institucional Psicólogos
-
-- Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components
-
-<br />
-
 # 👨🏻‍💻 Site institucional Psicólogos
 
 - Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components
@@ -20,7 +10,11 @@
 <div align="center">
 	<img alt="Logo" src="./src/assets/atc.png" />
 </div>
+<br />
 
+# 🚀 Autor
+
+- [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
 <br />
 
 # 🚀 Technologies
