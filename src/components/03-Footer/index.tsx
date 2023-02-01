@@ -1,4 +1,7 @@
 import { useLocation } from 'react-router-dom'
+import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
+import emailNews from '../../utils/data/emailNews'
 
 import {
   Footer1,
@@ -29,6 +32,30 @@ import logo from '../../images/full/logo2.svg'
 export function Footer() {
   const { pathname } = useLocation()
 
+  const [name, setName] = useState<string>('')
+  const [email, setEmail] = useState('')
+
+  const sendEmail = () => {
+    const emailObj = {
+      email
+    }
+
+    emailjs
+      .send(
+        emailNews.USER_ID,
+        emailNews.TEMPLATE_ID,
+        emailObj,
+        emailNews.PUBLIC_KEY
+      )
+      .then(
+        result => {
+          setEmail('')
+        },
+        error => {
+          console.log(error.text)
+        }
+      )
+  }
   return (
     <>
       <Divider2 />
@@ -41,8 +68,15 @@ export function Footer() {
               <p>Receba a divulgação dos Eventos da ATC-SC</p>
             </TitleEmail>
             <Email>
-              <input type="email" name="Digite o email" id="" />
-              <input type="submit" value="Cadastrar" />
+              <input
+                onChange={e => {
+                  setEmail(e.target.value)
+                }}
+                value={email}
+                type="email"
+                name="Digite o email"
+              />
+              <input onClick={sendEmail} type="submit" value="Cadastrar" />
             </Email>
           </Container>
         </SectionEmail>
