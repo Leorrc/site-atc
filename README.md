@@ -6,6 +6,11 @@
 ## 🚀 Autor
 - [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
 
+# 👨🏻‍💻 Site institucional Psicólogos
+
+- Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components
+
+<br />
 
 # 👨🏻‍💻 Site institucional Psicólogos
 
