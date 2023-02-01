@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <img src="./src/assets/logo.png" width="250px"/>
 </div>
@@ -31,3 +32,8 @@
 ---
 
 Made with 💜 &nbsp;by Leonardo Carvalho 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/leocarvalhodev/)
+=======
+## Screenshots
+
+![App Screenshot](https://imgur.com/a/KDyylJX)
+>>>>>>> c74636870446c5d2cdc6d2ab96e848474d41b3d7
