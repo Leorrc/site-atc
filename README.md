@@ -29,10 +29,4 @@
 - [Prettier](https://prettier.io/)
 
 ---
-
 Made with 💜 &nbsp;by Leonardo Carvalho 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/leocarvalhodev/)
-
-
-
-![App Screenshot](https://imgur.com/a/KDyylJX)
-
