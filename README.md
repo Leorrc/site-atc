@@ -3,6 +3,9 @@
 </div>
 
 <br />
+## 🚀 Autor
+- [Leonardo Carvalho](https://www.linkedin.com/in/leocarvalhodev/)
+
 
 # 👨🏻‍💻 Site institucional Psicólogos
 
