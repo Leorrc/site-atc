@@ -15,13 +15,14 @@ import {
   Link,
   Social,
   Socials,
-  Scroll
+  Scroll,
+  Container3,
 } from './styles'
 
 import {
   AiFillTwitterCircle,
   AiFillFacebook,
-  AiFillInstagram
+  AiFillInstagram,
 } from 'react-icons/ai'
 import { Divider2 } from '../01-Utils/Dividers/styles'
 import { FaChevronRight } from 'react-icons/fa'
@@ -37,7 +38,7 @@ export function Footer() {
 
   const sendEmail = () => {
     const emailObj = {
-      email
+      email,
     }
 
     emailjs
@@ -45,7 +46,7 @@ export function Footer() {
         emailNews.USER_ID,
         emailNews.TEMPLATE_ID,
         emailObj,
-        emailNews.PUBLIC_KEY
+        emailNews.PUBLIC_KEY,
       )
       .then(
         result => {
@@ -53,7 +54,7 @@ export function Footer() {
         },
         error => {
           console.log(error.text)
-        }
+        },
       )
   }
   return (
@@ -135,21 +136,30 @@ export function Footer() {
                 <a
                   href="https://www.facebook.com/ATCSantaCatarina"
                   target="_blank"
-                >
+                  rel="noreferrer">
                   <AiFillFacebook />
                 </a>
-                <a href="www.google.com" target="_blank">
+                <a
+                  href="https://www.instagram.com/atc_sc/"
+                  target="_blank"
+                  rel="noreferrer">
                   <AiFillInstagram />
-                </a>
-                <a href="www.google.com" target="_blank">
-                  <AiFillTwitterCircle />
                 </a>
               </Social>
             </Socials>
           </Container2>
-          <p>Todos os direitos reservados</p>
-          <p>Site ATC-SC 2022</p>
         </SectionInfo>
+        <Container3>
+          <span>Design e Desenvolvimento por</span>
+          <br />
+          <a
+            href="https://leocarvalhodev.com.br/"
+            target="_blank"
+            rel="noreferrer">
+            Leonardo Carvalho DEV
+          </a>{' '}
+          <span>2023</span>
+        </Container3>
       </Footer1>
     </>
   )

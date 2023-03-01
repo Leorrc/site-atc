@@ -1,13 +1,13 @@
-import styled from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
+import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 import bgemail from '../../images/full/pontefooter.svg'
 
 export const Footer1 = styled.footer`
   width: 100%;
-  background: #FAFAFA;
-`;
+  background: #fafafa;
+`
 
 export const SectionEmail = styled.section`
   padding: 3.125rem 0;
@@ -15,15 +15,15 @@ export const SectionEmail = styled.section`
   background-image: url(${bgemail});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 
   @media (min-width: 992px) {
     padding: 3.125rem 0;
     display: grid;
-}
-`;
+  }
+`
 
 export const Container = styled.div`
   display: grid;
@@ -31,12 +31,11 @@ export const Container = styled.div`
   margin-right: 1.5rem;
   text-align: center;
 
-
   @media (min-width: 992px) {
     margin-left: 12rem;
     margin-right: 12rem;
   }
-`;
+`
 
 export const TitleEmail = styled.div`
   h2 {
@@ -53,7 +52,7 @@ export const TitleEmail = styled.div`
   @media (min-width: 992px) {
     width: 100%;
   }
-`;
+`
 
 export const Email = styled.label`
   margin-top: 30px;
@@ -66,13 +65,13 @@ export const Email = styled.label`
   width: 90%;
   margin: 0 auto;
 
-  input[type="email"] {
+  input[type='email'] {
     border: 0;
     padding: 4px 8px;
     width: calc(100% - 100px);
   }
 
-  input[type="submit"] { 
+  input[type='submit'] {
     position: absolute;
     top: 0;
     right: 0;
@@ -93,7 +92,7 @@ export const Email = styled.label`
     width: 60%;
     margin: 0 auto;
   }
-`;
+`
 
 export const SectionInfo = styled.section`
   padding: 1rem 0;
@@ -106,18 +105,16 @@ export const SectionInfo = styled.section`
   p {
     text-align: center;
     color: var(--text-color);
-    
   }
-`;
+`
 
 export const Container2 = styled.div`
   display: grid;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 
-
   img {
-    margin-bottom: 2rem; 
+    margin-bottom: 2rem;
   }
 
   @media (min-width: 832px) {
@@ -127,17 +124,34 @@ export const Container2 = styled.div`
     margin-left: 10rem;
     margin-right: 10rem;
 
-
     img {
       width: auto;
     }
   }
-`;
+`
+
+export const Container3 = styled.div`
+  width: 100%;
+  padding: 1.25rem;
+  bottom: 0px;
+  text-align: center;
+  background: #445e60;
+
+  span {
+    font-weight: 400;
+    color: var(--text-color-light);
+  }
+
+  a {
+    color: #19baaa;
+    font-weight: 500;
+  }
+`
 
 export const Links = styled.div`
   display: grid;
   margin-bottom: 2rem;
-  font: 600 1.375rem ;
+  font: 600 1.375rem;
   font-family: var(--title-font);
   font-style: normal;
   font-weight: 600;
@@ -146,19 +160,19 @@ export const Links = styled.div`
     display: inline-block;
     margin-bottom: 1rem;
     position: relative;
-    color: var(--title-color)  ;
+    color: var(--title-color);
     font: 700 1.31rem var(--title-font);
 
     :after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 56px;
-    height: 2px;
-    background: var(--att-color);
-    bottom: 0;
-    left: 0;
-  }
+      content: '';
+      position: absolute;
+      display: block;
+      width: 56px;
+      height: 2px;
+      background: var(--att-color);
+      bottom: 0;
+      left: 0;
+    }
   }
   @media (min-width: 576px) {
     margin: 0 auto;
@@ -168,17 +182,17 @@ export const Links = styled.div`
       position: relative;
 
       :after {
-      content: '';
-      position: absolute;
-      display: block;
-      width: 56px;
-      height: 2px;
-      background: var(--att-color);
-      bottom: 0;
+        content: '';
+        position: absolute;
+        display: block;
+        width: 56px;
+        height: 2px;
+        background: var(--att-color);
+        bottom: 0;
+      }
     }
   }
-}
-`;
+`
 
 export const Link = styled(LinkR)`
   text-decoration: none;
@@ -192,9 +206,8 @@ export const Link = styled(LinkR)`
 
   @media (min-width: 576px) {
     text-align: left;
-
   }
-`;
+`
 
 export const Scroll = styled(LinkS)`
   text-decoration: none;
@@ -209,9 +222,8 @@ export const Scroll = styled(LinkS)`
 
   @media (min-width: 576px) {
     text-align: left;
-
   }
-`;
+`
 
 export const Socials = styled.div`
   display: grid;
@@ -222,40 +234,39 @@ export const Socials = styled.div`
     display: inline-block;
     margin-bottom: 1rem;
     position: relative;
-    color: var(--title-color)  ;
+    color: var(--title-color);
     font: 700 1.31rem var(--title-font);
 
     :after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 148px;
-    height: 2px;
-    background: var(--att-color);
-    bottom: 0;
-    left: 0;
-  }
+      content: '';
+      position: absolute;
+      display: block;
+      width: 148px;
+      height: 2px;
+      background: var(--att-color);
+      bottom: 0;
+      left: 0;
+    }
   }
 
   h3 {
     position: relative;
     margin-bottom: 1rem;
 
-    
-    color: var(--title-color)  ;
+    color: var(--title-color);
     font: 700 1.31rem var(--title-font);
 
     :after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 148px;
-    height: 2px;
-    background: var(--att-color);
-    top: -10;
+      content: '';
+      position: absolute;
+      display: block;
+      width: 148px;
+      height: 2px;
+      background: var(--att-color);
+      top: -10;
+    }
   }
-  }
-`;
+`
 
 export const Social = styled.div`
   display: flex;
@@ -263,8 +274,7 @@ export const Social = styled.div`
   gap: 2rem;
 
   svg {
-
-  font-size: 3rem;
-  color: var(--att-color);
-}
-`;
+    font-size: 3rem;
+    color: var(--att-color);
+  }
+`

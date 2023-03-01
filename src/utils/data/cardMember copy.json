@@ -1,0 +1,177 @@
+[
+    {
+        "imgUrl": "team/t1.svg",
+        "name": "Juliana Vieira Almeida Silva ",
+        "title": "Presidente",
+        "city": "Itajaí-SC",
+        "phone": "(47) 9 9230-8037",
+        "email": "julianapsy@hotmail.com.br",
+        "description": "(CRP 12/03297)",
+        "socialList": [
+            {
+                "network": "facebook",
+                "link": "https://www.facebook.com/psicologajulianavieira/"
+            },
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/julianavieira03/"
+            },
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/ibtccinstituto/"
+            },
+            {
+                "network": "doctor",
+                "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
+            },
+            {
+                "network": "linkedin",
+                "link": "https://www.linkedin.com/in/juliana-vieira-almeida-silva-71a65465/?originalSubdomain=br"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t2.svg",
+        "name": "Fábia Susanne Farina",
+        "title": "Vice Presidente",
+        "description": "(CRP 12/01176)",
+        "city": "Concórdia-SC",
+        "phone": "(49) 9 9989-2409",
+        "email": "fabiafarina1107@gmail.com",
+        "socialList": [
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/fabiafarina08/"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t3.svg",
+        "name": "Júlio Rodrigues Pachalski",
+        "title": "1° Secretário",
+        "description": "(CRP 07/19778)",
+        "city": "Itapema-SC",
+        "phone": "(51) 9 8595-9088",
+        "email": "jpachalski@hotmail.com",
+        "socialList": [
+            {
+                "network": "facebook",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t5.svg",
+        "name": "Maria Verônica Zink",
+        "title": "1° Tesoureira",
+        "description": "(CRP 12/16758)",
+        "city": "Brusque-SC",
+        "phone": "(47) 9 9922-7628",
+        "email": "mariaveronicazink@gmail.com",
+        "socialList": [
+            {
+                "network": "facebook",
+                "link": "https://www.facebook.com/psicomariaveronica/"
+            },
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/psimariaveronicazink/"
+            },
+            {
+                "network": "doctor",
+                "link": "https://www.doctoralia.com.br/maria-veronica-zink/psicologo/brusque"
+            },
+            {
+                "network": "linkedin",
+                "link": "https://www.linkedin.com/in/maria-ver%C3%B4nica-zink-6a667b195/?originalSubdomain=br"
+            },
+            {
+                "network": "site",
+                "link": "https://psicologamariaveronica.com.br/"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t6.svg",
+        "name": "Anna Júlia Reis",
+        "title": "2° Tesoureira",
+        "description": "(CRP 12/17231)",
+        "city": "Itajaí-SC",
+        "phone": "(47) 9 9625-5944",
+        "email": "psi.annajulia@gmail.com",
+        "socialList": [
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/sobrepsicoterapia/"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t7.svg",
+        "name": "Adriana Mussi Lenzi Maia",
+        "title": "Conselheiro Fiscal",
+        "description": "(CRP 12/0163)",
+        "city": "Florianópolis-SC",
+        "phone": "(48) 9 9962-8239",
+        "email": "adrianalenzi.maia@gmail.com",
+        "socialList": [
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/adrianamlmaia/"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t8.svg",
+        "name": "Gabriela Oltramari",
+        "title": "Conselheiro Fiscal",
+        "description": "(CRP 12/01097)",
+        "city": "Florianópolis-SC",
+        "phone": "(48) 9 9911-6995",
+        "email": "gabi.oltramari@gmail.com",
+        "socialList": [
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/gabriela.oltramari.psi/"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t4.svg",
+        "name": "Rafaela Dias Matavelli Faleiro",
+        "title": "Conselheiro Fiscal",
+        "description": "(CRP 12/19707)",
+        "city": "Itajaí-SC",
+        "phone": "(48) 9 9665-4863",
+        "email": "rafaela.d.matavelli@gmail.com ",
+        "socialList": [
+            {
+                "network": "facebook",
+                "link": "#"
+            }
+        ]
+    },
+    {
+        "imgUrl": "team/t9.svg",
+        "name": "Grazielle Zwielewski",
+        "title": "Suplente Conselheiro Fiscal",
+        "description": "(CRP 12/07596)",
+        "city": "Florianópolis-SC",
+        "phone": "(48) 9 8461-2327",
+        "email": "grazizw@gmail.com ",
+        "socialList": [
+            {
+                "network": "instagram",
+                "link": "https://www.instagram.com/grazi_muitoprazer/"
+            },
+            {
+                "network": "site",
+                "link": "https://www.instagram.com/manualdepsicoterapiaonline"
+            },
+            {
+                "network": "doctor",
+                "link": "https://www.psikcorpoemente.com/"
+            }
+        ]
+    }
+]

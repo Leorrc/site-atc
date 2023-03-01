@@ -6,7 +6,7 @@
     "city": "Itajaí-SC",
     "phone": "(47) 9 9230-8037",
     "email": "julianapsy@hotmail.com.br",
-    "description": "(CRP 12/03297)", 
+    "description": "(CRP 12/03297)",
     "socialList": [
       {
         "network": "facebook",
@@ -17,7 +17,7 @@
         "link": "https://www.instagram.com/julianavieira03/"
       },
       {
-        "network":"instagram",
+        "network": "instagram",
         "link": "https://www.instagram.com/ibtccinstituto/"
       },
       {
@@ -28,7 +28,6 @@
         "network": "linkedin",
         "link": "https://www.linkedin.com/in/juliana-vieira-almeida-silva-71a65465/?originalSubdomain=br"
       }
-
     ]
   },
   {
@@ -44,7 +43,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/fabiafarina08/"
       }
-
     ]
   },
   {
@@ -60,13 +58,27 @@
         "network": "facebook",
         "link": "#"
       }
-
+    ]
+  },
+  {
+    "imgUrl": "team/t8.svg",
+    "name": "Gabriela Oltramari",
+    "title": "2° Secretário",
+    "description": "(CRP 12/01097)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9911-6995",
+    "email": "gabi.oltramari@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
+      }
     ]
   },
   {
     "imgUrl": "team/t5.svg",
     "name": "Maria Verônica Zink",
-    "title": "1° Tesoureira",
+    "title": "1° Tesoureiro",
     "description": "(CRP 12/16758)",
     "city": "Brusque-SC",
     "phone": "(47) 9 9922-7628",
@@ -92,29 +104,32 @@
         "network": "site",
         "link": "https://psicologamariaveronica.com.br/"
       }
-
     ]
   },
   {
-    "imgUrl": "team/t6.svg",
-    "name": "Anna Júlia Reis",
-    "title": "2° Tesoureira",
-    "description": "(CRP 12/17231)",
+    "imgUrl": "team/t10.svg",
+    "name": "Aroldo Manoel Vieira",
+    "title": "2° Tesoureiro",
+    "description": "(CRP 12/22488)",
     "city": "Itajaí-SC",
-    "phone": "(47) 9 9625-5944",
-    "email": "psi.annajulia@gmail.com",
+    "phone": "(47) 9 9161-8877",
+    "email": "aroldovieira.m@gmail.com",
     "socialList": [
       {
+        "network": "facebook",
+        "link": "https://www.facebook.com/aroldomvieira.psico/"
+      },
+      {
         "network": "instagram",
-        "link": "https://www.instagram.com/sobrepsicoterapia/"
+        "link": "https://www.instagram.com/aroldovieira.psico/"
       }
     ]
   },
   {
     "imgUrl": "team/t7.svg",
     "name": "Adriana Mussi Lenzi Maia",
-    "title": "Conselheiro Fiscal",
-    "description": "(CRP 12/0163)", 
+    "title": "Conselheiro Fiscal 1",
+    "description": "(CRP 12/0163)",
     "city": "Florianópolis-SC",
     "phone": "(48) 9 9962-8239",
     "email": "adrianalenzi.maia@gmail.com",
@@ -126,24 +141,9 @@
     ]
   },
   {
-    "imgUrl": "team/t8.svg",
-    "name": "Gabriela Oltramari",
-    "title": "Conselheiro Fiscal",
-    "description": "(CRP 12/01097)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 9911-6995",
-    "email": "gabi.oltramari@gmail.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
-      }
-    ]
-  },
-  {
     "imgUrl": "team/t4.svg",
     "name": "Rafaela Dias Matavelli Faleiro",
-    "title": "Conselheiro Fiscal",
+    "title": "Suplente Conselheiro Fiscal 1",
     "description": "(CRP 12/19707)",
     "city": "Itajaí-SC",
     "phone": "(48) 9 9665-4863",
@@ -153,13 +153,12 @@
         "network": "facebook",
         "link": "#"
       }
-
     ]
   },
   {
     "imgUrl": "team/t9.svg",
     "name": "Grazielle Zwielewski",
-    "title": "Suplente Conselheiro Fiscal",
+    "title": "Suplente Conselheiro Fiscal 2",
     "description": "(CRP 12/07596)",
     "city": "Florianópolis-SC",
     "phone": "(48) 9 8461-2327",
@@ -177,7 +176,25 @@
         "network": "doctor",
         "link": "https://www.psikcorpoemente.com/"
       }
-
+    ]
+  },
+  {
+    "imgUrl": "team/t11.svg",
+    "name": "Synara Sepúlveda",
+    "title": "Conselheiro Fiscal 3",
+    "description": "(CRP 20171/12)",
+    "city": "Florianópolis-SC",
+    "phone": "(86) 9 8836-3113",
+    "email": "synarasepulveda@hotmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psic.synarasepulveda/"
+      },
+      {
+        "network": "site",
+        "link": "https://synarasepulveda.com.br/"
+      }
     ]
   }
 ]
