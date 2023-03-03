@@ -7,7 +7,7 @@ import {
   Parceiro,
   Infos,
   ContainerSection,
-  Tittle
+  Tittle,
 } from './styles'
 
 import p1 from '../../../images/logos/sino.svg'
@@ -19,7 +19,7 @@ import p6 from '../../../images/logos/artmed.svg'
 import p7 from '../../../images/logos/aa.svg'
 import {
   Divider2,
-  Divider3
+  Divider3,
 } from '../../../components/01-Utils/Dividers/styles'
 
 export function ContainerParceiros() {
@@ -30,7 +30,7 @@ export function ContainerParceiros() {
       <ContainerSection>
         <Tittle>
           <h2>
-            CONFIRA NOSSOS PARCEIROS <span>2022</span>
+            CONFIRA NOSSOS PARCEIROS <span>2023</span>
           </h2>
         </Tittle>
         <Divider2 />
@@ -78,8 +78,7 @@ export function ContainerParceiros() {
             <Infos>
               <a
                 href="https://www.univali.br/imprensa/cursos-de-extensao/Paginas/default.aspx?curso=Curso+de+Formacao+em+Terapia+Cognitivo+Comportamental+(EAD)+%e2%80%93+2%c2%aa+TURMA&n=975"
-                target="_blank"
-              >
+                target="_blank">
                 Univali
               </a>
               <p></p>
