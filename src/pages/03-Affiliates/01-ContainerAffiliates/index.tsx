@@ -5,7 +5,7 @@ import {
   ContainerSection,
   Tittle,
   SectionBg,
-  ContainerMember
+  ContainerMember,
 } from './styles'
 import { CardMember } from '../../../components/01-Utils/CardMember'
 
@@ -17,7 +17,7 @@ export function ContainerAffiliates() {
       <ContainerSection>
         <Tittle>
           <h2>
-            ASSOCIADOS <span>2021/2022</span>
+            ASSOCIADOS <span>2022/2023</span>
           </h2>
         </Tittle>
         <Container>

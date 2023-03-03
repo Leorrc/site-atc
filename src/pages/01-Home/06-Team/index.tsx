@@ -12,7 +12,7 @@ export function Team() {
       <Divider2 />
       <ContainerSection id="team">
         <Container>
-          <TitleCenter title="DIRETORIA GESTÃO" span="2022" marginBotton="2rem">
+          <TitleCenter title="DIRETORIA GESTÃO" span="2023" marginBotton="2rem">
             <p>Veja quem faz parte deste time de profissionais</p>
           </TitleCenter>
           <ContainerMember>
