@@ -17,6 +17,7 @@ import p4 from '../../../images/logos/univali.svg'
 import p5 from '../../../images/logos/fbtc.svg'
 import p6 from '../../../images/logos/artmed.svg'
 import p7 from '../../../images/logos/aa.svg'
+import p8 from '../../../images/logos/viver.svg'
 import {
   Divider2,
   Divider3,
@@ -35,6 +36,28 @@ export function ContainerParceiros() {
         </Tittle>
         <Divider2 />
         <Container>
+          <Parceiro>
+            <Pic>
+              <img src={p8} />
+            </Pic>
+            <Infos>
+              <a
+                href="https://www.instagram.com/vivermaispsicologia/"
+                target="_blank">
+                Viver Mais Psicologia
+              </a>
+              <h4>
+                - Associados da ATC SC ganham 30% nas primeiras 3 mensalidades
+                da Pós e/ou Formação em TCC.
+              </h4>
+
+              <h4>
+                - Alunos da Viver Mais terão desconto na associação, ficando o
+                valor de 50,00
+              </h4>
+            </Infos>
+          </Parceiro>
+          <Divider3 />
           <Parceiro>
             <Pic>
               <img src={p1} />

@@ -1,10 +1,9 @@
-import styled from "styled-components";
-import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components'
+import { Link as LinkS } from 'react-scroll'
 
-import banner from '../../../images/full/about5.svg'
+import banner from '../../../images/full/about5.webp'
 import mobile from '../../../images/full/mobile.svg'
-import { device } from "../../../utils/responsive";
-
+import { device } from '../../../utils/responsive'
 
 export const ContainerSection = styled.section`
   padding: calc(5rem + var(--header-height)) 0;
@@ -12,22 +11,22 @@ export const ContainerSection = styled.section`
   background-image: url(${mobile});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 
-    @media (min-width: 992px) {
+  @media (min-width: 992px) {
     padding: 7rem 0;
     display: grid;
 
     background-image: url(${banner});
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     width: 100%;
-    height: 100%; 
-    }
-`;
+    height: 100%;
+  }
+`
 
 export const Container = styled.div`
   display: grid;
@@ -41,7 +40,7 @@ export const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
   }
-`;
+`
 
 export const Box = styled.div`
   display: grid;
@@ -66,15 +65,11 @@ export const Box = styled.div`
   @media (min-width: 992px) {
     padding: 0 1.875rem 1rem;
 
-  
     li {
       font: var(--text-2);
-      
     }
-
-
   }
-`;
+`
 
 export const Title = styled.div`
   text-align: center;
@@ -84,37 +79,37 @@ export const Title = styled.div`
     color: var(--title-color);
     -webkit-font-smoothing: auto;
     position: relative;
-}
+  }
 
   h4 {
     font-size: 1rem;
     color: var(--title-color);
     margin-bottom: 0.5rem;
-}
+  }
   span {
     color: var(--att-color);
-}
+  }
 
   @media (min-width: 992px) {
     padding: 0.5rem;
-    
+
     h2 {
-    font: 700 var(--title-font-size) var(--title-font);
-    color: var(--title-color);
-    -webkit-font-smoothing: auto;
+      font: 700 var(--title-font-size) var(--title-font);
+      color: var(--title-color);
+      -webkit-font-smoothing: auto;
     }
 
     h4 {
-    font-size: 1.25rem;
-    color: var(--title-color);
-    margin: 0;
+      font-size: 1.25rem;
+      color: var(--title-color);
+      margin: 0;
     }
 
     span {
       color: var(--att-color);
     }
   }
-`;
+`
 
 export const TitleIcon = styled.div`
   padding: 1rem;
@@ -122,23 +117,18 @@ export const TitleIcon = styled.div`
   text-align: center;
 
   i {
-  font-size: 3rem;
-  color: var(--att-color);
-  
+    font-size: 3rem;
+    color: var(--att-color);
   }
-  
+
   h3 {
     color: var(--att-color);
     display: flex;
-
   }
 
-
-@media (min-width: 992px) {
-
-
-}
-`;
+  @media (min-width: 992px) {
+  }
+`
 
 export const Div1 = styled.div`
   display: grid;
@@ -154,19 +144,17 @@ export const Div1 = styled.div`
   }
 
   @media (min-width: 992px) {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  padding: 0;
-  gap: 1.45rem;
-  
-  ul {
-    
-    padding: 0.5rem 0;
-    text-align: justify;
-  }
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 0;
+    gap: 1.45rem;
 
+    ul {
+      padding: 0.5rem 0;
+      text-align: justify;
+    }
   }
-`;
+`
 
 export const Div2 = styled.div`
   display: grid;
@@ -182,20 +170,19 @@ export const Div2 = styled.div`
   }
 
   @media (min-width: 992px) {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  padding: 0;
-  gap: 1.45rem;
-  text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 0;
+    gap: 1.45rem;
+    text-align: left;
 
-  ul {
-    padding-top: 0.313rem;
-    margin: auto;
-    text-align: justify;
+    ul {
+      padding-top: 0.313rem;
+      margin: auto;
+      text-align: justify;
+    }
   }
-
-  }
-`;
+`
 
 export const TitleIcon2 = styled.div`
   padding: 1rem;
@@ -203,26 +190,18 @@ export const TitleIcon2 = styled.div`
   text-align: center;
 
   i {
-  font-size: 3rem;
-  color: var(--att-color);
-  
+    font-size: 3rem;
+    color: var(--att-color);
   }
-  
+
   h3 {
     color: var(--att-color);
     display: flex;
-
   }
-
 
   @media (min-width: 992px) {
-
-
   }
-`;
-
-
-
+`
 
 export const Scroll = styled(LinkS)`
   button {
@@ -230,9 +209,8 @@ export const Scroll = styled(LinkS)`
   }
 
   @media (min-width: 992px) {
-  button {
-    margin-top: 1rem;
+    button {
+      margin-top: 1rem;
+    }
   }
-}
-`;
-
+`

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
-import bgemail from '../../images/full/pontefooter.svg'
+import bgemail from '../../images/full/pontefooter.webp'
 
 export const Footer1 = styled.footer`
   width: 100%;

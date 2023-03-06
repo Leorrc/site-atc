@@ -1,33 +1,29 @@
-import styled from "styled-components";
-import banner from '../../../images/full/affi.svg'
+import styled from 'styled-components'
+import banner from '../../../images/full/affi.webp'
 
 export const SectionBg = styled.section`
   padding: 6rem 0;
   background-image: url(${banner});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   width: 100%;
   height: 100%;
-
 
   @media (min-width: 992px) {
     padding: calc(10rem + var(--header-height)) 0;
     display: grid;
   }
-`;
-
+`
 
 export const ContainerSection = styled.section`
   padding: var(--header-height) 0;
-  
 
   @media (min-width: 992px) {
     padding: 5rem 0;
     display: grid;
-    
   }
-`;
+`
 
 export const Tittle = styled.div`
   text-align: center;
@@ -42,7 +38,7 @@ export const Tittle = styled.div`
       color: var(--att-color);
     }
   }
-`;
+`
 
 export const Container = styled.div`
   display: grid;
@@ -58,7 +54,7 @@ export const Container = styled.div`
     margin-right: auto;
     margin: 0 auto;
   }
-`;
+`
 
 export const ContainerMember = styled.div`
   display: grid;
@@ -67,7 +63,5 @@ export const ContainerMember = styled.div`
 
   @media (min-width: 992px) {
     grid-template-columns: 1fr 1fr;
-
-
   }
-`;
+`
