@@ -2,6 +2,6 @@
     "image": "https://raw.githubusercontent.com/leorrc/site-atc/master/.github/screenshot-1.png",
     "name": "Site Institucional",
     "description": "Uma plataforma online criada para a troca de conhecimento entre Psicólogos. Construída utilizando React.js, TypeScript e Styled-Components.",
-    "live": "https://www.atc-sc.com/",
+    "live": "https://site-atc.vercel.app/",
     "git": "https://github.com/Leorrc/site-atc"
 }
