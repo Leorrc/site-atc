@@ -55,7 +55,7 @@ export function NavBar({ toggle1 }: Props) {
           </Menu>
           <Wrapper>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScKF3mjS4fIwIo2CEBjssFwoNfBSRY647jYoF-xoAg5FK3n0w/viewform"
+              href="https://forms.gle/fw8AfpVkhNFcdTRA6"
               target="_blank"
               rel="noreferrer"
             >
