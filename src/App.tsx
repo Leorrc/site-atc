@@ -26,7 +26,6 @@ function App() {
         <Route path="/affiliates" element={<Affiliates />} />
         <Route path="/parceiros" element={<Parceiros />} />
         <Route path="/leitura" element={<Leitura />} />
-        <Route path="/noticias" element={<Noticias />} />
       </Routes>
       <ScrollToTopButton />
       <Footer />
