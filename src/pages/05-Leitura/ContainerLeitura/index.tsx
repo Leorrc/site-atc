@@ -21,7 +21,7 @@ export function ContainerLeitura() {
       <Section>
         <Container>
           <div className="title1">
-            <TitleCenter title="LIVROS ESCRITOS PELOS ASSOCIADOS" />
+            <TitleCenter title="LIVROS ESCRITOS PELOS ASSOCIADOS!" />
           </div>
           <ContainerBook>
             {newBooks.map(newBooks => (
