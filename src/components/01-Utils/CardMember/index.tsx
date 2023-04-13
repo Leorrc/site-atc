@@ -1,4 +1,8 @@
-import { CardDefault, MemberInfos, Pic, Social } from './styles'
+import ReactAudioPlayer from "react-audio-player";
+import { CardDefault, MemberInfos, Pic, Social, Audio } from "./styles";
+
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
 
 import {
   AiFillFacebook,
@@ -6,46 +10,47 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillStar,
-  AiFillGift
-} from 'react-icons/ai'
+  AiFillGift,
+} from "react-icons/ai";
 
 interface SocialMedia {
-  network: string
-  link: string
+  network: string;
+  link: string;
 }
 
 interface MemberProps {
-  imgUrl?: string
-  name: string
-  description?: string
-  title?: string
-  city?: string
-  phone?: string
-  email?: string
-  socialList: SocialMedia[]
+  imgUrl?: string;
+  name: string;
+  description?: string;
+  title?: string;
+  city?: string;
+  phone?: string;
+  email?: string;
+  socialList?: SocialMedia[];
+  som?: string;
 }
 
 const renderSwitch = (network: string) => {
   switch (network) {
-    case 'facebook':
-      return <AiFillFacebook />
+    case "facebook":
+      return <AiFillFacebook />;
 
-    case 'instagram':
-      return <AiFillInstagram />
+    case "instagram":
+      return <AiFillInstagram />;
 
-    case 'twitter':
-      return <AiFillTwitterCircle />
+    case "twitter":
+      return <AiFillTwitterCircle />;
 
-    case 'linkedin':
-      return <AiFillLinkedin />
+    case "linkedin":
+      return <AiFillLinkedin />;
 
-    case 'doctor':
-      return <AiFillStar />
+    case "doctor":
+      return <AiFillStar />;
 
-    case 'site':
-      return <AiFillGift />
+    case "site":
+      return <AiFillGift />;
   }
-}
+};
 
 export function CardMember({
   imgUrl,
@@ -55,7 +60,8 @@ export function CardMember({
   city,
   phone,
   email,
-  socialList
+  socialList,
+  som,
 }: MemberProps) {
   return (
     <CardDefault>
@@ -73,8 +79,20 @@ export function CardMember({
         {city && <p>Cidade: {city} </p>}
         {phone && <p>Telefone: {phone}</p>}
         {email && <p>Email: {email}</p>}
+        {som && (
+          <Audio>
+            <AudioPlayer
+              src="1.mp3"
+              preload="auto"
+              customAdditionalControls={[]}
+            >
+              {som}
+            </AudioPlayer>
+          </Audio>
+        )}
+
         <Social>
-          {socialList.map(social => (
+          {socialList?.map((social) => (
             <a href={social.link} target="_blank">
               {renderSwitch(social.network)}
             </a>
@@ -82,5 +100,5 @@ export function CardMember({
         </Social>
       </MemberInfos>
     </CardDefault>
-  )
+  );
 }

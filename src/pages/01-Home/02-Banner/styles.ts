@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import { device } from "../../../utils/responsive";
-import banner from '../../../images/full/bgbanner.svg'
+import banner from "../../../images/hero.jpg";
 
 export const ContainerSection = styled.section`
   padding: calc(5rem + var(--header-height)) 0;
   display: flex;
-  background: #6AAEB9; 
-  background: -webkit-linear-gradient(to right, #548b94, #5f9ca6);  
-  background: linear-gradient(to right, #548b94, #5f9ca6); 
+  background: #6aaeb9;
+  background: -webkit-linear-gradient(to right, #548b94, #5f9ca6);
+  background: linear-gradient(to right, #548b94, #5f9ca6);
 
   p {
     color: rgba(255, 255, 255, 0.6);
@@ -15,16 +15,21 @@ export const ContainerSection = styled.section`
 
   @media (min-width: 992px) {
     padding: calc(10rem + var(--header-height)) 0;
-    background: var(--body-color);
+    background-image: url(${banner});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 
     h2 {
-    color: white;
-  }
+      color: white;
+    }
 
-  p {
-    color: var(--title-color);
-    -webkit-font-smoothing: antialiased;
-  }
+    p {
+      color: var(--title-color);
+      -webkit-font-smoothing: antialiased;
+    }
   }
 `;
 
@@ -32,9 +37,10 @@ export const Container = styled.div`
   display: grid;
   gap: 2rem;
   margin: 0 auto;
-  
+
   @media (min-width: 992px) {
-    max-width: 912px;
+    gap: 0;
+    max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
     grid-auto-flow: column;
@@ -44,7 +50,6 @@ export const Container = styled.div`
 `;
 
 export const DivImage = styled.div`
-
   @media (min-width: 992px) {
     order: 1;
   }
@@ -76,30 +81,38 @@ export const DivText = styled.div`
   }
 
   @media (min-width: 992px) {
-    
+    text-align: left;
+    order: 0;
+    max-width: 32rem;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+
     span {
-    color: var(--att-color);
-  }
-  
+      color: var(--att-color);
+    }
 
     h1 {
       color: var(--title-color);
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 84px;
+      margin-bottom: 1rem;
     }
-    order: 0;
-    max-width: 32rem;
-    text-align: left;
-    
 
-  
-    
-  button {
-    margin: auto 0;
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 0rem;
+    }
+
+    button {
+      margin: auto 0;
+    }
   }
-  }
-
-
 `;
-
-
-
-

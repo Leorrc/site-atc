@@ -1,6 +1,6 @@
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 
-import { FaBars } from 'react-icons/fa'
+import { FaBars } from "react-icons/fa";
 import {
   ContainerHeader,
   Nav,
@@ -10,17 +10,17 @@ import {
   ItemLink,
   LogoA,
   Wrapper,
-  ItemScroll
-} from './styles'
+  ItemScroll,
+} from "./styles";
 
-import logo from '../../../images/full/lh.svg'
+import logo from "../../../images/full/lh.svg";
 
 type Props = {
-  toggle1: () => void
-}
+  toggle1: () => void;
+};
 
 export function NavBar({ toggle1 }: Props) {
-  const { pathname } = useLocation()
+  const { pathname } = useLocation();
 
   return (
     <>
@@ -34,7 +34,7 @@ export function NavBar({ toggle1 }: Props) {
           </MobileIcon>
           <Menu>
             <Item>
-              {pathname === '/' ? (
+              {pathname === "/" ? (
                 <ItemScroll to="hometop">Home</ItemScroll>
               ) : (
                 <ItemLink to="/">Home</ItemLink>
@@ -52,18 +52,19 @@ export function NavBar({ toggle1 }: Props) {
             <Item>
               <ItemLink to="/leitura">Materiais</ItemLink>
             </Item>
+            <Item>
+              <ItemLink to="/noticias">Cantinho das notícias</ItemLink>
+            </Item>
           </Menu>
-          <Wrapper>
-            <a
-              href="https://forms.gle/fw8AfpVkhNFcdTRA6"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Associar-se</span>
-            </a>
+          <Wrapper
+            href="https://forms.gle/fw8AfpVkhNFcdTRA6"
+            target="_blank"
+            rel="noreferrer"
+          >
+            ASSOCIAR-SE
           </Wrapper>
         </Nav>
       </ContainerHeader>
     </>
-  )
+  );
 }

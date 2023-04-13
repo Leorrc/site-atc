@@ -1,0 +1,33 @@
+[
+  {
+    "imgUrl": "team/t1.svg",
+    "name": "Juliana Vieira Almeida Silva ",
+    "title": "Entrevista para a rádio Jovem Pan",
+    
+    "description": "Bom dia queridos associados, espero que todos estejam bem!!! Vou encaminhar uma entrevista que dei na Jovem Pan, sobre a tragédia que aconteceu em Blumenau na quarta passada. A entrevista estava direcionada mais aos cuidados dos enlutados e Fake News!!! ",
+    "socialList": [
+      {
+        "network": "facebook",
+        "link": "https://www.facebook.com/psicologajulianavieira/"
+      },
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/julianavieira03/"
+      },
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/ibtccinstituto/"
+      },
+      {
+        "network": "doctor",
+        "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
+      },
+      {
+        "network": "linkedin",
+        "link": "https://www.linkedin.com/in/juliana-vieira-almeida-silva-71a65465/?originalSubdomain=br"
+      }
+    ],
+    "som": "1.mp3"
+  }
+  
+]

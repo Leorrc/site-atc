@@ -1,9 +1,9 @@
-import Button from '../../../components/01-Utils/Button'
+import Button from "../../../components/01-Utils/Button";
 
-import img from '../../../images/full/hero-img3.png'
+import img from "../../../images/full/hero-img3.png";
 
-import { ContainerSection, Container, DivImage, DivText } from './styles'
-import { Divider2 } from '../../../components/01-Utils/Dividers/styles'
+import { ContainerSection, Container, DivImage, DivText } from "./styles";
+import { Divider2 } from "../../../components/01-Utils/Dividers/styles";
 
 export function Banner() {
   return (
@@ -19,10 +19,7 @@ export function Banner() {
             </h1>
             <p>Associação de Terapias Cognitivas do Estado de Santa Catarina</p>
             <Button>
-              <a
-                href="https://forms.gle/fw8AfpVkhNFcdTRA6"
-                target="_blank"
-              >
+              <a href="https://forms.gle/fw8AfpVkhNFcdTRA6" target="_blank">
                 Inscreva-se agora
               </a>
             </Button>
@@ -31,5 +28,5 @@ export function Banner() {
       </ContainerSection>
       <Divider2 />
     </>
-  )
+  );
 }

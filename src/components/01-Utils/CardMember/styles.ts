@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { device } from "../../../utils/responsive";
+import pixelToRem from "../../../utils/pxToRem";
 
 export const CardDefault = styled.div`
   display: flex;
@@ -27,42 +29,53 @@ export const Pic = styled.div`
 
 export const MemberInfos = styled.div`
   padding: 1rem;
+
   font: var(--title-font);
 
   h4 {
-  font-weight: 700;
-  margin-bottom: 0.313rem;
-  font-size: 1.25rem;
-  color: var(--att-color);
-}
+    font-weight: 700;
+    margin-bottom: 0.313rem;
+    font-size: 1.25rem;
+    color: var(--att-color);
+  }
 
   span {
-  display: block;
-  font-size: 0.938rem;
-  padding-bottom: 0.625rem;
-  position: relative;
-  font-weight: 500;
-
-  :after {
-    content: '';
-    position: absolute;
     display: block;
-    width: 50px;
-    height: 1.5px;
-    background: var(--att-color);
-    bottom: 0;
-    left: 0;
+    font-size: 0.938rem;
+    padding-bottom: 0.625rem;
+    position: relative;
+    font-weight: 500;
+
+    :after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 50px;
+      height: 1.5px;
+      background: var(--att-color);
+      bottom: 0;
+      left: 0;
+    }
   }
-}
 
   p {
-  margin: 0.625rem 0 0 0;
-  font-size: 0.938rem;
-  font-weight: 500;
-}
+    margin: 0.625rem 0 0 0;
+    font-size: 0.938rem;
+    font-weight: 500;
+  }
+`;
 
-    
+export const Audio = styled.div`
+  width: 15rem;
+  margin-top: 0.75rem;
 
+  @media ${device.mobileL} {
+    width: 20rem;
+  }
+
+  @media ${device.laptopS} {
+    width: 25rem;
+  }
 `;
 
 export const Social = styled.div`

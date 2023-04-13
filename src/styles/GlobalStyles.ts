@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import pixelToRem from '../utils/pxToRem';
+import { createGlobalStyle } from "styled-components";
+import pixelToRem from "../utils/pxToRem";
 
 export const GlobalStyles = createGlobalStyle`
 * {
@@ -30,7 +30,6 @@ body {
   color: var(--text-color);
   background: var(--body-color);
 }
-
 
 :root {
   --header-height: 4.5rem;
@@ -67,9 +66,7 @@ body {
 
   /* Fonts */
 --font-display: 800 ${pixelToRem(62)}/${pixelToRem(96)} "Poppins", sans-serif;
---font-heading-1: 700 ${pixelToRem(36)}/${pixelToRem(
-  48
-)} "Poppins", sans-serif;
+--font-heading-1: 700 ${pixelToRem(36)}/${pixelToRem(48)} "Poppins", sans-serif;
     --font-heading-2: 500 ${pixelToRem(24)}/${pixelToRem(
   32
 )} "Poppins", sans-serif;

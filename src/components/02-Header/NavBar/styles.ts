@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 import pixelToRem from "../../../utils/pxToRem";
 import { device } from "../../../utils/responsive";
@@ -18,7 +18,6 @@ export const ContainerHeader = styled.header`
   max-height: ${pixelToRem(72)};
 
   @media ${device.laptop} {
-
   }
 `;
 
@@ -31,7 +30,6 @@ export const Nav = styled.nav`
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
-
 `;
 
 export const LogoA = styled(LinkR)`
@@ -52,7 +50,7 @@ export const MobileIcon = styled.div`
   svg {
     color: var(--att-color);
   }
-  
+
   @media (max-width: 992px) {
     display: block;
     position: absolute;
@@ -71,18 +69,12 @@ export const MobileIcon = styled.div`
 
 export const Menu = styled.ul`
   display: flex;
-  gap: ${pixelToRem(29)};
+  gap: ${pixelToRem(10)};
+  align-items: center;
+  justify-content: center;
 
   a {
     font: 400 1rem var(--body-font);
-  }
-
-  @media (max-width: 1070px) {
-    gap: ${pixelToRem(25)};
-  }
-
-  @media (max-width: 1030px) {
-    gap: ${pixelToRem(16)};
   }
 
   @media (max-width: 992px) {
@@ -101,7 +93,7 @@ export const ItemLink = styled(LinkR)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid var(--base-color-alt) ;
+    border-bottom: 3px solid var(--base-color-alt);
   }
   &:hover {
     color: var(--att-color);
@@ -109,51 +101,28 @@ export const ItemLink = styled(LinkR)`
   }
 `;
 
-export const Wrapper = styled.div`
-
-  a{
-  display: block;
-  width: ${pixelToRem(150)};
-  height: 40px;
-  line-height: 40px;
-  text-decoration: none;
-  color: #333;
-  border: 2px solid var(--att-color);
+export const Wrapper = styled.a`
+  background-color: var(--att-color);
+  color: white;
+  align-items: center;
+  justify-content: center;
   border-radius: ${pixelToRem(9)};
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-}
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 700;
+  font-size: ${pixelToRem(16)};
 
-a span{
-  position: relative;
-  z-index: 2;
-  font: var(--text-4);
-}
-
-a:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: var(--att-color);
-  transition: all .35s;
-}
-
-a:hover{
-  color: #fff;
-}
-
-a:hover:after{
-  width: 100%;
-}
-
-@media (max-width: 992px) {
-    display: none;
+  :hover {
+    background: var(--att-color2);
+    color: var(--shape-hover);
+    transition: all 0.85s;
   }
 
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const ItemScroll = styled(LinkS)`
@@ -163,11 +132,10 @@ export const ItemScroll = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid var(--base-color-alt) ;
+    border-bottom: 3px solid var(--base-color-alt);
   }
   &:hover {
     color: var(--att-color);
     transition: 0.2s ease-in-out;
   }
 `;
-
