@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import emailjs from '@emailjs/browser'
-import emailUsers from '../../../utils/data/emailUsers'
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import emailUsers from "../../../utils/data/emailUsers";
 
-import { TitleCenter } from '../../01-Utils/TitleCenter'
+import { TitleCenter } from "../../01-Utils/TitleCenter";
 import {
   Background,
   Container1,
@@ -18,22 +18,22 @@ import {
   AppFormGroupButtons,
   AppFormControl,
   AppFormGroupMessage,
-  AppFormButton
-} from './styles'
+  AppFormButton,
+} from "./styles";
 
 export function Contact() {
-  const [name, setName] = useState<string>('')
-  const [email, setEmail] = useState('')
-  const [contact, setContact] = useState('')
-  const [message, setMessage] = useState('')
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState("");
+  const [contact, setContact] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = () => {
     const emailObj = {
       name,
       email,
       contact,
-      message
-    }
+      message,
+    };
 
     emailjs
       .send(
@@ -43,17 +43,17 @@ export function Contact() {
         emailUsers.PUBLIC_KEY
       )
       .then(
-        result => {
-          setName('')
-          setEmail('')
-          setContact('')
-          setMessage('')
+        (result) => {
+          setName("");
+          setEmail("");
+          setContact("");
+          setMessage("");
         },
-        error => {
-          console.log(error.text)
+        (error) => {
+          console.log(error.text);
         }
-      )
-  }
+      );
+  };
   return (
     <>
       <TitleCenter title="ENTRE EM CONTATO">
@@ -92,8 +92,8 @@ export function Contact() {
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={e => {
-                          setName(e.target.value)
+                        onChange={(e) => {
+                          setName(e.target.value);
                         }}
                         value={name}
                         type="text"
@@ -105,8 +105,8 @@ export function Contact() {
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={e => {
-                          setEmail(e.target.value)
+                        onChange={(e) => {
+                          setEmail(e.target.value);
                         }}
                         value={email}
                         type="email"
@@ -118,8 +118,8 @@ export function Contact() {
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={e => {
-                          setContact(e.target.value)
+                        onChange={(e) => {
+                          setContact(e.target.value);
                         }}
                         value={contact}
                         type="text"
@@ -131,8 +131,8 @@ export function Contact() {
                   <AppFormGroupMessage>
                     <AppFormControl>
                       <input
-                        onChange={e => {
-                          setMessage(e.target.value)
+                        onChange={(e) => {
+                          setMessage(e.target.value);
                         }}
                         value={message}
                         type="text"
@@ -151,5 +151,5 @@ export function Contact() {
         </Container1>
       </Background>
     </>
-  )
+  );
 }
