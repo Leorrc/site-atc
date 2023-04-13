@@ -77,6 +77,10 @@ export const Menu = styled.ul`
     font: 400 1rem var(--body-font);
   }
 
+  @media (min-width: 992px) {
+    gap: ${pixelToRem(16)};
+  }
+
   @media (max-width: 992px) {
     display: none;
   }
