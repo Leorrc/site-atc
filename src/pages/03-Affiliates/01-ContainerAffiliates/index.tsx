@@ -1,4 +1,4 @@
-import cardAffi from '../../../utils/data/cardAffi.json'
+import cardAffi from "../../../utils/data/cardAffi.json";
 
 import {
   Container,
@@ -6,8 +6,8 @@ import {
   Tittle,
   SectionBg,
   ContainerMember,
-} from './styles'
-import { CardMember } from '../../../components/01-Utils/CardMember'
+} from "./styles";
+import { CardMember } from "../../../components/01-Utils/CardMember";
 
 export function ContainerAffiliates() {
   return (
@@ -22,11 +22,12 @@ export function ContainerAffiliates() {
         </Tittle>
         <Container>
           <ContainerMember>
-            {cardAffi.map(member => (
+            {cardAffi.map((member) => (
               <CardMember
                 name={member.name}
                 city={member.city}
                 phone={member.phone}
+                phone2={member.phone2}
                 email={member.email}
                 description={member.description}
                 socialList={member.socialList}
@@ -36,5 +37,5 @@ export function ContainerAffiliates() {
         </Container>
       </ContainerSection>
     </>
-  )
+  );
 }

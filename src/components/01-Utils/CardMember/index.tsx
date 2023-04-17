@@ -25,6 +25,7 @@ interface MemberProps {
   title?: string;
   city?: string;
   phone?: string;
+  phone2?: string;
   email?: string;
   socialList?: SocialMedia[];
   som?: string;
@@ -59,6 +60,7 @@ export function CardMember({
   description,
   city,
   phone,
+  phone2,
   email,
   socialList,
   som,
@@ -78,6 +80,7 @@ export function CardMember({
 
         {city && <p>Cidade: {city} </p>}
         {phone && <p>Telefone: {phone}</p>}
+        {phone2 && <p>Consultório: {phone2}</p>}
         {email && <p>Email: {email}</p>}
         {som && (
           <Audio>

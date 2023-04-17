@@ -10,7 +10,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/adrianamlmaia/"
       }
-
     ]
   },
   {
@@ -24,7 +23,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/sobrepsicoterapia/"
       }
-
     ]
   },
   {
@@ -38,7 +36,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/aroldovieira.psico/"
       }
-
     ]
   },
   {
@@ -64,8 +61,6 @@
         "network": "doctor",
         "link": "https://www.doctoralia.com.br/catarina-costa-marques/psicologo/florianopolis"
       }
-
-
     ]
   },
   {
@@ -92,7 +87,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/ednabento_psi/"
       }
-
     ]
   },
   {
@@ -106,7 +100,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/psi.edsoncosta/"
       }
-
     ]
   },
   {
@@ -120,7 +113,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/psicoemanuellanicolazzi/"
       }
-
     ]
   },
   {
@@ -134,7 +126,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/fabiafarina08/"
       }
-
     ]
   },
   {
@@ -148,7 +139,6 @@
         "network": "instagram",
         "link": "https://www.instagram.com/dra.fabianemartinspsi/"
       }
-
     ]
   },
   {
@@ -201,7 +191,7 @@
   {
     "name": "Josiane Albanas",
     "description": "Psicológa (CRP 12/06102)",
-    "city":"São José-SC",
+    "city": "São José-SC",
     "phone": "(48) 9 9915-3429",
     "email": "josialbanas@gmail.com",
     "socialList": [
@@ -214,7 +204,7 @@
   {
     "name": "Juliana Vieira Almeida Silva",
     "description": "Psicológa (CRP 12/03297)",
-    "city":"Itajaí-SC",
+    "city": "Itajaí-SC",
     "phone": "(47) 9 9230-8037",
     "email": "julianapsy@hotmail.com.br",
     "socialList": [
@@ -227,11 +217,11 @@
         "link": "https://www.instagram.com/julianavieira03/"
       },
       {
-        "network":"linkedin",
+        "network": "linkedin",
         "link": "https://www.linkedin.com/in/juliana-vieira-almeida-silva-71a65465/?originalSubdomain=br"
       },
       {
-        "network":"doctor",
+        "network": "doctor",
         "link": "https://www.escavador.com/sobre/3966763/juliana-vieira-almeida-silva"
       }
     ]
@@ -291,7 +281,7 @@
         "link": "https://www.instagram.com/psimariaveronicazink/"
       },
       {
-        "network":"doctor",
+        "network": "doctor",
         "link": "https://www.doctoralia.com.br/maria-veronica-zink/psicologo/brusque"
       },
       {
@@ -337,5 +327,33 @@
         "link": "https://maps.app.goo.gl/tPJaKXmUiqoECoWr7"
       }
     ]
+  },
+  {
+    "name": "Fabiane Braun Burger",
+    "description": "Psicológa (CRP 12/07183)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9905-0708",
+    "email": "fabianebraunburger@gmail.com"
+  },
+  {
+    "name": "Fernanda Siqueira Valadão",
+    "description": "Psicológa (CRP 12/13678)",
+    "city": "Florianópolis-SC",
+    "phone": "(47) 9 9122-8080",
+    "email": "psicologafernandavaladao@gmail.com ",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/fernandavieira_psi/"
+      }
+    ]
+  },
+  {
+    "name": "Cláudia Fernanda Oliveira Ramos",
+    "description": "Psicológa (CRP 12/12300)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9946-4994",
+    "phone2": "(48) 3222-2248",
+    "email": "crpsi@yahoo.com.br"
   }
 ]
