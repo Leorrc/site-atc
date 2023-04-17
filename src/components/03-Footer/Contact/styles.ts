@@ -6,32 +6,32 @@ export const Background = styled.section`
   letter-spacing: 1.4px;
   display: flex;
   padding: 0 0 3rem 0;
-  background: #FAFAFA;
+  background: #fafafa;
 `;
 
-export const Container1= styled.div`
+export const Container1 = styled.div`
   flex: 0 1 700px;
   margin: auto;
   padding: 10px;
 `;
 
-export const Screen1= styled.div`
+export const Screen1 = styled.div`
   position: relative;
   background: #e7e7e7;
   border-radius: 15px;
 
   .Screen1:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  right: 20px;
-  bottom: 0;
-  border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  z-index: -1;
-}
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
 `;
 
 export const ScreenHeader = styled.div`
@@ -48,7 +48,7 @@ export const ScreenHeaderLeft = styled.div`
 
   @media screen and (max-width: 520px) {
     margin-bottom: 30px;
-}
+  }
 `;
 
 export const ScreenHeaderButton = styled.div`
@@ -87,11 +87,11 @@ export const ScreenHeaderRight = styled.div`
   display: flex;
 
   .screen-header-ellipsis {
-  width: 5px;
-  height: 5px;
-  margin-left: 2px;
-  border-radius: 8px;
-  background: #999;
+    width: 5px;
+    height: 5px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
   }
 `;
 
@@ -100,12 +100,11 @@ export const ScreenBody = styled.div`
 
   @media screen and (max-width: 520px) {
     flex-direction: column;
-}
+  }
 
-@media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     padding: 40px;
-}
-
+  }
 `;
 
 export const ScreenBodyItem = styled.div`
@@ -113,18 +112,17 @@ export const ScreenBodyItem = styled.div`
   padding: 50px;
 
   .left {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-  @media screen and (max-width: 520px) {
-    margin-bottom: 30px;
-  }
+    @media screen and (max-width: 520px) {
+      margin-bottom: 30px;
+    }
   }
 
   @media screen and (max-width: 600px) {
-  padding: 0;
-}
-
+    padding: 0;
+  }
 `;
 
 export const AppTitle = styled.div`
@@ -135,28 +133,27 @@ export const AppTitle = styled.div`
   font-size: 26px;
 
   :after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 25px;
-  height: 4px;
-  background: var(--att-color);
-}
-
-@media screen and (max-width: 520px) {
-  flex-direction: row;
-
-  span {
-    margin-right: 12px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: var(--att-color);
   }
 
-  :after {
-    display: none;
-  }
+  @media screen and (max-width: 520px) {
+    flex-direction: row;
 
-}
+    span {
+      margin-right: 12px;
+    }
+
+    :after {
+      display: none;
+    }
+  }
 `;
 
 export const AppFormGroup = styled.div`
@@ -173,27 +170,25 @@ export const AppFormGroupButtons = styled.div`
 `;
 
 export const AppFormControl = styled.div`
-
   input {
-  font-family: "Montserrat",sans-serif;
-  width: 100%;
-  padding: 10px 0;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #666;
-  color: var(--title-color);
-  font-size: 14px;
-  text-transform: uppercase;
-  outline: none;
-  transition: border-color 0.2s;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: var(--title-color);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
 
-  ::placeholder {
-  color: #666;
-}
-:focus {
-  border-bottom-color: var(--title-color);
-}
-}
+    ::placeholder {
+      color: #666;
+    }
+    :focus {
+      border-bottom-color: var(--title-color);
+    }
+  }
 `;
 
 export const AppFormButton = styled.button`
@@ -204,11 +199,10 @@ export const AppFormButton = styled.button`
   cursor: pointer;
   outline: none;
   font-weight: 700;
-  font-family: "Montserrat",sans-serif;
-    padding: 0 1rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 1rem;
 
   :hover {
     color: var(--att-color2);
-}
+  }
 `;
-

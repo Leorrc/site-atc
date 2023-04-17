@@ -1,4 +1,4 @@
-import { ContainerGrid } from '../../../components/01-Utils/Containers/ContainerGrid'
+import { ContainerGrid } from "../../../components/01-Utils/Containers/ContainerGrid";
 
 import {
   SectionBg,
@@ -8,20 +8,21 @@ import {
   Infos,
   ContainerSection,
   Tittle,
-} from './styles'
+} from "./styles";
 
-import p1 from '../../../images/logos/sino.svg'
-import p2 from '../../../images/logos/booktoy.svg'
-import p3 from '../../../images/logos/jurua.svg'
-import p4 from '../../../images/logos/univali.svg'
-import p5 from '../../../images/logos/fbtc.svg'
-import p6 from '../../../images/logos/artmed.svg'
-import p7 from '../../../images/logos/aa.svg'
-import p8 from '../../../images/logos/viver.svg'
+import p1 from "../../../images/logos/sino.svg";
+import p2 from "../../../images/logos/booktoy.svg";
+import p3 from "../../../images/logos/jurua.svg";
+import p4 from "../../../images/logos/univali.svg";
+import p5 from "../../../images/logos/fbtc.svg";
+import p6 from "../../../images/logos/artmed.svg";
+import p7 from "../../../images/logos/aa.svg";
+import p8 from "../../../images/logos/viver.svg";
+import p9 from "../../../images/logos/ictc.svg";
 import {
   Divider2,
   Divider3,
-} from '../../../components/01-Utils/Dividers/styles'
+} from "../../../components/01-Utils/Dividers/styles";
 
 export function ContainerParceiros() {
   return (
@@ -38,12 +39,32 @@ export function ContainerParceiros() {
         <Container>
           <Parceiro>
             <Pic>
+              <img src={p9} />
+            </Pic>
+            <Infos>
+              <a
+                href="https://www.facebook.com/ictcflorianopolis"
+                target="_blank"
+              >
+                ICTC - Instituto Catarinense de Terapia Cognitiva
+              </a>
+              <h4>
+                - Associados da ATC SC ganham até 46% de desconto na Pós em TCC
+                do ICTC
+              </h4>
+
+              <strong>Exclusivo para associados da ATC-SC</strong>
+            </Infos>
+          </Parceiro>
+          <Parceiro>
+            <Pic>
               <img src={p8} />
             </Pic>
             <Infos>
               <a
                 href="https://www.instagram.com/vivermaispsicologia/"
-                target="_blank">
+                target="_blank"
+              >
                 Viver Mais Psicologia
               </a>
               <h4>
@@ -101,7 +122,8 @@ export function ContainerParceiros() {
             <Infos>
               <a
                 href="https://www.univali.br/imprensa/cursos-de-extensao/Paginas/default.aspx?curso=Curso+de+Formacao+em+Terapia+Cognitivo+Comportamental+(EAD)+%e2%80%93+2%c2%aa+TURMA&n=975"
-                target="_blank">
+                target="_blank"
+              >
                 Univali
               </a>
               <p></p>
@@ -146,5 +168,5 @@ export function ContainerParceiros() {
         </Container>
       </ContainerSection>
     </>
-  )
+  );
 }

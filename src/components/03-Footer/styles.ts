@@ -1,13 +1,13 @@
-import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
-import bgemail from '../../images/full/pontefooter.webp'
+import bgemail from "../../images/full/pontefooter.webp";
 
 export const Footer1 = styled.footer`
   width: 100%;
   background: #fafafa;
-`
+`;
 
 export const SectionEmail = styled.section`
   padding: 3.125rem 0;
@@ -23,7 +23,7 @@ export const SectionEmail = styled.section`
     padding: 3.125rem 0;
     display: grid;
   }
-`
+`;
 
 export const Container = styled.div`
   display: grid;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     margin-left: 12rem;
     margin-right: 12rem;
   }
-`
+`;
 
 export const TitleEmail = styled.div`
   h2 {
@@ -52,9 +52,9 @@ export const TitleEmail = styled.div`
   @media (min-width: 992px) {
     width: 100%;
   }
-`
+`;
 
-export const Email = styled.label`
+export const Email = styled.form`
   margin-top: 30px;
   background: #fff;
   padding: 6px 10px;
@@ -65,13 +65,14 @@ export const Email = styled.label`
   width: 90%;
   margin: 0 auto;
 
-  input[type='email'] {
+  input[type="email"] {
     border: 0;
     padding: 4px 8px;
     width: calc(100% - 100px);
+    outline: none;
   }
 
-  input[type='submit'] {
+  input[type="submit"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -92,7 +93,7 @@ export const Email = styled.label`
     width: 60%;
     margin: 0 auto;
   }
-`
+`;
 
 export const SectionInfo = styled.section`
   padding: 1rem 0;
@@ -106,7 +107,7 @@ export const SectionInfo = styled.section`
     text-align: center;
     color: var(--text-color);
   }
-`
+`;
 
 export const Container2 = styled.div`
   display: grid;
@@ -128,7 +129,7 @@ export const Container2 = styled.div`
       width: auto;
     }
   }
-`
+`;
 
 export const Container3 = styled.div`
   width: 100%;
@@ -146,7 +147,7 @@ export const Container3 = styled.div`
     color: #19baaa;
     font-weight: 500;
   }
-`
+`;
 
 export const Links = styled.div`
   display: grid;
@@ -164,7 +165,7 @@ export const Links = styled.div`
     font: 700 1.31rem var(--title-font);
 
     :after {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
       width: 56px;
@@ -182,7 +183,7 @@ export const Links = styled.div`
       position: relative;
 
       :after {
-        content: '';
+        content: "";
         position: absolute;
         display: block;
         width: 56px;
@@ -192,7 +193,7 @@ export const Links = styled.div`
       }
     }
   }
-`
+`;
 
 export const Link = styled(LinkR)`
   text-decoration: none;
@@ -207,7 +208,7 @@ export const Link = styled(LinkR)`
   @media (min-width: 576px) {
     text-align: left;
   }
-`
+`;
 
 export const Scroll = styled(LinkS)`
   text-decoration: none;
@@ -223,7 +224,7 @@ export const Scroll = styled(LinkS)`
   @media (min-width: 576px) {
     text-align: left;
   }
-`
+`;
 
 export const Socials = styled.div`
   display: grid;
@@ -238,7 +239,7 @@ export const Socials = styled.div`
     font: 700 1.31rem var(--title-font);
 
     :after {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
       width: 148px;
@@ -257,7 +258,7 @@ export const Socials = styled.div`
     font: 700 1.31rem var(--title-font);
 
     :after {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
       width: 148px;
@@ -266,7 +267,7 @@ export const Socials = styled.div`
       top: -10;
     }
   }
-`
+`;
 
 export const Social = styled.div`
   display: flex;
@@ -277,4 +278,4 @@ export const Social = styled.div`
     font-size: 3rem;
     color: var(--att-color);
   }
-`
+`;

@@ -1,8 +1,4 @@
-import { useLocation } from 'react-router-dom'
-import React, { useState } from 'react'
-import emailjs from '@emailjs/browser'
-import emailNews from '../../utils/data/emailNews'
-
+import { useLocation } from "react-router-dom";
 import {
   Footer1,
   Container,
@@ -17,46 +13,22 @@ import {
   Socials,
   Scroll,
   Container3,
-} from './styles'
+} from "./styles";
 
 import {
   AiFillTwitterCircle,
   AiFillFacebook,
   AiFillInstagram,
-} from 'react-icons/ai'
-import { Divider2 } from '../01-Utils/Dividers/styles'
-import { FaChevronRight } from 'react-icons/fa'
-import { Contact } from './Contact'
+} from "react-icons/ai";
+import { Divider2 } from "../01-Utils/Dividers/styles";
+import { FaChevronRight } from "react-icons/fa";
+import { Contact } from "./Contact";
 
-import logo from '../../images/full/logo2.svg'
+import logo from "../../images/full/logo2.svg";
 
 export function Footer() {
-  const { pathname } = useLocation()
+  const { pathname } = useLocation();
 
-  const [name, setName] = useState<string>('')
-  const [email, setEmail] = useState('')
-
-  const sendEmail = () => {
-    const emailObj = {
-      email,
-    }
-
-    emailjs
-      .send(
-        emailNews.USER_ID,
-        emailNews.TEMPLATE_ID,
-        emailObj,
-        emailNews.PUBLIC_KEY,
-      )
-      .then(
-        result => {
-          setEmail('')
-        },
-        error => {
-          console.log(error.text)
-        },
-      )
-  }
   return (
     <>
       <Divider2 />
@@ -68,16 +40,13 @@ export function Footer() {
               <h2>Cadastrar e-mail</h2>
               <p>Receba a divulgação dos Eventos da ATC-SC</p>
             </TitleEmail>
-            <Email>
-              <input
-                onChange={e => {
-                  setEmail(e.target.value)
-                }}
-                value={email}
-                type="email"
-                name="Digite o email"
-              />
-              <input onClick={sendEmail} type="submit" value="Cadastrar" />
+            <Email
+              action="https://formsubmit.co/atcscbr@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="email" name="Digite o email" />
+              <input type="submit" value="Cadastrar" />
             </Email>
           </Container>
         </SectionEmail>
@@ -87,7 +56,7 @@ export function Footer() {
             <img src={logo} />
             <Links>
               <h4>Links</h4>
-              {pathname === '/' ? (
+              {pathname === "/" ? (
                 <Scroll to="hometop">
                   <span>
                     <FaChevronRight />
@@ -115,14 +84,14 @@ export function Footer() {
                 Associados
               </Link>
               <Link to="/parceiros">
-                {' '}
+                {" "}
                 <span>
                   <FaChevronRight />
                 </span>
                 Parceiros
               </Link>
               <Link to="/leitura">
-                {' '}
+                {" "}
                 <span>
                   <FaChevronRight />
                 </span>
@@ -136,13 +105,15 @@ export function Footer() {
                 <a
                   href="https://www.facebook.com/ATCSantaCatarina"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <AiFillFacebook />
                 </a>
                 <a
                   href="https://www.instagram.com/atc_sc/"
                   target="_blank"
-                  rel="noreferrer">
+                  rel="noreferrer"
+                >
                   <AiFillInstagram />
                 </a>
               </Social>
@@ -155,12 +126,13 @@ export function Footer() {
           <a
             href="https://leocarvalhodev.com.br/"
             target="_blank"
-            rel="noreferrer">
+            rel="noreferrer"
+          >
             Leonardo Carvalho DEV
-          </a>{' '}
+          </a>{" "}
           <span>2023</span>
         </Container3>
       </Footer1>
     </>
-  )
+  );
 }

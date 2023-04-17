@@ -1,7 +1,3 @@
-import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
-import emailUsers from "../../../utils/data/emailUsers";
-
 import { TitleCenter } from "../../01-Utils/TitleCenter";
 import {
   Background,
@@ -22,38 +18,6 @@ import {
 } from "./styles";
 
 export function Contact() {
-  const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState("");
-  const [contact, setContact] = useState("");
-  const [message, setMessage] = useState("");
-
-  const sendEmail = () => {
-    const emailObj = {
-      name,
-      email,
-      contact,
-      message,
-    };
-
-    emailjs
-      .send(
-        emailUsers.USER_ID,
-        emailUsers.TEMPLATE_ID,
-        emailObj,
-        emailUsers.PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          setName("");
-          setEmail("");
-          setContact("");
-          setMessage("");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <>
       <TitleCenter title="ENTRE EM CONTATO">
@@ -88,16 +52,16 @@ export function Contact() {
                 </div>
               </ScreenBodyItem>
               <ScreenBodyItem>
-                <div>
+                <form
+                  action="https://formsubmit.co/atcscbr@gmail.com"
+                  method="POST"
+                >
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={(e) => {
-                          setName(e.target.value);
-                        }}
-                        value={name}
+                        required
                         type="text"
-                        name="user_name"
+                        name="name"
                         placeholder="SEU NOME"
                       />
                     </AppFormControl>
@@ -105,12 +69,9 @@ export function Contact() {
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={(e) => {
-                          setEmail(e.target.value);
-                        }}
-                        value={email}
+                        required
                         type="email"
-                        name="user_email"
+                        name="email"
                         placeholder="E-MAIL"
                       />
                     </AppFormControl>
@@ -118,12 +79,9 @@ export function Contact() {
                   <AppFormGroup>
                     <AppFormControl>
                       <input
-                        onChange={(e) => {
-                          setContact(e.target.value);
-                        }}
-                        value={contact}
+                        required
                         type="text"
-                        name="user_phone"
+                        name="Contato"
                         placeholder="SEU CONTATO"
                       />
                     </AppFormControl>
@@ -131,20 +89,18 @@ export function Contact() {
                   <AppFormGroupMessage>
                     <AppFormControl>
                       <input
-                        onChange={(e) => {
-                          setMessage(e.target.value);
-                        }}
-                        value={message}
+                        required
                         type="text"
-                        name="user_message"
+                        name="message"
                         placeholder="MENSAGEM"
                       />
                     </AppFormControl>
+                    <input type="hidden" name="_captcha" value="false" />
                   </AppFormGroupMessage>
                   <AppFormGroupButtons>
-                    <AppFormButton onClick={sendEmail}>Enviar</AppFormButton>
+                    <AppFormButton type="submit">Enviar</AppFormButton>
                   </AppFormGroupButtons>
-                </div>
+                </form>
               </ScreenBodyItem>
             </ScreenBody>
           </Screen1>
