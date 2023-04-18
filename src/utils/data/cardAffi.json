@@ -387,5 +387,18 @@
         "link": "https://www.instagram.com/suzanbonadiman/"
       }
     ]
+  },
+  {
+    "name": "Renata Francisca Alves Santos",
+    "description": "Psicológa (CRP 12/11904)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 8868-8054",
+    "email": "psicologarenatasantos@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psirenatasantos/"
+      }
+    ]
   }
 ]
