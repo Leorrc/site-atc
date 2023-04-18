@@ -354,6 +354,38 @@
     "city": "Florianópolis-SC",
     "phone": "(48) 9 9946-4994",
     "phone2": "(48) 3222-2248",
-    "email": "crpsi@yahoo.com.br"
+    "email": "crpsi@yahoo.com.br",
+    "socialList": [
+      {
+        "network": "site",
+        "link": "https://neuroflorianopolis.com.br/"
+      }
+    ]
+  },
+  {
+    "name": "Joana Ferreira Di Migueli",
+    "description": "Psicológa (CRP 12/10683)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9973-1534",
+    "email": "joanafdimigueli@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/joanadimigueli/"
+      }
+    ]
+  },
+  {
+    "name": "Suzana Bonadiman",
+    "description": "8° período da graduação",
+    "city": "Penha-SC",
+    "phone": "(47) 9 8833-8449 ",
+    "email": "suzanbonadiman@hotmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/suzanbonadiman/"
+      }
+    ]
   }
 ]
