@@ -1,5 +1,3 @@
-import { ContainerGrid } from "../../../components/01-Utils/Containers/ContainerGrid";
-
 import {
   SectionBg,
   Container,
@@ -19,6 +17,7 @@ import p6 from "../../../images/logos/artmed.svg";
 import p7 from "../../../images/logos/aa.svg";
 import p8 from "../../../images/logos/viver.svg";
 import p9 from "../../../images/logos/ictc.svg";
+import p10 from "../../../images/logos/site.png"
 import {
   Divider2,
   Divider3,
@@ -39,12 +38,35 @@ export function ContainerParceiros() {
         <Container>
           <Parceiro>
             <Pic>
-              <img src={p9} />
+              <img src={p10} alt="img" />
+            </Pic>
+            <Infos>
+              <a
+                href="https://leocarvalhodev.com.br/"
+                target="_blank" rel="noreferrer"
+              >
+                Desenvolvimento de WebSite
+              </a>
+              <h4>
+                - Associados da ATC SC ganham <strong>15% de desconto</strong> na criação de um site.
+              </h4>
+
+              <a
+                href="https://leocarvalhodev.com.br/"
+                target="_blank" rel="noreferrer"
+              >
+                Contato
+              </a>
+            </Infos>
+          </Parceiro>
+          <Parceiro>
+            <Pic>
+              <img src={p9} alt="img" />
             </Pic>
             <Infos>
               <a
                 href="https://www.facebook.com/ictcflorianopolis"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 ICTC - Instituto Catarinense de Terapia Cognitiva
               </a>
@@ -58,12 +80,12 @@ export function ContainerParceiros() {
           </Parceiro>
           <Parceiro>
             <Pic>
-              <img src={p8} />
+              <img src={p8} alt="img" />
             </Pic>
             <Infos>
               <a
                 href="https://www.instagram.com/vivermaispsicologia/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Viver Mais Psicologia
               </a>
@@ -81,10 +103,10 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p1} />
+              <img src={p1} alt="img" />
             </Pic>
             <Infos>
-              <a href="https://www.sinopsyseditora.com.br/" target="_blank">
+              <a href="https://www.sinopsyseditora.com.br/" target="_blank" rel="noreferrer">
                 Sinopsys Editora
               </a>
               <p>Desconto 10% na compra de livros</p>
@@ -93,10 +115,10 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p2} />
+              <img src={p2} alt="img" />
             </Pic>
             <Infos>
-              <a href="https://www.booktoy.com.br/" target="_blank">
+              <a href="https://www.booktoy.com.br/" target="_blank" rel="noreferrer">
                 Editora BOOKTOY
               </a>
               <p>Desconto 10% na compra de livros</p>
@@ -105,10 +127,10 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p3} />
+              <img src={p3} alt="img" />
             </Pic>
             <Infos>
-              <a href="https://www.jurua.com.br/" target="_blank">
+              <a href="https://www.jurua.com.br/" target="_blank" rel="noreferrer">
                 Editora JURUÁ
               </a>
               <p>Desconto 20% na compra de livros</p>
@@ -117,12 +139,12 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p4} />
+              <img src={p4} alt="img" />
             </Pic>
             <Infos>
               <a
                 href="https://www.univali.br/imprensa/cursos-de-extensao/Paginas/default.aspx?curso=Curso+de+Formacao+em+Terapia+Cognitivo+Comportamental+(EAD)+%e2%80%93+2%c2%aa+TURMA&n=975"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Univali
               </a>
@@ -132,10 +154,10 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p5} />
+              <img src={p5} alt="img" />
             </Pic>
             <Infos>
-              <a href="http://fbtc.org.br/" target="_blank">
+              <a href="http://fbtc.org.br/" target="_blank" rel="noreferrer">
                 FBTC
               </a>
               <p>Desconto de 50% na Associação</p>
@@ -144,10 +166,10 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p6} />
+              <img src={p6} alt="img" />
             </Pic>
             <Infos>
-              <a href="https://maisaedu.com.br/" target="_blank">
+              <a href="https://maisaedu.com.br/" target="_blank" rel="noreferrer">
                 ArtMed
               </a>
               <p> </p>
@@ -156,11 +178,11 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p7} />
+              <img src={p7} alt="img" />
             </Pic>
             <Infos>
-              <a href="https://loja.grupoa.com.br/" target="_blank">
-                Grupo A – Educação
+              <a href="https://loja.grupoa.com.br/" target="_blank" rel="noreferrer">
+                Grupo A - Educação
               </a>
               <p> </p>
             </Infos>
