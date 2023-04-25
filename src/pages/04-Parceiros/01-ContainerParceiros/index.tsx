@@ -52,11 +52,15 @@ export function ContainerParceiros() {
               </h4>
 
               <a
-                href="https://leocarvalhodev.com.br/"
+                href="https://wa.link/mni507"
                 target="_blank" rel="noreferrer"
               >
                 Contato
               </a>
+
+
+
+
             </Infos>
           </Parceiro>
           <Parceiro>
