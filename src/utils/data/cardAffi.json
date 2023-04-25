@@ -400,5 +400,31 @@
         "link": "https://www.instagram.com/psirenatasantos/"
       }
     ]
+  },
+  {
+    "name": "Júlio Gonçalves",
+    "description": "Psicológo (CRP 12/17614)",
+    "city": "Itajaí-SC",
+    "phone": "(47) 9 99338021",
+    "email": "contato@psicojulio.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psicojulio/"
+      }
+    ]
+  },
+  {
+    "name": "Ana Galimberti",
+    "description": "Psicológo (CRP 12/16755)",
+    "city": "Itapema-SC",
+    "phone": "(47) 9 9657-0893",
+    "email": "anacarolinagalimberti@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/anagalimberti.psi/"
+      }
+    ]
   }
 ]
