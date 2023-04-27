@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../utils/responsive";
 
 export const Background = styled.section`
   font-family: "Montserrat", sans-serif;
@@ -7,6 +8,30 @@ export const Background = styled.section`
   display: flex;
   padding: 0 0 3rem 0;
   background: #fafafa;
+`;
+
+export const Titulo = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  h3 {
+    font: var(--font-mobile-heading-1);
+    color: var(--title-color);
+    -webkit-font-smoothing: auto;
+  }
+
+  p {
+    font: var(--subtitle-font-size);
+  }
+
+  @media ${device.tablet} {
+    h1 {
+      font: var(--font-heading-1);
+    }
+  }
+
 `;
 
 export const Container1 = styled.div`

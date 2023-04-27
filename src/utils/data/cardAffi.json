@@ -26,6 +26,19 @@
     ]
   },
   {
+    "name": "Ana Galimberti",
+    "description": "Psicológo (CRP 12/16755)",
+    "city": "Itapema-SC",
+    "phone": "(47) 9 9657-0893",
+    "email": "anacarolinagalimberti@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/anagalimberti.psi/"
+      }
+    ]
+  },
+  {
     "name": "Aroldo Manoel Vieira",
     "description": "Psicológo (CRP 12/22488)",
     "city": "Itajaí-SC",
@@ -60,6 +73,20 @@
       {
         "network": "doctor",
         "link": "https://www.doctoralia.com.br/catarina-costa-marques/psicologo/florianopolis"
+      }
+    ]
+  },
+  {
+    "name": "Cláudia Fernanda Oliveira Ramos",
+    "description": "Psicológa (CRP 12/12300)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9946-4994",
+    "phone2": "(48) 3222-2248",
+    "email": "crpsi@yahoo.com.br",
+    "socialList": [
+      {
+        "network": "site",
+        "link": "https://neuroflorianopolis.com.br/"
       }
     ]
   },
@@ -155,6 +182,26 @@
     ]
   },
   {
+    "name": "Fabiane Braun Burger",
+    "description": "Psicológa (CRP 12/07183)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9905-0708",
+    "email": "fabianebraunburger@gmail.com"
+  },
+  {
+    "name": "Fernanda Siqueira Valadão",
+    "description": "Psicológa (CRP 12/13678)",
+    "city": "Florianópolis-SC",
+    "phone": "(47) 9 9122-8080",
+    "email": "psicologafernandavaladao@gmail.com ",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/fernandavieira_psi/"
+      }
+    ]
+  },
+  {
     "name": "Gabriela Oltramari",
     "description": "Psicológa (CRP 12/01097)",
     "city": "Florianópolis-SC",
@@ -240,6 +287,32 @@
     ]
   },
   {
+    "name": "Júlio Gonçalves",
+    "description": "Psicológo (CRP 12/17614)",
+    "city": "Itajaí-SC",
+    "phone": "(47) 9 99338021",
+    "email": "contato@psicojulio.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psicojulio/"
+      }
+    ]
+  },
+  {
+    "name": "Joana Ferreira Di Migueli",
+    "description": "Psicológa (CRP 12/10683)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9973-1534",
+    "email": "joanafdimigueli@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/joanadimigueli/"
+      }
+    ]
+  },
+  {
     "name": "Maria Claudia Hoeschl Gonçalves Gomes",
     "description": "Psicológa (CRP 12/1005)",
     "city": "Florianópolis-SC",
@@ -308,6 +381,19 @@
     ]
   },
   {
+    "name": "Renata Francisca Alves Santos",
+    "description": "Psicológa (CRP 12/11904)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 8868-8054",
+    "email": "psicologarenatasantos@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psirenatasantos/"
+      }
+    ]
+  },
+  {
     "name": "Silvia Sant'Anna Braga Dos Santos",
     "description": "Psicológa (CRP 12/00853)",
     "city": "Itajaí-SC",
@@ -329,53 +415,6 @@
     ]
   },
   {
-    "name": "Fabiane Braun Burger",
-    "description": "Psicológa (CRP 12/07183)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 9905-0708",
-    "email": "fabianebraunburger@gmail.com"
-  },
-  {
-    "name": "Fernanda Siqueira Valadão",
-    "description": "Psicológa (CRP 12/13678)",
-    "city": "Florianópolis-SC",
-    "phone": "(47) 9 9122-8080",
-    "email": "psicologafernandavaladao@gmail.com ",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/fernandavieira_psi/"
-      }
-    ]
-  },
-  {
-    "name": "Cláudia Fernanda Oliveira Ramos",
-    "description": "Psicológa (CRP 12/12300)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 9946-4994",
-    "phone2": "(48) 3222-2248",
-    "email": "crpsi@yahoo.com.br",
-    "socialList": [
-      {
-        "network": "site",
-        "link": "https://neuroflorianopolis.com.br/"
-      }
-    ]
-  },
-  {
-    "name": "Joana Ferreira Di Migueli",
-    "description": "Psicológa (CRP 12/10683)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 9973-1534",
-    "email": "joanafdimigueli@gmail.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/joanadimigueli/"
-      }
-    ]
-  },
-  {
     "name": "Suzana Bonadiman",
     "description": "8° período da graduação",
     "city": "Penha-SC",
@@ -385,45 +424,6 @@
       {
         "network": "instagram",
         "link": "https://www.instagram.com/suzanbonadiman/"
-      }
-    ]
-  },
-  {
-    "name": "Renata Francisca Alves Santos",
-    "description": "Psicológa (CRP 12/11904)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 8868-8054",
-    "email": "psicologarenatasantos@gmail.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/psirenatasantos/"
-      }
-    ]
-  },
-  {
-    "name": "Júlio Gonçalves",
-    "description": "Psicológo (CRP 12/17614)",
-    "city": "Itajaí-SC",
-    "phone": "(47) 9 99338021",
-    "email": "contato@psicojulio.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/psicojulio/"
-      }
-    ]
-  },
-  {
-    "name": "Ana Galimberti",
-    "description": "Psicológo (CRP 12/16755)",
-    "city": "Itapema-SC",
-    "phone": "(47) 9 9657-0893",
-    "email": "anacarolinagalimberti@gmail.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/anagalimberti.psi/"
       }
     ]
   }

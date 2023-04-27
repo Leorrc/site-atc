@@ -43,13 +43,11 @@ export const Tittle = styled.div`
 export const Container = styled.div`
   display: grid;
   gap: 2rem;
-  width: 70%;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  padding: 0 0.65rem;
   margin: 0 auto;
 
   @media (min-width: 992px) {
-    width: 60%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     margin: 0 auto;

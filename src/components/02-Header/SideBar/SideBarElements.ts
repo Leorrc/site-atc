@@ -19,8 +19,8 @@ export const SidebarContainer = styled.aside<Props>`
   left: 0;
   top: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${(props) => props.isOpen ? '1': '0'};
-  top: ${(props) => props.isOpen ? '0': '-100rem'};
+  opacity: ${(props) => props.isOpen ? '1' : '0'};
+  top: ${(props) => props.isOpen ? '0' : '-100rem'};
 
 `;
 
@@ -45,12 +45,13 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   gap: 4rem;
+  margin: 0 20px;
   place-content: center;
   text-align: center;
 `;
 
 export const SidebarRoute = styled(LinkR)`
-  font: 700 var(--title-font-size) var(--title-font);
+  font: 700 1.5rem var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
   display: flex;
@@ -74,7 +75,7 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarScroll = styled.div`
-  border-radius: 50px;
+  border-radius: 20px;
   background: var(--att-color);
   white-space: nowrap;
   padding: 1rem 4rem;

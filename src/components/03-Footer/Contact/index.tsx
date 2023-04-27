@@ -1,4 +1,3 @@
-import { TitleCenter } from "../../01-Utils/TitleCenter";
 import {
   Background,
   Container1,
@@ -15,17 +14,21 @@ import {
   AppFormControl,
   AppFormGroupMessage,
   AppFormButton,
+  Titulo,
 } from "./styles";
 
 export function Contact() {
   return (
     <>
-      <TitleCenter title="ENTRE EM CONTATO">
+      <Titulo>
+        <h3>
+          Entre em contato
+        </h3>
         <p>
           Você pode entrar em contato com a equipe da ATC/SC mandando um e-mail
           para atcscbr@gmail.com
         </p>
-      </TitleCenter>
+      </Titulo>
       <Background>
         <Container1>
           <Screen1>
