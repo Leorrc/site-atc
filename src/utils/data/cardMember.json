@@ -31,17 +31,17 @@
     ]
   },
   {
-    "imgUrl": "team/t2.svg",
-    "name": "Fábia Susanne Farina",
+    "imgUrl": "team/t8.svg",
+    "name": "Gabriela Oltramari",
     "title": "Vice Presidente",
-    "description": "(CRP 12/01176)",
-    "city": "Concórdia-SC",
-    "phone": "(49) 9 9989-2409",
-    "email": "fabiafarina1107@gmail.com",
+    "description": "(CRP 12/01097)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 9911-6995",
+    "email": "gabi.oltramari@gmail.com",
     "socialList": [
       {
         "network": "instagram",
-        "link": "https://www.instagram.com/fabiafarina08/"
+        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
       }
     ]
   },
@@ -57,21 +57,6 @@
       {
         "network": "facebook",
         "link": "#"
-      }
-    ]
-  },
-  {
-    "imgUrl": "team/t8.svg",
-    "name": "Gabriela Oltramari",
-    "title": "2° Secretário",
-    "description": "(CRP 12/01097)",
-    "city": "Florianópolis-SC",
-    "phone": "(48) 9 9911-6995",
-    "email": "gabi.oltramari@gmail.com",
-    "socialList": [
-      {
-        "network": "instagram",
-        "link": "https://www.instagram.com/gabriela.oltramari.psi/"
       }
     ]
   },
@@ -122,6 +107,21 @@
       {
         "network": "instagram",
         "link": "https://www.instagram.com/aroldovieira.psico/"
+      }
+    ]
+  },
+  {
+    "imgUrl": "team/t2.svg",
+    "name": "Fábia Susanne Farina",
+    "title": "Conselheiro Fiscal",
+    "description": "(CRP 12/01176)",
+    "city": "Concórdia-SC",
+    "phone": "(49) 9 9989-2409",
+    "email": "fabiafarina1107@gmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/fabiafarina08/"
       }
     ]
   },
