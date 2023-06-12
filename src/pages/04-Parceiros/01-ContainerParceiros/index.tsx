@@ -143,21 +143,6 @@ export function ContainerParceiros() {
           <Divider3 />
           <Parceiro>
             <Pic>
-              <img src={p4} alt="img" />
-            </Pic>
-            <Infos>
-              <a
-                href="https://www.univali.br/imprensa/cursos-de-extensao/Paginas/default.aspx?curso=Curso+de+Formacao+em+Terapia+Cognitivo+Comportamental+(EAD)+%e2%80%93+2%c2%aa+TURMA&n=975"
-                target="_blank" rel="noreferrer"
-              >
-                Univali
-              </a>
-              <p></p>
-            </Infos>
-          </Parceiro>
-          <Divider3 />
-          <Parceiro>
-            <Pic>
               <img src={p5} alt="img" />
             </Pic>
             <Infos>
@@ -176,19 +161,7 @@ export function ContainerParceiros() {
               <a href="https://maisaedu.com.br/" target="_blank" rel="noreferrer">
                 ArtMed
               </a>
-              <p> </p>
-            </Infos>
-          </Parceiro>
-          <Divider3 />
-          <Parceiro>
-            <Pic>
-              <img src={p7} alt="img" />
-            </Pic>
-            <Infos>
-              <a href="https://loja.grupoa.com.br/" target="_blank" rel="noreferrer">
-                Grupo A - Educação
-              </a>
-              <p> </p>
+              <p>Necessário ser associado a FBTC</p>
             </Infos>
           </Parceiro>
         </Container>
