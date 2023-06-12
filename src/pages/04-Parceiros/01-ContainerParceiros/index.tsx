@@ -57,12 +57,9 @@ export function ContainerParceiros() {
               >
                 Contato
               </a>
-
-
-
-
             </Infos>
           </Parceiro>
+          <Divider3 />
           <Parceiro>
             <Pic>
               <img src={p9} alt="img" />
@@ -82,6 +79,7 @@ export function ContainerParceiros() {
               <strong>Exclusivo para associados da ATC-SC</strong>
             </Infos>
           </Parceiro>
+          <Divider3 />
           <Parceiro>
             <Pic>
               <img src={p8} alt="img" />
