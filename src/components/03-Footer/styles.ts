@@ -149,6 +149,24 @@ export const Container3 = styled.div`
   }
 `;
 
+export const DivCookies = styled.div`
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1rem;
+
+  h5 {
+    font: 400 var(--title-font);
+    color: var(--title-color);
+  }
+
+  a {
+    color: #19baaa;
+    font-weight: 500;
+  }
+`;
+
 export const Links = styled.div`
   display: grid;
   margin-bottom: 2rem;

@@ -16,7 +16,6 @@ import {
 } from "./styles";
 
 import {
-  AiFillTwitterCircle,
   AiFillFacebook,
   AiFillInstagram,
 } from "react-icons/ai";
@@ -53,7 +52,8 @@ export function Footer() {
 
         <SectionInfo>
           <Container2>
-            <img src={logo} />
+            <img src={logo} alt="logo" />
+
             <Links>
               <h4>Links</h4>
               {pathname === "/" ? (
@@ -97,8 +97,19 @@ export function Footer() {
                 </span>
                 Materiais
               </Link>
+              <Link to="/politica-de-privacidade">
+                <span>
+                  <FaChevronRight />
+                </span>
+                Política de Privacidade
+              </Link>
+              <Link to="/politica-de-privacidade">
+                <span>
+                  <FaChevronRight />
+                </span>
+                Termos de Uso
+              </Link>
             </Links>
-
             <Socials>
               <h3>Redes Sociais</h3>
               <Social>

@@ -11,10 +11,8 @@ import {
 import p1 from "../../../images/logos/sino.svg";
 import p2 from "../../../images/logos/booktoy.svg";
 import p3 from "../../../images/logos/jurua.svg";
-import p4 from "../../../images/logos/univali.svg";
 import p5 from "../../../images/logos/fbtc.svg";
 import p6 from "../../../images/logos/artmed.svg";
-import p7 from "../../../images/logos/aa.svg";
 import p8 from "../../../images/logos/viver.svg";
 import p9 from "../../../images/logos/ictc.svg";
 import p10 from "../../../images/logos/site.png"

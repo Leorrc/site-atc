@@ -28,7 +28,7 @@ ul,li {
 body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
-  background: var(--body-color);
+  background: #F3F4F4;
 }
 
 :root {

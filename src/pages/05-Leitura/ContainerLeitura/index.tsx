@@ -1,4 +1,3 @@
-import { Book } from '../../../components/01-Utils/Books'
 import {
   Section,
   Container,

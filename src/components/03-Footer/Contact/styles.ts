@@ -7,7 +7,7 @@ export const Background = styled.section`
   letter-spacing: 1.4px;
   display: flex;
   padding: 0 0 3rem 0;
-  background: #fafafa;
+  background: #F3F4F4;
 `;
 
 export const Titulo = styled.div`

@@ -22,8 +22,9 @@ export function Join() {
           </TitleCenter>
 
           <Cards>
-            {contentCard.map(content => (
+            {contentCard.map((content, index) => (
               <CardJoin
+                key={index}
                 title={content.title}
                 descriptionList={content.descriptionList}
                 buttonText={content.button?.text}
