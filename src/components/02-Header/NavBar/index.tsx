@@ -27,7 +27,7 @@ export function NavBar({ toggle1 }: Props) {
       <ContainerHeader>
         <Nav>
           <LogoA to="/">
-            <img src={logo} />
+            <img src={logo} alt="Logo" />
           </LogoA>
           <MobileIcon onClick={toggle1}>
             <FaBars />
@@ -41,10 +41,10 @@ export function NavBar({ toggle1 }: Props) {
               )}
             </Item>
             <Item>
-              <ItemLink to="/events">Eventos</ItemLink>
+              <ItemLink to="/eventos">Eventos</ItemLink>
             </Item>
             <Item>
-              <ItemLink to="/affiliates">Encontre um terapeuta</ItemLink>
+              <ItemLink to="/afiliados">Encontre um terapeuta</ItemLink>
             </Item>
             <Item>
               <ItemLink to="/parceiros">Parceiros da ATC</ItemLink>
