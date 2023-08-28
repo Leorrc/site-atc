@@ -30,10 +30,10 @@ export function SideBar({ isOpen, toggle }: Props) {
             <SidebarRoute onClick={toggle} to="/">
               Home
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/events">
+            <SidebarRoute onClick={toggle} to="/eventos">
               Eventos
             </SidebarRoute>
-            <SidebarRoute onClick={toggle} to="/affiliates">
+            <SidebarRoute onClick={toggle} to="/afiliados">
               Encontre um terapeuta
             </SidebarRoute>
             <SidebarRoute onClick={toggle} to="/parceiros">

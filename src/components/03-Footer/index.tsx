@@ -71,13 +71,13 @@ export function Footer() {
                   Home
                 </Link>
               )}
-              <Link to="/events">
+              <Link to="/eventos">
                 <span>
                   <FaChevronRight />
                 </span>
                 Eventos
               </Link>
-              <Link to="/affiliates">
+              <Link to="/afiliados">
                 <span>
                   <FaChevronRight />
                 </span>
