@@ -46,21 +46,6 @@
     ]
   },
   {
-    "imgUrl": "team/t3.svg",
-    "name": "Júlio Rodrigues Pachalski",
-    "title": "1° Secretário",
-    "description": "(CRP 07/19778)",
-    "city": "Itapema-SC",
-    "phone": "(51) 9 8595-9088",
-    "email": "jpachalski@hotmail.com",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
-      }
-    ]
-  },
-  {
     "imgUrl": "team/t5.svg",
     "name": "Maria Verônica Zink",
     "title": "1° Tesoureiro",
@@ -137,21 +122,6 @@
       {
         "network": "instagram",
         "link": "https://www.instagram.com/adrianamlmaia/"
-      }
-    ]
-  },
-  {
-    "imgUrl": "team/t4.svg",
-    "name": "Rafaela Dias Matavelli Faleiro",
-    "title": "Suplente Conselheiro Fiscal 1",
-    "description": "(CRP 12/19707)",
-    "city": "Itajaí-SC",
-    "phone": "(48) 9 9665-4863",
-    "email": "rafaela.d.matavelli@gmail.com ",
-    "socialList": [
-      {
-        "network": "facebook",
-        "link": "#"
       }
     ]
   },
