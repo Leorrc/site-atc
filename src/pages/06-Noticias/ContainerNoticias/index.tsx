@@ -17,8 +17,9 @@ export function ContainerNoticias() {
           >
             <p>Aqui serão publicadas notícias e entrevistas.</p>
           </TitleCenter>
-          {cardNoticias.map((noticia) => (
+          {cardNoticias.map((noticia, i) => (
             <CardMember
+              key={i}
               imgUrl={noticia.imgUrl}
               name={noticia.name}
               title={noticia.title}
