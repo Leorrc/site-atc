@@ -11,7 +11,7 @@ export function Banner() {
       <ContainerSection id="hometop">
         <Container>
           <DivImage>
-            <img src={img} />
+            <img src={img} alt='Logo Hero' />
           </DivImage>
           <DivText>
             <h1>
@@ -19,7 +19,7 @@ export function Banner() {
             </h1>
             <p>Associação de Terapias Cognitivas do Estado de Santa Catarina</p>
             <Button>
-              <a href="https://forms.gle/fw8AfpVkhNFcdTRA6" target="_blank">
+              <a href="https://forms.gle/fw8AfpVkhNFcdTRA6" target="_blank" rel="noreferrer">
                 Inscreva-se agora
               </a>
             </Button>
