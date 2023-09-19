@@ -415,6 +415,23 @@
     ]
   },
   {
+    "name": "Synara Sepúlveda",
+    "description": "Psicológa (CRP 20171/12)",
+    "city": "Florianópolis-SC",
+    "phone": "(48) 9 8836-3113",
+    "email": "synarasepulveda@hotmail.com",
+    "socialList": [
+      {
+        "network": "instagram",
+        "link": "https://www.instagram.com/psic.synarasepulveda/"
+      },
+      {
+        "network": "site",
+        "link": "https://synarasepulveda.com.br/"
+      }
+    ]
+  },
+  {
     "name": "Suzana Bonadiman",
     "description": "8° período da graduação",
     "city": "Penha-SC",
